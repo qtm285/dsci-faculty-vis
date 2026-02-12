@@ -509,10 +509,18 @@ async function init() {
   update();
 
   setTimeout(() => {
-    svg.transition().duration(800).call(
-      zoom.transform,
-      d3.zoomIdentity.translate(width * 0.1, height * 0.1).scale(0.85)
-    );
+    if (EMBED) {
+      // Fit graph to iframe: zoom in, shift left slightly for legend
+      svg.transition().duration(800).call(
+        zoom.transform,
+        d3.zoomIdentity.translate(-width * 0.05, -height * 0.05).scale(1.1)
+      );
+    } else {
+      svg.transition().duration(800).call(
+        zoom.transform,
+        d3.zoomIdentity.translate(width * 0.1, height * 0.1).scale(0.85)
+      );
+    }
   }, 2000);
 }
 
