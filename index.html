@@ -666,7 +666,7 @@ function buildLegend() {
       });
     item.node().dataset.cluster = name;
     item.append("div").attr("class", "legend-dot").style("background", color);
-    item.append("span").text(`${name} (${count})`);
+    item.append("span").text(name);
   });
 }
 
