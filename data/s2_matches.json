@@ -1,0 +1,435 @@
+[
+  {
+    "name": "Weihua An",
+    "s2_author_id": "39412718",
+    "s2_author_name": "Weihua An",
+    "seed_paper": {
+      "title": "Social Networks and Causal Inference",
+      "year": 2013,
+      "doi": "https://doi.org/10.1007/978-94-007-6094-3_17",
+      "s2_id": "06e0d63007e022a4fdcadcf49a73e4bfbcc731ea"
+    },
+    "verified_overlap": 15,
+    "method": "paper"
+  },
+  {
+    "name": "Abhishek Ananth",
+    "s2_author_id": "2354256760",
+    "s2_author_name": "Abhishek Ananth",
+    "seed_paper": null,
+    "paper_count": 1,
+    "citation_count": 0,
+    "affiliations": [],
+    "verified_overlap": 1,
+    "method": "author_search"
+  },
+  {
+    "name": "Michal Arbilly",
+    "s2_author_id": "6541258",
+    "s2_author_name": "M. Arbilly",
+    "seed_paper": null,
+    "paper_count": 1,
+    "citation_count": 23,
+    "affiliations": [],
+    "verified_overlap": 0,
+    "method": "override"
+  },
+  {
+    "name": "Gordon Berman",
+    "s2_author_id": "2492730",
+    "s2_author_name": "Gordon J. Berman",
+    "seed_paper": {
+      "title": "Energy-minimizing kinematics in hovering insect flight",
+      "year": 2007,
+      "doi": "https://doi.org/10.1017/s0022112007006209",
+      "s2_id": "3975a2b19bbe43c269e30c5dd3c1093cacfcfbf0"
+    },
+    "verified_overlap": 20,
+    "method": "paper"
+  },
+  {
+    "name": "Clifford Carrubba",
+    "s2_author_id": "103026528",
+    "s2_author_name": "Clifford J. Carrubba",
+    "seed_paper": {
+      "title": "Judicial Behavior under Political Constraints: Evidence from the European Court of Justice",
+      "year": 2008,
+      "doi": "https://doi.org/10.1017/s0003055408080350",
+      "s2_id": "1cd014a5eed745cb49c6dcb08d5d1b47768a58ff"
+    },
+    "verified_overlap": 11,
+    "method": "paper"
+  },
+  {
+    "name": "Jinho Choi",
+    "s2_author_id": "4724587",
+    "s2_author_name": "Jinho D. Choi",
+    "seed_paper": null,
+    "paper_count": 8,
+    "citation_count": 24,
+    "affiliations": [],
+    "verified_overlap": 0,
+    "method": "override"
+  },
+  {
+    "name": "Hun Chung",
+    "s2_author_id": "87451532",
+    "s2_author_name": "Hun Chung",
+    "seed_paper": {
+      "title": "Hobbes's State of Nature: A Modern Bayesian Game-Theoretic Analysis",
+      "year": 2015,
+      "doi": "https://doi.org/10.1017/apa.2015.12",
+      "s2_id": "ec83c5beb1f0b3154e993af03528e5537fe5d3f9"
+    },
+    "verified_overlap": 14,
+    "method": "paper"
+  },
+  {
+    "name": "Jacopo Di Iorio",
+    "s2_author_id": "2125384142",
+    "s2_author_name": "Jacopo Di Iorio",
+    "seed_paper": {
+      "title": "Functional data analysis characterizes the shapes of the first COVID-19 epidemic wave in Italy",
+      "year": 2020,
+      "doi": "https://doi.org/10.1038/s41598-021-95866-y",
+      "s2_id": "b705af20232ec2e349aebe4628cd55d6c09c6273"
+    },
+    "verified_overlap": 1,
+    "method": "paper"
+  },
+  {
+    "name": "Danilo Freire",
+    "s2_author_id": "144015790",
+    "s2_author_name": "D. Freire",
+    "seed_paper": {
+      "title": "What Drives State-Sponsored Violence?: Evidence from Extreme Bounds Analysis and Ensemble Learning Models",
+      "year": 2018,
+      "doi": "https://doi.org/10.31235/osf.io/pzx3q",
+      "s2_id": "3949b828f0c716823de2b8578b7effb075767609"
+    },
+    "verified_overlap": 11,
+    "method": "paper"
+  },
+  {
+    "name": "Adam Glynn",
+    "s2_author_id": "40591051",
+    "s2_author_name": "Adam Glynn",
+    "seed_paper": {
+      "title": "What Can We Learn with Statistical Truth Serum?Design and Analysis of the List Experiment",
+      "year": 2013,
+      "doi": "https://doi.org/10.1093/poq/nfs070",
+      "s2_id": "939378441696d03655405d95b9d7dac2ba69eaeb"
+    },
+    "verified_overlap": 16,
+    "method": "paper"
+  },
+  {
+    "name": "Zhiyun Gong",
+    "s2_author_id": "36011651",
+    "s2_author_name": "Z. Gong",
+    "seed_paper": {
+      "title": "A large-scale whole-genome sequencing analysis reveals highly specific genome editing by both Cas9 and Cpf1 (Cas12a) nucleases in rice",
+      "year": 2018,
+      "doi": "https://doi.org/10.1186/s13059-018-1458-5",
+      "s2_id": "922e48f75367b848b4a8b6e9eaceb3b2b0f676de"
+    },
+    "verified_overlap": 10,
+    "method": "paper"
+  },
+  {
+    "name": "Jo Guldi",
+    "s2_author_id": "9316785",
+    "s2_author_name": "Jo Guldi",
+    "seed_paper": {
+      "title": "The History Manifesto: A Reply to Deborah Cohen and Peter Mandler",
+      "year": 2015,
+      "doi": "https://doi.org/10.1093/ahr/120.2.543",
+      "s2_id": "999a6f738afa9d8c3f339386cf620a86d88b54dd"
+    },
+    "verified_overlap": 16,
+    "method": "paper"
+  },
+  {
+    "name": "Craig Hadley",
+    "s2_author_id": "49650072",
+    "s2_author_name": "C. Hadley",
+    "seed_paper": {
+      "title": "Gender bias in the food insecurity experience of Ethiopian adolescents.",
+      "year": 2008,
+      "doi": "https://doi.org/10.1016/j.socscimed.2007.08.025",
+      "s2_id": "9d720155f0e94c0b6b6363f9750beef4ae335aea"
+    },
+    "verified_overlap": 18,
+    "method": "paper"
+  },
+  {
+    "name": "David Hirshberg",
+    "s2_author_id": "2466171",
+    "s2_author_name": "David A. Hirshberg",
+    "seed_paper": {
+      "title": "Home 3D body scans from noisy image and range data",
+      "year": 2011,
+      "doi": "https://doi.org/10.1109/iccv.2011.6126465",
+      "s2_id": "d6ac8f9959636fa910d74402fb71e89622fe3b55"
+    },
+    "verified_overlap": 18,
+    "method": "paper"
+  },
+  {
+    "name": "Ho Jin Kim",
+    "s2_author_id": "46695922",
+    "s2_author_name": "Hojin I. Kim",
+    "seed_paper": null,
+    "paper_count": 2,
+    "citation_count": 8,
+    "affiliations": [],
+    "verified_overlap": 0,
+    "method": "override"
+  },
+  {
+    "name": "Lauren Klein",
+    "s2_author_id": "2403214576",
+    "s2_author_name": "Lauren F. Klein",
+    "seed_paper": {
+      "title": "Data Feminism",
+      "year": 2020,
+      "doi": "https://doi.org/10.7551/mitpress/11805.001.0001",
+      "s2_id": "f7903cce96f8411beff16ee412f95de4fd796106"
+    },
+    "verified_overlap": 1,
+    "method": "paper"
+  },
+  {
+    "name": "Kevin McAlister",
+    "s2_author_id": "46187839",
+    "s2_author_name": "Kevin McAlister",
+    "seed_paper": null,
+    "paper_count": 1,
+    "citation_count": 0,
+    "affiliations": [],
+    "verified_overlap": 0,
+    "method": "override"
+  },
+  {
+    "name": "Pablo Montagnes",
+    "s2_author_id": "118033860",
+    "s2_author_name": "B. Montagnes",
+    "seed_paper": {
+      "title": "College football, elections, and false-positive results in observational research",
+      "year": 2015,
+      "doi": "https://doi.org/10.1073/pnas.1502615112",
+      "s2_id": "e238fb4ebafe8556bb60ae5c0ed538f4d07d4bcf"
+    },
+    "verified_overlap": 14,
+    "method": "paper"
+  },
+  {
+    "name": "John W. Patty",
+    "s2_author_id": "32616604",
+    "s2_author_name": "J. W. Patty",
+    "seed_paper": {
+      "title": "Slackers and Zealots: Civil Service, Policy Discretion, and Bureaucratic Expertise",
+      "year": 2007,
+      "doi": "https://doi.org/10.1111/j.1540-5907.2007.00286.x",
+      "s2_id": "1f8377601cc5174f08f5955f0bd06dea60f74b98"
+    },
+    "verified_overlap": 14,
+    "method": "paper"
+  },
+  {
+    "name": "Maggie Penn",
+    "s2_author_id": "2503531",
+    "s2_author_name": "E. M. Penn",
+    "seed_paper": {
+      "title": "The drugs don\u2019t work? antidepressants and the current and future pharmacological management of depression",
+      "year": 2012,
+      "doi": "https://doi.org/10.1177/2045125312445469",
+      "s2_id": "755947e9cfacb31b061b21aa1fc8e2bd4ef8b6f6"
+    },
+    "verified_overlap": 1,
+    "method": "override"
+  },
+  {
+    "name": "Zachary Peskowitz",
+    "s2_author_id": "113919749",
+    "s2_author_name": "Zachary Peskowitz",
+    "seed_paper": {
+      "title": "Political Advertising Online and Offline",
+      "year": 2020,
+      "doi": "https://doi.org/10.1017/s0003055420000696",
+      "s2_id": "17f4d87c05bbd288322684b660080163a1e6e418"
+    },
+    "verified_overlap": 16,
+    "method": "paper"
+  },
+  {
+    "name": "Kevin Quinn",
+    "s2_author_id": "144994998",
+    "s2_author_name": "K. Quinn",
+    "seed_paper": {
+      "title": "Dynamic Ideal Point Estimation via Markov Chain Monte Carlo for the U.S. Supreme Court, 1953\u20131999",
+      "year": 2002,
+      "doi": "https://doi.org/10.1093/pan/10.2.134",
+      "s2_id": "aebc8dbb6193990b0bcf53ad446ded2ae42e110a"
+    },
+    "verified_overlap": 8,
+    "method": "paper"
+  },
+  {
+    "name": "Alejandro Sanchez Becerra",
+    "s2_author_id": "2051323257",
+    "seed_paper": null,
+    "method": "override",
+    "s2_author_name": "Alejandro Sanchez-Becerra"
+  },
+  {
+    "name": "Sandeep Soni",
+    "s2_author_id": "49768826",
+    "s2_author_name": "Sandeep Soni",
+    "seed_paper": {
+      "title": "Racism is a virus: anti-asian hate and counterspeech in social media during the COVID-19 crisis",
+      "year": 2020,
+      "doi": "https://doi.org/10.1145/3487351.3488324",
+      "s2_id": "b2dc5edc75b0d195d8f6e1e3b51bec552b262ba7"
+    },
+    "verified_overlap": 13,
+    "method": "paper"
+  },
+  {
+    "name": "Allison Stashko",
+    "s2_author_id": "8453497",
+    "s2_author_name": "Allison Stashko",
+    "seed_paper": {
+      "title": "Crossing the District Line: Border Mismatch and Targeted Redistribution",
+      "year": 2018,
+      "doi": "https://doi.org/10.1086/736999",
+      "s2_id": "92ea471ef88f1c8415f69f168c4c05e3566732ba"
+    },
+    "verified_overlap": 3,
+    "method": "paper"
+  },
+  {
+    "name": "Alexander Tolbert",
+    "s2_author_id": "2284516135",
+    "s2_author_name": "A. Tolbert",
+    "seed_paper": {
+      "title": "Causal Agnosticism About Race: Variable Selection Problems in Causal Inference",
+      "year": 2024,
+      "doi": "https://doi.org/10.1017/psa.2023.166",
+      "s2_id": "363d27347d513eb2569d5de78317bb5b03971fa3"
+    },
+    "verified_overlap": 2,
+    "method": "paper"
+  },
+  {
+    "name": "Ruoxuan Xiong",
+    "s2_author_id": "50824401",
+    "s2_author_name": "Ruoxuan Xiong",
+    "seed_paper": {
+      "title": "Stable Prediction across Unknown Environments",
+      "year": 2018,
+      "doi": "https://doi.org/10.1145/3219819.3220082",
+      "s2_id": "7e205f4ce2057c51c5002d06bccd035da169f124"
+    },
+    "verified_overlap": 11,
+    "method": "paper"
+  },
+  {
+    "name": "Zachary Binney",
+    "s2_author_id": "12115379",
+    "s2_author_name": "Z. Binney",
+    "seed_paper": {
+      "title": "Association of Statin Dose With Amputation and Survival in Patients With Peripheral Artery Disease",
+      "year": 2018,
+      "doi": "https://doi.org/10.1161/circulationaha.117.032361",
+      "s2_id": "ec30992a826a86e73e1e2cb01f9dc93ab9faea2d"
+    },
+    "verified_overlap": 15,
+    "method": "paper"
+  },
+  {
+    "name": "Nathan Hoffmann",
+    "s2_author_id": "2061194652",
+    "s2_author_name": "Nathan I. Hoffmann",
+    "seed_paper": null,
+    "paper_count": 4,
+    "citation_count": 143,
+    "affiliations": [],
+    "verified_overlap": 0,
+    "method": "override"
+  },
+  {
+    "name": "Luis Martinez",
+    "s2_author_id": "49275958",
+    "s2_author_name": "L. Mart\u00ednez",
+    "seed_paper": null,
+    "paper_count": 3,
+    "citation_count": 25,
+    "affiliations": [],
+    "verified_overlap": 0,
+    "method": "override"
+  },
+  {
+    "name": "Heeju Sohn",
+    "s2_author_id": "8171483",
+    "s2_author_name": "Heeju Sohn",
+    "seed_paper": {
+      "title": "Racial and Ethnic Disparities in Health Insurance Coverage: Dynamics of Gaining and Losing Coverage Over the Life-Course",
+      "year": 2016,
+      "doi": "https://doi.org/10.1007/s11113-016-9416-y",
+      "s2_id": "95d49f6f2244c94ea8351cb13ea740988bf91dfc"
+    },
+    "verified_overlap": 15,
+    "method": "paper"
+  },
+  {
+    "name": "Gregory Palermo",
+    "s2_author_id": "153264950",
+    "s2_author_name": "Gregory J. Palermo",
+    "seed_paper": null,
+    "paper_count": 9,
+    "citation_count": 10,
+    "affiliations": [],
+    "verified_overlap": 0,
+    "method": "override"
+  },
+  {
+    "name": "Dan Sinykin",
+    "s2_author_id": "117882164",
+    "s2_author_name": "Dan Sinykin",
+    "seed_paper": {
+      "title": "Literature and Publishing, 1945\u20132020",
+      "year": 2021,
+      "doi": "https://doi.org/10.1093/alh/ajab040",
+      "s2_id": "588fa206ceeeedd247ee609bd9290f2a611a6b2a"
+    },
+    "verified_overlap": 12,
+    "method": "paper"
+  },
+  {
+    "name": "Benjamin J. Miller",
+    "s2_author_id": "145113184",
+    "s2_author_name": "Benjamin M. Miller",
+    "seed_paper": {
+      "title": "Prognostic factors for survival in patients with high-grade osteosarcoma using the Surveillance, Epidemiology, and End Results (SEER) Program database.",
+      "year": 2015,
+      "doi": "https://doi.org/10.1016/j.canep.2015.05.001",
+      "s2_id": "d24988f2a19209a4b25061e79ddf203da5c4e98b"
+    },
+    "verified_overlap": 19,
+    "method": "override"
+  },
+  {
+    "name": "Megan Reed",
+    "s2_author_id": "153019067",
+    "s2_author_name": "M. Reed",
+    "seed_paper": {
+      "title": "The labor force participation of Indian women before and after widowhood",
+      "year": 2020,
+      "doi": "https://doi.org/10.4054/demres.2020.43.24",
+      "s2_id": "f3ed7ba0d538b261f4639ffee980e0f8b9c7e1a3"
+    },
+    "verified_overlap": 6,
+    "method": "paper"
+  }
+]

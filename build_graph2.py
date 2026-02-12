@@ -49,6 +49,11 @@ AREA_KEYWORDS = {
         "family", "gender", "marriage", "migration",
         "stratification", "sport", "injur",
     ],
+    "Computer Vision": [
+        "computer vision", "image", "3d", "body scan",
+        "mesh", "reconstruction", "rendering", "visual",
+        "object detection", "segmentation", "pose",
+    ],
 }
 
 # Manual area distributions for people where auto-detection is poor or absent
@@ -67,7 +72,7 @@ MANUAL_AREAS = {
     "Benjamin J. Miller": {"Digital Humanities": 2, "NLP / Computational": 2},
     "Jo Guldi": {"Digital Humanities": 3, "Political Science": 1},
     "Craig Hadley": {"Sociology / Public Health": 4},
-    "David Hirshberg": {"Statistics / Causal Inference": 4},
+    "David Hirshberg": {"Statistics / Causal Inference": 3, "Computer Vision": 1},
     "Ruoxuan Xiong": {"Statistics / Causal Inference": 4},
     "Allison Stashko": {"Political Science": 2, "Statistics / Causal Inference": 2},
     "Luis Martinez": {"Political Science": 3, "Statistics / Causal Inference": 1},
@@ -84,7 +89,7 @@ MANUAL_AREAS = {
     "Nathan Hoffmann": {"Sociology / Public Health": 3, "Statistics / Causal Inference": 1},
     "Heeju Sohn": {"Sociology / Public Health": 4},
     "Megan Reed": {"Sociology / Public Health": 4},
-    "Ho Jin Kim": {"Statistics / Causal Inference": 4},
+    "Ho Jin Kim": {"Biology / Neuroscience": 3, "Statistics / Causal Inference": 1},
     "Zhiyun Gong": {"Statistics / Causal Inference": 4},
     "Abhishek Ananth": {"Statistics / Causal Inference": 3, "Sociology / Public Health": 1},
     "Kevin McAlister": {"Political Science": 3, "Statistics / Causal Inference": 1},
