@@ -380,6 +380,13 @@
 </div>
 
 <div id="weight-control">
+  <label>Display</label>
+  <div style="margin-bottom: 10px">
+    <label style="text-transform: none; letter-spacing: 0; font-size: 12px; color: #aaa; cursor: pointer; display: flex; align-items: center; gap: 6px">
+      <input type="checkbox" id="brag-toggle"> Brag styling
+    </label>
+    <div class="val" style="margin-top: 2px">Size nodes by citations, show h-index</div>
+  </div>
   <label>Min edge weight</label>
   <input type="range" id="weight-slider" min="0" max="100" value="5">
   <div class="val">Showing edges with weight &ge; <span id="weight-val">5</span></div>
@@ -409,6 +416,7 @@ const COLORS = {
 };
 
 function nodeRadius(d) {
+  if (noBrag) return 14;
   return Math.max(7, Math.min(Math.sqrt(d.citedby) / 5, 28));
 }
 
@@ -434,6 +442,7 @@ let graph, simulation, svg, g, link, node;
 let edgeFilter = "all";
 let weightThreshold = 5;
 let highlightAreas = new Set();
+let noBrag = true;
 
 async function init() {
   const resp = await fetch("data/graph.json");
@@ -672,10 +681,18 @@ function buildLegend() {
 }
 
 function setupControls() {
-  d3.selectAll(".ctrl-btn").on("click", function() {
-    d3.selectAll(".ctrl-btn").classed("active", false);
+  d3.selectAll(".ctrl-btn[data-edge]").on("click", function() {
+    d3.selectAll(".ctrl-btn[data-edge]").classed("active", false);
     d3.select(this).classed("active", true);
     edgeFilter = this.dataset.edge;
+    update();
+  });
+
+  d3.select("#brag-toggle").on("change", function() {
+    noBrag = !this.checked;
+    d3.select(".nodes").selectAll("g").remove();
+    node = d3.select(".nodes").selectAll("g");
+    simulation.force("collision", d3.forceCollide().radius(d => nodeRadius(d) + 4));
     update();
   });
 
@@ -701,7 +718,7 @@ function showTooltip(event, d) {
     html += `</div>`;
   }
 
-  if (d.citedby) html += `<div class="stat">${d.citedby.toLocaleString()} citations &middot; h-index ${d.hindex}</div>`;
+  if (d.citedby && !noBrag) html += `<div class="stat">${d.citedby.toLocaleString()} citations &middot; h-index ${d.hindex}</div>`;
   if (d.interests && d.interests.length) {
     html += `<div class="topics">${d.interests.slice(0, 5).join(" &middot; ")}</div>`;
   }
@@ -821,8 +838,8 @@ function showNodePanel(d) {
 
   // Stats
   html += `<div class="panel-section">`;
-  if (d.citedby) html += `<div class="panel-stat"><strong>${d.citedby.toLocaleString()}</strong> citations</div>`;
-  if (d.hindex) html += `<div class="panel-stat"><strong>${d.hindex}</strong> h-index</div>`;
+  if (d.citedby && !noBrag) html += `<div class="panel-stat"><strong>${d.citedby.toLocaleString()}</strong> citations</div>`;
+  if (d.hindex && !noBrag) html += `<div class="panel-stat"><strong>${d.hindex}</strong> h-index</div>`;
   if (d.website) {
     html += `<a class="panel-link" href="${d.website}" target="_blank">Personal website &rarr;</a><br>`;
   }
