@@ -1,11 +1,14 @@
 """
-Build faculty graph v2 — merges Google Scholar + OpenAlex data.
+Build faculty graph v2 — merges Google Scholar + OpenAlex + Semantic Scholar.
 Scholar: accurate citations, co-authors, interests.
 OpenAlex: shared references, topics, journals.
+Semantic Scholar: co-authorship and shared references (supplements/replaces OA).
 Outputs: data/graph.json
 """
 
+import html
 import json
+import re
 from collections import Counter, defaultdict
 from itertools import combinations
 
@@ -185,7 +188,12 @@ def load_data():
         scholar = json.load(f)
     with open("data/faculty.json") as f:
         openalex = json.load(f)
-    return scholar, openalex
+    import os
+    s2 = []
+    if os.path.exists("data/s2_faculty.json"):
+        with open("data/s2_faculty.json") as f:
+            s2 = json.load(f)
+    return scholar, openalex, s2
 
 
 def build_scholar_coauthor_edges(scholar_data):
@@ -212,7 +220,8 @@ def build_scholar_coauthor_edges(scholar_data):
 def build_openalex_edges(openalex_data):
     """Build edges from OpenAlex: co-authorship, shared refs, topics, journals."""
     # Bad matches to skip
-    BAD = {"Ho Jin Kim", "Kevin McAlister"}
+    BAD = {"Ho Jin Kim", "Kevin McAlister", "Abhishek Ananth", "Sandeep Soni",
+           "Benjamin J. Miller", "Zhiyun Gong"}
 
     # Build author index
     author_index = {}
@@ -344,16 +353,78 @@ def build_openalex_edges(openalex_data):
     return coauthor_edges, shared_ref_edges, shared_topic_edges, shared_journal_edges
 
 
+def build_s2_edges(s2_data):
+    """Build edges from Semantic Scholar: co-authorship and shared references."""
+    # Map S2 author ID -> faculty name
+    s2id_to_name = {}
+    for fac in s2_data:
+        if fac.get("s2_author_id"):
+            s2id_to_name[fac["s2_author_id"]] = fac["name"]
+
+    # Co-authorship: find papers where two faculty are both authors
+    coauthor_edges = defaultdict(lambda: {"count": 0, "papers": []})
+    for fac in s2_data:
+        if not fac.get("papers"):
+            continue
+        for paper in fac["papers"]:
+            author_ids = [a.get("id") for a in (paper.get("authors") or [])]
+            faculty_coauthors = [
+                s2id_to_name[aid]
+                for aid in author_ids
+                if aid in s2id_to_name and s2id_to_name[aid] != fac["name"]
+            ]
+            for ca_name in faculty_coauthors:
+                key = tuple(sorted([fac["name"], ca_name]))
+                title = paper.get("title", "")
+                if title and title not in coauthor_edges[key]["papers"]:
+                    coauthor_edges[key]["count"] += 1
+                    coauthor_edges[key]["papers"].append(title)
+
+    # Dedupe (counted from both sides)
+    for key in coauthor_edges:
+        coauthor_edges[key]["count"] = (coauthor_edges[key]["count"] + 1) // 2
+        seen = set()
+        coauthor_edges[key]["papers"] = [
+            p for p in coauthor_edges[key]["papers"]
+            if p not in seen and not seen.add(p)
+        ]
+
+    # Shared references (by S2 paper ID)
+    ref_sets = {}
+    for fac in s2_data:
+        if not fac.get("papers"):
+            continue
+        refs = set()
+        for paper in fac["papers"]:
+            refs.update(paper.get("references") or [])
+        if refs:
+            ref_sets[fac["name"]] = refs
+
+    shared_ref_edges = {}
+    names = list(ref_sets.keys())
+    for i, n1 in enumerate(names):
+        for n2 in names[i+1:]:
+            overlap = ref_sets[n1] & ref_sets[n2]
+            if len(overlap) >= 3:
+                shared_ref_edges[tuple(sorted([n1, n2]))] = {
+                    "count": len(overlap),
+                }
+
+    return coauthor_edges, shared_ref_edges
+
+
 def main():
-    scholar_data, openalex_data = load_data()
+    scholar_data, openalex_data, s2_data = load_data()
 
     # Index Scholar data by name
     scholar_by_name = {s["name"]: s for s in scholar_data}
+    s2_by_name = {f["name"]: f for f in s2_data}
 
     # Build edges
     print("Building edges...")
     scholar_coauth = build_scholar_coauthor_edges(scholar_data)
     oa_coauth, shared_refs, shared_topics, shared_journals = build_openalex_edges(openalex_data)
+    s2_coauth, s2_shared_refs = build_s2_edges(s2_data) if s2_data else ({}, {})
 
     # Website co-authorships (from scrape_websites.py)
     import os
@@ -366,8 +437,10 @@ def main():
 
     print(f"  Scholar co-author edges: {len(scholar_coauth)}")
     print(f"  OpenAlex co-author edges: {len(oa_coauth)}")
+    print(f"  S2 co-author edges: {len(s2_coauth)}")
     print(f"  Website co-author edges: {len(website_coauth)}")
-    print(f"  Shared reference edges: {len(shared_refs)}")
+    print(f"  OA shared reference edges: {len(shared_refs)}")
+    print(f"  S2 shared reference edges: {len(s2_shared_refs)}")
     print(f"  Shared topic edges: {len(shared_topics)}")
     print(f"  Shared journal edges: {len(shared_journals)}")
 
@@ -381,19 +454,67 @@ def main():
         areas = compute_area_distribution(name, oa, s)
 
         # Recent publications (sorted by year, newest first, deduplicated)
+        # Use S2 papers for BAD OpenAlex faculty, merge both otherwise
+        BAD_OA = {"Ho Jin Kim", "Kevin McAlister", "Abhishek Ananth",
+                  "Sandeep Soni", "Benjamin J. Miller", "Gordon Berman", "Weihua An",
+                  "Zhiyun Gong"}
         top_pubs = []
         seen_titles = set()
-        if oa and oa.get("works"):
+
+        # Primary source: OpenAlex (unless BAD)
+        if name not in BAD_OA and oa and oa.get("works"):
             sorted_works = sorted(oa["works"], key=lambda w: w.get("year") or 0, reverse=True)
             for w in sorted_works:
                 if w.get("title") and w["title"] not in seen_titles:
                     seen_titles.add(w["title"])
-                    top_pubs.append({
-                        "title": w["title"],
-                        "year": w.get("year"),
-                    })
+                    top_pubs.append({"title": w["title"], "year": w.get("year")})
                     if len(top_pubs) >= 10:
                         break
+
+        # Fill from S2 if we have fewer than 10 (skip if S2 data is also wrong person)
+        BAD_S2 = {"Benjamin J. Miller", "Zhiyun Gong"}
+        s2_fac = s2_by_name.get(name, {})
+        if name not in BAD_S2 and len(top_pubs) < 10 and s2_fac.get("papers"):
+            s2_sorted = sorted(s2_fac["papers"], key=lambda p: p.get("year") or 0, reverse=True)
+            for p in s2_sorted:
+                if p.get("title") and p["title"] not in seen_titles:
+                    seen_titles.add(p["title"])
+                    top_pubs.append({"title": p["title"], "year": p.get("year")})
+                    if len(top_pubs) >= 10:
+                        break
+
+        # Manual top_pubs overrides (when both OA and S2 are wrong people)
+        MANUAL_PUBS = {
+            "Benjamin J. Miller": [
+                {"title": "Corporate Landlords, Institutional Investors, and Displacement: Eviction Rates in Single Family Rentals", "year": 2016},
+                {"title": "Visualizing Computational, Transversal Narratives from the World Trade Towers", "year": 2016},
+                {"title": "A method for cross-document narrative alignment of a two-hundred-sixty-million word corpus", "year": 2015},
+                {"title": "Digging into Human Rights Violations: Data Modeling Collective Memory", "year": 2013},
+                {"title": "Storygraph: Telling stories from spatio-temporal data", "year": 2013},
+            ],
+            "Zhiyun Gong": [
+                {"title": "A prediction-residual approach for identifying rare events in periodic time series", "year": 2011},
+            ],
+            "Ho Jin Kim": [
+                {"title": "Effects of Sugar Snack Preferences and Frequency of Intake on Stress, Anger, and Sleep Quality", "year": 2021},
+                {"title": "Gendered race: are infants' face preferences guided by intersectionality of sex and race?", "year": 2015},
+                {"title": "Detecting 'infant-directedness' in face and voice.", "year": 2014},
+                {"title": "The Happy Effect: The Role of Familiarity in the Development of Face Processing", "year": 2013},
+                {"title": "Do young infants prefer an infant-directed face or a happy face?", "year": 2013},
+                {"title": "Hyperarticulation in Mothers' Speech to Babies and Puppies", "year": 2006},
+            ],
+        }
+        if name in MANUAL_PUBS:
+            top_pubs = MANUAL_PUBS[name]
+
+        # Clean HTML entities in titles (e.g. &lt;div&gt; from OpenAlex)
+        for pub in top_pubs:
+            cleaned = html.unescape(html.unescape(pub["title"])).strip()
+            # Strip HTML tags
+            cleaned = re.sub(r'<[^>]+>', '', cleaned)
+            # Normalize whitespace
+            cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+            pub["title"] = cleaned
 
         nodes.append({
             "id": name,
@@ -412,8 +533,10 @@ def main():
     all_keys = set()
     all_keys.update(scholar_coauth.keys())
     all_keys.update(oa_coauth.keys())
+    all_keys.update(s2_coauth.keys())
     all_keys.update(website_coauth.keys())
     all_keys.update(shared_refs.keys())
+    all_keys.update(s2_shared_refs.keys())
     all_keys.update(shared_topics.keys())
     all_keys.update(shared_journals.keys())
 
@@ -433,13 +556,24 @@ def main():
         if key in website_coauth:
             edge["website_coauthor"] = True
 
-        # OpenAlex co-author (found in paper data)
-        if key in oa_coauth:
-            edge["coauthor_count"] = oa_coauth[key]["count"]
-            edge["coauthor_papers"] = oa_coauth[key]["papers"]
+        # Co-author from papers (best of OpenAlex and S2)
+        oa_ca = oa_coauth.get(key, {}).get("count", 0)
+        s2_ca = s2_coauth.get(key, {}).get("count", 0)
+        if oa_ca or s2_ca:
+            edge["coauthor_count"] = max(oa_ca, s2_ca)
+            # Merge paper lists from both sources
+            papers = list(oa_coauth.get(key, {}).get("papers", []))
+            for p in s2_coauth.get(key, {}).get("papers", []):
+                if p not in papers:
+                    papers.append(p)
+            edge["coauthor_papers"] = papers
 
+        # Shared references (best of OpenAlex and S2)
+        oa_refs = shared_refs.get(key, {}).get("count", 0)
+        s2_refs = s2_shared_refs.get(key, {}).get("count", 0)
+        if oa_refs or s2_refs:
+            edge["shared_refs"] = max(oa_refs, s2_refs)
         if key in shared_refs:
-            edge["shared_refs"] = shared_refs[key]["count"]
             edge["shared_ref_ids"] = shared_refs[key]["top_ids"]
 
         if key in shared_topics:
@@ -478,6 +612,7 @@ def main():
     for e in edges[:20]:
         types = []
         if e.get("scholar_coauthor"): types.append("scholar-coauth")
+        if e.get("website_coauthor"): types.append("website-coauth")
         if e.get("coauthor_count"): types.append(f"papers={e['coauthor_count']}")
         if e.get("shared_refs"): types.append(f"refs={e['shared_refs']}")
         if e.get("shared_topics"): types.append(f"topics={e['shared_topics']}")

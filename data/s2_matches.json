@@ -188,7 +188,7 @@
   },
   {
     "name": "Lauren Klein",
-    "s2_author_id": "2403214576",
+    "s2_author_id": "3458698",
     "s2_author_name": "Lauren F. Klein",
     "seed_paper": {
       "title": "Data Feminism",
@@ -197,7 +197,7 @@
       "s2_id": "f7903cce96f8411beff16ee412f95de4fd796106"
     },
     "verified_overlap": 1,
-    "method": "paper"
+    "method": "override"
   },
   {
     "name": "Kevin McAlister",

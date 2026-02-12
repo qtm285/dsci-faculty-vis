@@ -27,7 +27,9 @@ S2_OVERRIDES = {
     "Luis Martinez": "49275958",           # L. Martínez — political economy
     "Michal Arbilly": "6541258",           # M. Arbilly — behavioral ecology, 15 papers
     "Alejandro Sanchez Becerra": "2051323257",  # causal inference, 7 papers
-    "Benjamin J. Miller": "145113184",     # composition/rhetoric (S2 profile contaminated w/ IR scholar)
+    # "Benjamin J. Miller": no correct S2 profile found (145113184 is an IR scholar, not him)
+    # "Zhiyun Gong": no correct S2 profile found (36011651 is a rice geneticist, not her)
+    "Lauren Klein": "3458698",              # Lauren F. Klein — DH, Emory+GT (main profile, 55 papers)
     "Kevin McAlister": "46187839",         # political science, election models, Michigan PhD
     "Ho Jin Kim": "46695922",              # Hojin I. Kim — developmental psych, teaches stats at QTM
     "Nathan Hoffmann": "2061194652",       # Nathan I. Hoffmann — migration, demography
