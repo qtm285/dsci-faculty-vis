@@ -1,8 +1,186 @@
 <!DOCTYPE html>
 <html>
-<head><title>Embed Demo</title></head>
-<body style="margin:40px; font-family:sans-serif;">
-<h2>Embedded version</h2>
-<iframe src="index-dept.html?embed" style="width:100%; height:600px; border:1px solid #ddd; border-radius:8px;"></iframe>
+<head>
+<title>Research — Emory DSCI (Layout Mock)</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #333; }
+
+  .hero {
+    background: #012169;
+    color: #fff;
+    padding: 60px 40px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .intro-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 40px;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+  }
+
+  .intro-text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .intro-text h2 {
+    font-size: 24px;
+    color: #012169;
+    margin-bottom: 16px;
+  }
+
+  .intro-text p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 14px;
+  }
+
+  .intro-text .explore-link {
+    font-size: 14px;
+    color: #012169;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .intro-text .explore-link:hover { text-decoration: underline; }
+
+  .network-embed iframe {
+    width: 500px;
+    height: 500px;
+    border: none;
+    flex-shrink: 0;
+  }
+
+  .labs-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 40px 60px;
+    border-top: 1px solid #e8e8e8;
+  }
+
+  .labs-section h2 {
+    font-size: 24px;
+    color: #012169;
+    margin-bottom: 24px;
+  }
+
+  .lab-card {
+    display: flex;
+    gap: 24px;
+    padding: 28px 0;
+    border-bottom: 1px solid #eee;
+    align-items: flex-start;
+  }
+
+  .lab-img {
+    width: 200px;
+    height: 140px;
+    background: #e8ecf2;
+    border-radius: 6px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #999;
+  }
+
+  .lab-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .lab-info h3 {
+    font-size: 18px;
+    color: #012169;
+    margin-bottom: 8px;
+  }
+
+  .lab-info p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 12px;
+  }
+
+  .lab-info .apply-btn {
+    font-size: 13px;
+    color: #012169;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .lab-info .apply-btn:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<div class="hero">Research</div>
+
+<div class="intro-section">
+  <div class="intro-text">
+    <h2>Faculty Research Network</h2>
+    <p>One of the most important skills for future data scientists is to know how to meaningfully engage in the expansion and discovery of new knowledge. We offer QTM students exclusive opportunities to gain this experience under the direction of a distinguished faculty member currently conducting cutting-edge research in their field.</p>
+    <p>The network shows how our faculty connect through co-authored papers, shared research topics, and common citations. Click any node or edge to learn more.</p>
+    <a href="index-dept.html" class="explore-link">Explore full interactive version &rarr;</a>
+  </div>
+  <div class="network-embed">
+    <iframe src="index-dept.html?embed" frameborder="0"></iframe>
+  </div>
+</div>
+
+<div class="labs-section">
+  <h2>Research Labs</h2>
+
+  <div class="lab-card">
+    <div class="lab-img">[lab image]</div>
+    <div class="lab-info">
+      <h3>Diana-Tolbert AI &amp; Philosophy Lab</h3>
+      <p>Research in algorithmic fairness, private data analysis, game theory and mechanism design, and causal inference, with philosophical inquiry into science and ethics.</p>
+      <a href="#" class="apply-btn">Apply Here &rarr;</a>
+    </div>
+  </div>
+
+  <div class="lab-card">
+    <div class="lab-img">[lab image]</div>
+    <div class="lab-info">
+      <h3>Emory NLP Research Lab</h3>
+      <p>Established in 2014, specializing in conversational AI and chatbots with emphasis on mental healthcare and education. Over 100 peer-reviewed publications.</p>
+      <a href="#" class="apply-btn">Apply Here &rarr;</a>
+    </div>
+  </div>
+
+  <div class="lab-card">
+    <div class="lab-img">[lab image]</div>
+    <div class="lab-info">
+      <h3>Guldi Lab</h3>
+      <p>Computational analysis applied to collections of text from Congress and Parliament, examining institutional change. Requires QTM 340 prerequisite.</p>
+      <a href="#" class="apply-btn">Apply Here &rarr;</a>
+    </div>
+  </div>
+
+  <div class="lab-card">
+    <div class="lab-img">[lab image]</div>
+    <div class="lab-info">
+      <h3>Legislative Accountability Lab</h3>
+      <p>Creating complete records of all recorded legislative behavior across multiple chambers to study political polarization and accountability.</p>
+      <a href="#" class="apply-btn">Apply Here &rarr;</a>
+    </div>
+  </div>
+
+  <div class="lab-card">
+    <div class="lab-img">[lab image]</div>
+    <div class="lab-info">
+      <h3>Theory and Models Workshop</h3>
+      <p>Examining models of human behavior, social interaction, and institutions, including algorithms and fairness in classification.</p>
+      <a href="#" class="apply-btn">Apply Here &rarr;</a>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>

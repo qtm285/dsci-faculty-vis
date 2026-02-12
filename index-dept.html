@@ -365,6 +365,8 @@
   }
 
   /* Embed mode — for inclusion in a larger page */
+  body.embed { background: transparent; }
+
   body.embed #header,
   body.embed #controls,
   body.embed #weight-control { display: none; }
@@ -374,18 +376,39 @@
     border: none;
     box-shadow: none;
     backdrop-filter: none;
-    padding: 10px 12px;
+    padding: 6px 8px;
   }
 
   body.embed #legend h3 {
     color: #bbb;
-    font-size: 10px;
+    font-size: 9px;
+    margin-bottom: 4px;
   }
 
   body.embed .legend-item {
-    font-size: 11px;
+    font-size: 10px;
     color: #888;
+    gap: 5px;
+    margin-bottom: 2px;
   }
+
+  body.embed .legend-dot {
+    width: 7px;
+    height: 7px;
+  }
+
+  body.embed #tooltip,
+  body.embed #edge-tooltip {
+    padding: 10px 14px;
+    max-width: 260px;
+    border-radius: 8px;
+  }
+  body.embed #tooltip h4,
+  body.embed #edge-tooltip h4 { font-size: 13px; }
+  body.embed #tooltip .stat { font-size: 11px; }
+  body.embed #tooltip .topics { font-size: 10px; }
+  body.embed #tooltip .area-tag { font-size: 10px; padding: 1px 6px; }
+  body.embed #edge-tooltip .edge-detail { font-size: 11px; }
 </style>
 </head>
 <body>
@@ -510,10 +533,23 @@ async function init() {
 
   setTimeout(() => {
     if (EMBED) {
-      // Fit graph to iframe: zoom in, shift left slightly for legend
+      // Auto-fit: compute bounding box of all nodes, zoom to fit
+      const pad = 40;
+      let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+      graph.nodes.forEach(d => {
+        const r = nodeRadius(d) + 30; // account for label
+        if (d.x - r < x0) x0 = d.x - r;
+        if (d.y - r < y0) y0 = d.y - r;
+        if (d.x + r > x1) x1 = d.x + r;
+        if (d.y + r > y1) y1 = d.y + r;
+      });
+      const bw = x1 - x0, bh = y1 - y0;
+      const s = Math.min((width - pad * 2) / bw, (height - pad * 2) / bh);
+      const tx = (width - bw * s) / 2 - x0 * s;
+      const ty = (height - bh * s) / 2 - y0 * s;
       svg.transition().duration(800).call(
         zoom.transform,
-        d3.zoomIdentity.translate(-width * 0.05, -height * 0.05).scale(1.1)
+        d3.zoomIdentity.translate(tx, ty).scale(s)
       );
     } else {
       svg.transition().duration(800).call(
