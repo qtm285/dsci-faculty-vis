@@ -386,6 +386,9 @@
     font-size: 11px;
     color: #888;
   }
+
+  body.embed { height: 500px; max-height: 500px; }
+  body.embed #graph { height: 500px; max-height: 500px; }
 </style>
 </head>
 <body>
@@ -469,11 +472,12 @@ async function init() {
   graph = await resp.json();
 
   const width = window.innerWidth;
-  const height = window.innerHeight;
+  const height = EMBED ? 500 : window.innerHeight;
 
   svg = d3.select("#graph")
     .attr("width", width)
-    .attr("height", height);
+    .attr("height", height)
+    .style("max-height", height + "px");
 
   // Defs for glow
   const defs = svg.append("defs");
@@ -502,18 +506,20 @@ async function init() {
     .force("center", d3.forceCenter(width / 2, height / 2))
     .force("collision", d3.forceCollide().radius(d => nodeRadius(d) + 4))
     .force("x", d3.forceX(width / 2).strength(0.03))
-    .force("y", d3.forceY(height / 2).strength(0.03));
+    .force("y", d3.forceY(height / 2).strength(EMBED ? 0.08 : 0.03));
 
   buildLegend();
   setupControls();
   update();
 
-  setTimeout(() => {
-    svg.transition().duration(800).call(
-      zoom.transform,
-      d3.zoomIdentity.translate(width * 0.1, height * 0.1).scale(0.85)
-    );
-  }, 2000);
+  if (!EMBED) {
+    setTimeout(() => {
+      svg.transition().duration(800).call(
+        zoom.transform,
+        d3.zoomIdentity.translate(width * 0.1, height * 0.1).scale(0.85)
+      );
+    }, 2000);
+  }
 }
 
 function getFilteredEdges() {
