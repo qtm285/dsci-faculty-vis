@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+data/faculty.json
+data/scholar.json
