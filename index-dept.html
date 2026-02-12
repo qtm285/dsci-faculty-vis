@@ -509,12 +509,9 @@ async function init() {
   update();
 
   setTimeout(() => {
-    const s = EMBED ? 0.7 : 0.85;
-    const tx = width * (1 - s) / 2;
-    const ty = height * (1 - s) / 2;
     svg.transition().duration(800).call(
       zoom.transform,
-      d3.zoomIdentity.translate(tx, ty).scale(s)
+      d3.zoomIdentity.translate(width * 0.1, height * 0.1).scale(0.85)
     );
   }, 2000);
 }
