@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
 <title>Emory DSCI Faculty Research Network</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -430,16 +432,9 @@
 </div>
 
 <div id="weight-control">
-  <label>Display</label>
-  <div style="margin-bottom: 10px">
-    <label style="text-transform: none; letter-spacing: 0; font-size: 12px; color: #777; cursor: pointer; display: flex; align-items: center; gap: 6px">
-      <input type="checkbox" id="brag-toggle"> Brag styling
-    </label>
-    <div class="val" style="margin-top: 2px">Size nodes by citations, show h-index</div>
-  </div>
   <label>Min edge weight</label>
-  <input type="range" id="weight-slider" min="0" max="100" value="1">
-  <div class="val">Showing edges with weight &ge; <span id="weight-val">1</span></div>
+  <input type="range" id="weight-slider" min="0" max="100" value="9">
+  <div class="val">Showing edges with weight &ge; <span id="weight-val">9</span></div>
 </div>
 
 <div id="tooltip"></div>
@@ -459,49 +454,86 @@ if (EMBED) document.body.classList.add("embed");
 
 const COLORS = {
   "Political Science": "#f97316",
-  "NLP / Computational": "#06b6d4",
+  "Natural Language Processing": "#06b6d4",
   "Statistics / Causal Inference": "#8b5cf6",
   "Digital Humanities": "#ec4899",
   "Biology / Neuroscience": "#22c55e",
   "Sociology / Public Health": "#eab308",
-  "Computer Vision": "#14b8a6",
-  "Economics": "#ef4444",
+  "Economics": "#14b8a6",
   "Philosophy": "#6366f1",
   "Other": "#64748b",
 };
 
 function nodeRadius(d) {
-  if (noBrag) return 14;
-  return Math.max(7, Math.min(Math.sqrt(d.citedby) / 5, 28));
+  return 14;
 }
 
 // Compute concentric ring radii so each ring's area is proportional to share.
 // Returns array of {area, innerR, outerR} sorted smallest-inside to largest-outside.
 function ringLayout(areas, R) {
-  // Sort ascending by share so largest is outermost
+  // Sort ascending: smallest share innermost (small circle), largest outermost (wide ring)
   const sorted = [...areas].sort((a, b) => a.share - b.share);
-  let cumShare = 0;
-  return sorted.map(a => {
-    const innerR = R * Math.sqrt(cumShare);
-    cumShare += a.share;
-    const outerR = R * Math.sqrt(cumShare);
-    return { area: a.area, share: a.share, innerR, outerR };
-  });
+  if (sorted.length <= 1) {
+    return [{ area: sorted[0].area, share: sorted[0].share, innerR: 0, outerR: R }];
+  }
+  const n = sorted.length;
+  const sw = 0.5; // fixed inter-ring stroke width
+  const hsw = sw / 2;
+  // Compute boundaries so visible fill area (after stroke eats hsw from each side)
+  // is proportional to share.
+  const rings = [];
+  for (let i = 0; i < n; i++) {
+    const innerR = i === 0 ? 0 : rings[i - 1].outerR;
+    const effInner = i === 0 ? 0 : innerR + hsw;
+    const target = sorted[i].share * R * R;
+    let outerR;
+    if (i < n - 1) {
+      outerR = Math.sqrt(target + effInner * effInner) + hsw;
+    } else {
+      outerR = Math.sqrt(target + effInner * effInner);
+    }
+    rings.push({ area: sorted[i].area, share: sorted[i].share, innerR, outerR });
+  }
+  // Scale to fit within R
+  const scale = R / rings[n - 1].outerR;
+  rings.forEach(r => { r.innerR *= scale; r.outerR *= scale; });
+  return rings;
 }
 
 function nodeHasArea(d, area) {
   return d.areas && d.areas.some(a => a.area === area);
 }
 
-let graph, simulation, svg, g, link, node;
+let graph, simulation, svg, g, link, node, label;
 let edgeFilter = "all";
-let weightThreshold = 1;
+let weightThreshold = 9;
 let highlightAreas = new Set();
-let noBrag = true;
 
 async function init() {
   const resp = await fetch("data/graph.json");
   graph = await resp.json();
+
+  // Load saved layout positions if available
+  try {
+    const layoutResp = await fetch("data/layout.json");
+    if (layoutResp.ok) {
+      const layout = await layoutResp.json();
+      const pos = {};
+      layout.forEach(p => pos[p.id] = p);
+      graph.nodes.forEach(n => {
+        if (pos[n.id]) { n.x = pos[n.id].x; n.y = pos[n.id].y; }
+      });
+    }
+  } catch(e) {}
+
+  // Pre-compute edge count per node (for gravity on isolates)
+  const edgeCount = {};
+  graph.nodes.forEach(n => edgeCount[n.id] = 0);
+  graph.edges.forEach(e => {
+    edgeCount[e.source] = (edgeCount[e.source] || 0) + 1;
+    edgeCount[e.target] = (edgeCount[e.target] || 0) + 1;
+  });
+  graph.nodes.forEach(n => n._edgeCount = edgeCount[n.id] || 0);
 
   const width = window.innerWidth;
   const height = window.innerHeight;
@@ -528,6 +560,7 @@ async function init() {
 
   link = g.append("g").attr("class", "links").selectAll("line");
   node = g.append("g").attr("class", "nodes").selectAll("g");
+  label = g.append("g").attr("class", "labels").selectAll("text");
 
   simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(d => d.id).distance(d => {
@@ -536,8 +569,14 @@ async function init() {
     .force("charge", d3.forceManyBody().strength(-300))
     .force("center", d3.forceCenter(width / 2, height / 2))
     .force("collision", d3.forceCollide().radius(d => nodeRadius(d) + 4))
-    .force("x", d3.forceX(width / 2).strength(0.03))
-    .force("y", d3.forceY(height / 2).strength(0.03));
+    .force("x", d3.forceX(width / 2).strength(d => {
+      const base = 0.015;
+      return d._edgeCount === 0 ? base * 5 : base;
+    }))
+    .force("y", d3.forceY(height / 2).strength(d => {
+      const base = 0.08;
+      return d._edgeCount === 0 ? base * 5 : base;
+    }));
 
   buildLegend();
   setupControls();
@@ -569,12 +608,12 @@ async function init() {
         d3.zoomIdentity.translate(width * 0.1, height * 0.1).scale(0.85)
       );
     }
-  }, 2000);
+  }, 3500);
 }
 
 function getFilteredEdges() {
   return graph.edges.filter(e => {
-    if (e.weight < weightThreshold) return false;
+    if (e.shared_area) return false;
     if (edgeFilter === "coauthor") return e.coauthor_count > 0;
     if (edgeFilter === "refs") return e.shared_refs > 0;
     if (edgeFilter === "topics") return e.shared_topics > 0;
@@ -593,7 +632,6 @@ function getConnectedNodes(edges) {
 
 function update() {
   const filteredEdges = getFilteredEdges();
-  const connectedNodes = getConnectedNodes(filteredEdges);
   const visibleNodes = graph.nodes;
 
   // Links
@@ -608,8 +646,9 @@ function update() {
     .on("click", clickEdge)
     .style("cursor", "pointer");
   link = linkEnter.merge(link)
-    .attr("stroke", d => d.coauthor_count > 0 ? "rgba(0,0,0,0.25)" : "rgba(0,0,0,0.08)")
-    .attr("stroke-width", d => Math.max(Math.min(Math.sqrt(d.weight / 5), 6), 3));
+    .attr("stroke", "rgba(0,0,0,0.08)")
+    .attr("stroke-width", d => d.boosted ? 1.5 : Math.max(Math.min(Math.sqrt(d.weight / 5), 6), 3))
+;
 
   // Nodes
   node = node.data(visibleNodes, d => d.id);
@@ -653,30 +692,40 @@ function update() {
       .attr("fill", ring => COLORS[ring.area] || COLORS["Other"])
       .attr("fill-opacity", 0.7)
       .attr("stroke", "#f8f9fa")
-      .attr("stroke-width", areas.length > 1 ? 0.8 : 0);
+      .attr("stroke-width", areas.length <= 1 ? 0 : 0.5);
   });
 
-  // Labels
-  nodeEnter.append("text")
+  node = nodeEnter.merge(node);
+
+  // Labels (separate layer, renders above nodes)
+  label = label.data(visibleNodes, d => d.id);
+  label.exit().remove();
+  const labelEnter = label.enter().append("text")
     .text(d => {
       const parts = d.id.split(" ");
       if (parts.length > 2) return parts[0][0] + ". " + parts.slice(-1)[0];
       return parts[0][0] + ". " + parts.slice(1).join(" ");
     })
-    .attr("dx", d => nodeRadius(d) + 5)
-    .attr("dy", 4)
     .attr("font-size", "11px")
     .attr("fill", "#444")
-    .attr("font-weight", 500);
-
-  node = nodeEnter.merge(node);
+    .attr("font-weight", 500)
+    .style("pointer-events", "none");
+  label = labelEnter.merge(label);
 
   // Opacity logic
-  applyOpacity(connectedNodes);
+  applyOpacity();
 
-  // Simulation
+  // Simulation — real edges obey weight threshold, boosted edges always active
+  const simEdges = graph.edges.filter(e => {
+    if (e.boosted) return true;
+    if (e.weight < weightThreshold) return false;
+    if (edgeFilter === "coauthor") return e.coauthor_count > 0;
+    if (edgeFilter === "refs") return e.shared_refs > 0;
+    if (edgeFilter === "topics") return e.shared_topics > 0;
+    return true;
+  });
   simulation.nodes(visibleNodes);
-  simulation.force("link").links(filteredEdges);
+  simulation.force("link").links(simEdges);
   simulation.alpha(0.5).restart();
 
   simulation.on("tick", () => {
@@ -686,6 +735,9 @@ function update() {
       .attr("x2", d => d.target.x)
       .attr("y2", d => d.target.y);
     node.attr("transform", d => `translate(${d.x},${d.y})`);
+    label
+      .attr("x", d => d.x + nodeRadius(d) + 5)
+      .attr("y", d => d.y + 4);
   });
 }
 
@@ -693,7 +745,7 @@ function nodeMatchesAreas(d) {
   return d.areas && d.areas.some(a => highlightAreas.has(a.area));
 }
 
-function applyOpacity(connectedNodes) {
+function applyOpacity() {
   if (highlightAreas.size > 0) {
     node.selectAll(".ring-slice")
       .attr("fill-opacity", function() {
@@ -714,19 +766,9 @@ function applyOpacity(connectedNodes) {
       return (nodeMatchesAreas(s) || nodeMatchesAreas(t)) ? 1 : 0.05;
     });
   } else {
-    const connected = connectedNodes || getConnectedNodes(getFilteredEdges());
-    node.selectAll(".ring-slice")
-      .attr("fill-opacity", function() {
-        const d = d3.select(this.parentNode).datum();
-        return connected.has(d.id) ? 0.75 : 0.15;
-      });
-    node.select("circle")
-      .attr("stroke-opacity", function() {
-        const d = d3.select(this.parentNode).datum();
-        return connected.has(d.id) ? 0.25 : 0.06;
-      });
-    node.select("text")
-      .attr("opacity", d => connected.has(d.id) ? 1 : 0.25);
+    node.selectAll(".ring-slice").attr("fill-opacity", 0.75);
+    node.select("circle").attr("stroke-opacity", 0.25);
+    node.select("text").attr("opacity", 1);
     link.attr("opacity", 1);
   }
 }
@@ -764,14 +806,6 @@ function setupControls() {
     update();
   });
 
-  d3.select("#brag-toggle").on("change", function() {
-    noBrag = !this.checked;
-    d3.select(".nodes").selectAll("g").remove();
-    node = d3.select(".nodes").selectAll("g");
-    simulation.force("collision", d3.forceCollide().radius(d => nodeRadius(d) + 4));
-    update();
-  });
-
   d3.select("#weight-slider").on("input", function() {
     weightThreshold = +this.value;
     d3.select("#weight-val").text(this.value);
@@ -794,7 +828,6 @@ function showTooltip(event, d) {
     html += `</div>`;
   }
 
-  if (d.citedby && !noBrag) html += `<div class="stat">${d.citedby.toLocaleString()} citations &middot; h-index ${d.hindex}</div>`;
   if (d.interests && d.interests.length) {
     html += `<div class="topics">${d.interests.slice(0, 5).join(" &middot; ")}</div>`;
   }
@@ -914,8 +947,6 @@ function showNodePanel(d) {
 
   // Stats
   html += `<div class="panel-section">`;
-  if (d.citedby && !noBrag) html += `<div class="panel-stat"><strong>${d.citedby.toLocaleString()}</strong> citations</div>`;
-  if (d.hindex && !noBrag) html += `<div class="panel-stat"><strong>${d.hindex}</strong> h-index</div>`;
   if (d.website) {
     html += `<a class="panel-link" href="${d.website}" target="_blank">Personal website &rarr;</a><br>`;
   }
@@ -1089,6 +1120,14 @@ function dragEnd(event, d) {
   d.fx = null;
   d.fy = null;
 }
+
+// Console helper: saveLayout() — copies current node positions as JSON
+window.saveLayout = function() {
+  const layout = graph.nodes.map(n => ({id: n.id, x: Math.round(n.x * 10) / 10, y: Math.round(n.y * 10) / 10}));
+  const json = JSON.stringify(layout, null, 2);
+  navigator.clipboard.writeText(json).then(() => console.log("Layout copied to clipboard! Paste into data/layout.json"));
+  return layout;
+};
 
 init();
 </script>
