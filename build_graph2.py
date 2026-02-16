@@ -57,6 +57,16 @@ AREA_KEYWORDS = {
         "mesh", "reconstruction", "rendering", "visual",
         "object detection", "segmentation", "pose",
     ],
+    "Economics": [
+        "econom", "market", "trade", "fiscal", "monetary",
+        "development economics", "microfinance", "investment",
+        "gdp", "growth", "labor economics", "auction",
+    ],
+    "Philosophy": [
+        "philosoph", "normative", "ethics", "epistemic",
+        "moral", "justice", "welfare", "utilitarian",
+        "deliberat", "fairness", "reparation",
+    ],
 }
 
 # Manual area distributions for people where auto-detection is poor or absent
@@ -68,17 +78,17 @@ MANUAL_AREAS = {
     "Clifford Carrubba": {"Political Science": 4, "Statistics / Causal Inference": 1},
     "John W. Patty": {"Political Science": 3, "Statistics / Causal Inference": 1},
     "Maggie Penn": {"Political Science": 3, "Statistics / Causal Inference": 1},
-    "Hun Chung": {"Political Science": 3, "Statistics / Causal Inference": 1},
+    "Hun Chung": {"Political Science": 2, "Philosophy": 2, "Statistics / Causal Inference": 1},
     "Lauren Klein": {"Digital Humanities": 3, "NLP / Computational": 1},
     "Sandeep Soni": {"NLP / Computational": 3, "Digital Humanities": 1},
-    "Alexander Tolbert": {"NLP / Computational": 2, "Digital Humanities": 2},
+    "Alexander Tolbert": {"NLP / Computational": 2, "Philosophy": 1, "Digital Humanities": 1},
     "Benjamin J. Miller": {"Digital Humanities": 2, "NLP / Computational": 2},
     "Jo Guldi": {"Digital Humanities": 3, "Political Science": 1},
     "Craig Hadley": {"Sociology / Public Health": 4},
     "David Hirshberg": {"Statistics / Causal Inference": 3, "Computer Vision": 1},
     "Ruoxuan Xiong": {"Statistics / Causal Inference": 4},
     "Allison Stashko": {"Political Science": 2, "Statistics / Causal Inference": 2},
-    "Luis Martinez": {"Political Science": 3, "Statistics / Causal Inference": 1},
+    "Luis Martinez": {"Political Science": 2, "Economics": 2, "Statistics / Causal Inference": 1},
     "Pablo Montagnes": {"Political Science": 3, "Statistics / Causal Inference": 1},
     "Zachary Peskowitz": {"Political Science": 4, "Statistics / Causal Inference": 1},
     "Zachary Binney": {"Sociology / Public Health": 3, "Statistics / Causal Inference": 1},
@@ -94,7 +104,7 @@ MANUAL_AREAS = {
     "Megan Reed": {"Sociology / Public Health": 4},
     "Ho Jin Kim": {"Biology / Neuroscience": 3, "Statistics / Causal Inference": 1},
     "Zhiyun Gong": {"Statistics / Causal Inference": 4},
-    "Abhishek Ananth": {"Statistics / Causal Inference": 3, "Sociology / Public Health": 1},
+    "Abhishek Ananth": {"Statistics / Causal Inference": 2, "Economics": 2, "Sociology / Public Health": 1},
     "Kevin McAlister": {"Political Science": 3, "Statistics / Causal Inference": 1},
     "Jacopo Di Iorio": {"Statistics / Causal Inference": 4},
 }

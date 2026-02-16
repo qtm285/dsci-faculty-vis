@@ -438,8 +438,8 @@
     <div class="val" style="margin-top: 2px">Size nodes by citations, show h-index</div>
   </div>
   <label>Min edge weight</label>
-  <input type="range" id="weight-slider" min="0" max="100" value="5">
-  <div class="val">Showing edges with weight &ge; <span id="weight-val">5</span></div>
+  <input type="range" id="weight-slider" min="0" max="100" value="1">
+  <div class="val">Showing edges with weight &ge; <span id="weight-val">1</span></div>
 </div>
 
 <div id="tooltip"></div>
@@ -465,6 +465,8 @@ const COLORS = {
   "Biology / Neuroscience": "#22c55e",
   "Sociology / Public Health": "#eab308",
   "Computer Vision": "#14b8a6",
+  "Economics": "#ef4444",
+  "Philosophy": "#6366f1",
   "Other": "#64748b",
 };
 
@@ -493,7 +495,7 @@ function nodeHasArea(d, area) {
 
 let graph, simulation, svg, g, link, node;
 let edgeFilter = "all";
-let weightThreshold = 5;
+let weightThreshold = 1;
 let highlightAreas = new Set();
 let noBrag = true;
 
