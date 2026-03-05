@@ -39,6 +39,7 @@ SCHOLAR_IDS = {
     "Alejandro Sanchez Becerra": "yFPu-mkAAAAJ",
     "Zhiyun Gong": "DZPv_WIAAAAJ",
     "Alexander Tolbert": "OGjoFXcAAAAJ",
+    "Allison Cuttner": "EteRJvsAAAAJ",
 }
 
 # Faculty without Scholar profiles found

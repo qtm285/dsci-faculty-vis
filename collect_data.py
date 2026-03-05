@@ -51,6 +51,7 @@ FACULTY = [
     ("Dan Sinykin", "English literature"),
     ("Benjamin J. Miller", "writing"),
     ("Megan Reed", "sociology"),
+    ("Allison Cuttner", "political science"),
 ]
 
 # Override IDs for authors where search picks the wrong person
@@ -58,6 +59,7 @@ AUTHOR_ID_OVERRIDES = {
     "Alexander Tolbert": "https://openalex.org/A5009210163",
     "Nathan Hoffmann": "https://openalex.org/A5000544058",
     "Jacopo Di Iorio": "https://openalex.org/A5041921656",
+    "Allison Cuttner": "https://openalex.org/A5030604615",
 }
 
 

@@ -20,7 +20,7 @@ AREA_KEYWORDS = {
         "political economy", "political theory", "legislature",
         "redistricting", "gerrymander", "accountability",
     ],
-    "NLP / Computational": [
+    "Natural Language Processing": [
         "natural language", "nlp", "computational linguist",
         "text mining", "sentiment", "machine learning",
         "artificial intelligence", "deep learning",
@@ -45,17 +45,15 @@ AREA_KEYWORDS = {
         "ecolog", "brain", "genome", "evolution",
         "cognitive", "species", "phenotyp",
     ],
-    "Sociology / Public Health": [
-        "sociolog", "health", "epidemiol",
-        "inequality", "immigra", "food",
-        "nutrition", "anthropol", "demograph",
-        "family", "gender", "marriage", "migration",
-        "stratification", "sport", "injur",
+    "Sociology": [
+        "sociolog", "inequality", "immigra",
+        "demograph", "family", "gender", "marriage",
+        "migration", "stratification",
     ],
-    "Computer Vision": [
-        "computer vision", "image", "3d", "body scan",
-        "mesh", "reconstruction", "rendering", "visual",
-        "object detection", "segmentation", "pose",
+    "Public Health": [
+        "health", "epidemiol", "nutrition",
+        "food", "sport", "injur", "disease",
+        "mortality", "morbidity",
     ],
     "Economics": [
         "econom", "market", "trade", "fiscal", "monetary",
@@ -67,44 +65,50 @@ AREA_KEYWORDS = {
         "moral", "justice", "welfare", "utilitarian",
         "deliberat", "fairness", "reparation",
     ],
+    "Anthropology": [
+        "anthropolog", "ethnograph", "ethnicity", "cultural ecology",
+        "food security", "nutrition transition", "human biology",
+        "biocultural", "global health", "livelihood",
+    ],
 }
 
 # Manual area distributions for people where auto-detection is poor or absent
 # Format: {name: {area: weight, ...}} — weights are relative, get normalized
 MANUAL_AREAS = {
-    "Weihua An": {"Statistics / Causal Inference": 3, "Sociology / Public Health": 2},
+    "Weihua An": {"Statistics / Causal Inference": 3, "Sociology": 2},
     "Adam Glynn": {"Statistics / Causal Inference": 3, "Political Science": 2},
     "Kevin Quinn": {"Statistics / Causal Inference": 3, "Political Science": 2},
     "Clifford Carrubba": {"Political Science": 4, "Statistics / Causal Inference": 1},
     "John W. Patty": {"Political Science": 3, "Statistics / Causal Inference": 1},
     "Maggie Penn": {"Political Science": 3, "Statistics / Causal Inference": 1},
     "Hun Chung": {"Political Science": 2, "Philosophy": 2, "Statistics / Causal Inference": 1},
-    "Lauren Klein": {"Digital Humanities": 3, "NLP / Computational": 1},
-    "Sandeep Soni": {"NLP / Computational": 3, "Digital Humanities": 1},
-    "Alexander Tolbert": {"NLP / Computational": 2, "Philosophy": 1, "Digital Humanities": 1},
-    "Benjamin J. Miller": {"Digital Humanities": 2, "NLP / Computational": 2},
+    "Lauren Klein": {"Digital Humanities": 3, "Natural Language Processing": 1},
+    "Sandeep Soni": {"Natural Language Processing": 3, "Digital Humanities": 1},
+    "Alexander Tolbert": {"Philosophy": 2, "Statistics / Causal Inference": 2},
+    "Benjamin J. Miller": {"Digital Humanities": 3, "Natural Language Processing": 1},
     "Jo Guldi": {"Digital Humanities": 3, "Political Science": 1},
-    "Craig Hadley": {"Sociology / Public Health": 4},
-    "David Hirshberg": {"Statistics / Causal Inference": 3, "Computer Vision": 1},
+    "Craig Hadley": {"Anthropology": 3, "Public Health": 2},
+    "David Hirshberg": {"Statistics / Causal Inference": 3, "Economics": 1},
     "Ruoxuan Xiong": {"Statistics / Causal Inference": 4},
     "Allison Stashko": {"Political Science": 2, "Statistics / Causal Inference": 2},
     "Luis Martinez": {"Political Science": 2, "Economics": 2, "Statistics / Causal Inference": 1},
-    "Pablo Montagnes": {"Political Science": 3, "Statistics / Causal Inference": 1},
+    "Pablo Montagnes": {"Political Science": 2, "Economics": 1, "Statistics / Causal Inference": 1},
     "Zachary Peskowitz": {"Political Science": 4, "Statistics / Causal Inference": 1},
-    "Zachary Binney": {"Sociology / Public Health": 3, "Statistics / Causal Inference": 1},
-    "Gordon Berman": {"Biology / Neuroscience": 3, "NLP / Computational": 1},
+    "Zachary Binney": {"Public Health": 3, "Statistics / Causal Inference": 1},
+    "Gordon Berman": {"Biology / Neuroscience": 4},
     "Michal Arbilly": {"Biology / Neuroscience": 4},
-    "Jinho Choi": {"NLP / Computational": 4},
+    "Jinho Choi": {"Natural Language Processing": 4},
     "Danilo Freire": {"Political Science": 3, "Statistics / Causal Inference": 1},
-    "Alejandro Sanchez Becerra": {"Statistics / Causal Inference": 3, "Political Science": 1},
+    "Alejandro Sanchez Becerra": {"Statistics / Causal Inference": 2, "Economics": 2, "Political Science": 1},
     "Gregory Palermo": {"Digital Humanities": 4},
-    "Dan Sinykin": {"Digital Humanities": 3, "NLP / Computational": 1},
-    "Nathan Hoffmann": {"Sociology / Public Health": 3, "Statistics / Causal Inference": 1},
-    "Heeju Sohn": {"Sociology / Public Health": 4},
-    "Megan Reed": {"Sociology / Public Health": 4},
-    "Ho Jin Kim": {"Biology / Neuroscience": 3, "Statistics / Causal Inference": 1},
+    "Dan Sinykin": {"Digital Humanities": 3, "Natural Language Processing": 1},
+    "Nathan Hoffmann": {"Sociology": 3, "Statistics / Causal Inference": 1},
+    "Heeju Sohn": {"Sociology": 4},
+    "Megan Reed": {"Sociology": 4},
+    "Ho Jin Kim": {"Biology / Neuroscience": 4},
     "Zhiyun Gong": {"Statistics / Causal Inference": 4},
-    "Abhishek Ananth": {"Statistics / Causal Inference": 2, "Economics": 2, "Sociology / Public Health": 1},
+    "Abhishek Ananth": {"Statistics / Causal Inference": 2, "Economics": 2},
+    "Allison Cuttner": {"Political Science": 3, "Statistics / Causal Inference": 1},
     "Kevin McAlister": {"Political Science": 3, "Statistics / Causal Inference": 1},
     "Jacopo Di Iorio": {"Statistics / Causal Inference": 4},
 }
@@ -140,6 +144,7 @@ FACULTY_WEBSITES = {
     "Megan Reed": "https://sites.google.com/view/meganreed/",
     "Abhishek Ananth": "https://abhiananthecon.github.io/",
     "Kevin McAlister": "http://www.kevinmcalister.org/",
+    "Allison Cuttner": "http://www.allisoncuttner.com/",
 }
 
 
@@ -415,7 +420,7 @@ def build_s2_edges(s2_data):
     for i, n1 in enumerate(names):
         for n2 in names[i+1:]:
             overlap = ref_sets[n1] & ref_sets[n2]
-            if len(overlap) >= 3:
+            if len(overlap) >= 2:
                 shared_ref_edges[tuple(sorted([n1, n2]))] = {
                     "count": len(overlap),
                 }
@@ -471,13 +476,25 @@ def main():
         top_pubs = []
         seen_titles = set()
 
+        # Use Scholar publication titles to filter OA papers (removes wrong-person matches)
+        scholar_titles = set()
+        if s and s.get("pub_titles"):
+            for t in s["pub_titles"]:
+                scholar_titles.add(t[:40].lower().strip())
+
+        def title_in_scholar(title):
+            if not scholar_titles:
+                return True  # no Scholar data, allow all
+            return title[:40].lower().strip() in scholar_titles
+
         # Primary source: OpenAlex (unless BAD)
         if name not in BAD_OA and oa and oa.get("works"):
             sorted_works = sorted(oa["works"], key=lambda w: w.get("year") or 0, reverse=True)
             for w in sorted_works:
-                if w.get("title") and w["title"] not in seen_titles:
-                    seen_titles.add(w["title"])
-                    top_pubs.append({"title": w["title"], "year": w.get("year")})
+                title = w.get("title", "")
+                if title and title not in seen_titles and title_in_scholar(title):
+                    seen_titles.add(title)
+                    top_pubs.append({"title": title, "year": w.get("year")})
                     if len(top_pubs) >= 10:
                         break
 
@@ -609,6 +626,45 @@ def main():
 
         if edge["weight"] > 0:
             edges.append(edge)
+
+    # Ensure every node has at least one edge visible at default threshold (5)
+    MIN_VIS_WEIGHT = 5
+    node_by_name = {n["id"]: n for n in nodes}
+    has_visible = set()
+    for e in edges:
+        if e["weight"] >= MIN_VIS_WEIGHT:
+            has_visible.add(e["source"])
+            has_visible.add(e["target"])
+
+    # For isolated nodes, boost their strongest existing edge or create an area-neighbor edge
+    for n in nodes:
+        if n["id"] in has_visible:
+            continue
+        # Try boosting existing edge
+        best_edge = None
+        for e in edges:
+            if n["id"] in (e["source"], e["target"]):
+                if best_edge is None or e["weight"] > best_edge["weight"]:
+                    best_edge = e
+        if best_edge:
+            best_edge["weight"] = MIN_VIS_WEIGHT
+            best_edge["boosted"] = True
+            has_visible.add(n["id"])
+            continue
+        # No edges at all — connect to nearest area neighbor
+        primary = n["primary_area"]
+        for other in nodes:
+            if other["id"] != n["id"] and other["primary_area"] == primary and other["id"] in has_visible:
+                edge = {
+                    "source": min(n["id"], other["id"]),
+                    "target": max(n["id"], other["id"]),
+                    "shared_area": True,
+                    "weight": MIN_VIS_WEIGHT,
+                    "boosted": True,
+                }
+                edges.append(edge)
+                has_visible.add(n["id"])
+                break
 
     edges.sort(key=lambda e: e["weight"], reverse=True)
 

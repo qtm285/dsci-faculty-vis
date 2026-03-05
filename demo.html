@@ -15,49 +15,46 @@
   }
 
   .intro-section {
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 40px 40px;
-    display: flex;
-    gap: 40px;
-    align-items: flex-start;
+    padding: 40px 40px 24px;
   }
 
-  .intro-text {
-    flex: 1;
-    min-width: 0;
-  }
-
-  .intro-text h2 {
+  .intro-section h2 {
     font-size: 24px;
     color: #012169;
     margin-bottom: 16px;
   }
 
-  .intro-text p {
+  .intro-section p {
     font-size: 15px;
     line-height: 1.7;
     color: #444;
     margin-bottom: 14px;
   }
 
-  .intro-text .explore-link {
+  .intro-section .explore-link {
     font-size: 14px;
     color: #012169;
     text-decoration: none;
     font-weight: 600;
   }
-  .intro-text .explore-link:hover { text-decoration: underline; }
+  .intro-section .explore-link:hover { text-decoration: underline; }
 
-  .network-embed iframe {
-    width: 500px;
-    height: 500px;
+  .network-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px 32px;
+  }
+
+  .network-section iframe {
+    width: 100%;
+    aspect-ratio: 4 / 3;
     border: none;
-    flex-shrink: 0;
   }
 
   .labs-section {
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px 40px 60px;
     border-top: 1px solid #e8e8e8;
@@ -122,15 +119,15 @@
 <div class="hero">Research</div>
 
 <div class="intro-section">
-  <div class="intro-text">
-    <h2>Faculty Research Network</h2>
-    <p>One of the most important skills for future data scientists is to know how to meaningfully engage in the expansion and discovery of new knowledge. We offer QTM students exclusive opportunities to gain this experience under the direction of a distinguished faculty member currently conducting cutting-edge research in their field.</p>
-    <p>The network shows how our faculty connect through co-authored papers, shared research topics, and common citations. Click any node or edge to learn more.</p>
-    <a href="index-dept.html" class="explore-link">Explore full interactive version &rarr;</a>
-  </div>
-  <div class="network-embed">
-    <iframe src="index-dept.html?embed" frameborder="0"></iframe>
-  </div>
+  <h2>Faculty Research Network</h2>
+  <p>One of the most important skills for future data scientists is to know how to meaningfully engage in the expansion and discovery of new knowledge. We offer QTM students exclusive opportunities to gain this experience under the direction of a distinguished faculty member currently conducting cutting-edge research in their field.</p>
+  <p>The network shows how our faculty connect through co-authored papers, shared research topics, and common citations. Click any node or edge to learn more.</p>
+  <a href="index-dept.html" class="explore-link">Explore full interactive version &rarr;</a>
+</div>
+
+<div class="network-section">
+  <iframe id="network-frame" frameborder="0"></iframe>
+  <script>document.getElementById('network-frame').src = 'index-dept.html?embed&v=' + Date.now();</script>
 </div>
 
 <div class="labs-section">
