@@ -381,8 +381,8 @@
 
 <div id="weight-control">
   <label>Min edge weight</label>
-  <input type="range" id="weight-slider" min="0" max="100" value="9">
-  <div class="val">Showing edges with weight &ge; <span id="weight-val">9</span></div>
+  <input type="range" id="weight-slider" min="0" max="100" value="6">
+  <div class="val">Showing edges with weight &ge; <span id="weight-val">6</span></div>
 </div>
 
 <div id="tooltip"></div>
@@ -402,7 +402,10 @@ const COLORS = {
   "Natural Language Processing": "#06b6d4",
   "Statistics / Causal Inference": "#8b5cf6",
   "Digital Humanities": "#ec4899",
-  "Biology / Neuroscience": "#22c55e",
+  "Biology": "#22c55e",
+  "Psychology": "#e879f9",
+  "Machine Learning": "#3b82f6",
+  "Formal Theory": "#84cc16",
   "Sociology": "#eab308",
   "Public Health": "#f59e0b",
   "Economics": "#14b8a6",
@@ -453,22 +456,58 @@ function nodeHasArea(d, area) {
 
 let graph, simulation, svg, g, link, node, label;
 let edgeFilter = "all";
-let weightThreshold = 9;
+let weightThreshold = 6;
 let highlightAreas = new Set();
 
 async function init() {
   const resp = await fetch("data/graph.json");
   graph = await resp.json();
 
-  // Load saved layout positions if available
+  // Seed initial positions by discipline area
+  {
+    const areaPos = {
+      'Political Science':             {x: 0.16, y: 0.60},
+      'Formal Theory':                 {x: 0.22, y: 0.38},
+      'Philosophy':                    {x: 0.45, y: 0.35},
+      'Economics':                     {x: 0.38, y: 0.25},
+      'Sociology':                     {x: 0.52, y: 0.22},
+      'Statistics / Causal Inference': {x: 0.52, y: 0.48},
+      'Public Health':                 {x: 0.65, y: 0.28},
+      'Anthropology':                  {x: 0.62, y: 0.38},
+      'Natural Language Processing':   {x: 0.70, y: 0.40},
+      'Machine Learning':              {x: 0.65, y: 0.55},
+      'Biology':                       {x: 0.74, y: 0.22},
+      'Psychology':                    {x: 0.74, y: 0.48},
+      'Digital Humanities':            {x: 0.68, y: 0.52},
+    };
+    const W = Math.min(window.innerWidth, 900);
+    const H = Math.round(W * 0.75);
+    graph.nodes.forEach(n => {
+      const p = areaPos[n.primary_area] || {x: 0.5, y: 0.5};
+      n.x = p.x * W + (Math.random() - 0.5) * 60;
+      n.y = p.y * H + (Math.random() - 0.5) * 60;
+    });
+  }
+
+  // Load saved layout positions if available (overrides seed above)
   try {
     const layoutResp = await fetch("data/layout.json");
     if (layoutResp.ok) {
       const layout = await layoutResp.json();
       const pos = {};
       layout.forEach(p => pos[p.id] = p);
+      const xs = layout.map(p => p.x), ys = layout.map(p => p.y);
+      const xMin = Math.min(...xs), xMax = Math.max(...xs);
+      const yMin = Math.min(...ys), yMax = Math.max(...ys);
+      const margin = 60, topMargin = 100;
+      const scale = Math.min(
+        (window.innerWidth  - 2 * margin) / (xMax - xMin),
+        (window.innerHeight - topMargin - margin) / (yMax - yMin)
+      );
+      const ox = margin - scale * xMin + (window.innerWidth  - 2*margin - scale*(xMax-xMin)) / 2;
+      const oy = topMargin - scale * yMin + (window.innerHeight - topMargin - margin - scale*(yMax-yMin)) / 2;
       graph.nodes.forEach(n => {
-        if (pos[n.id]) { n.x = pos[n.id].x; n.y = pos[n.id].y; }
+        if (pos[n.id]) { n.x = scale * pos[n.id].x + ox; n.y = scale * pos[n.id].y + oy; }
       });
     }
   } catch(e) {}
@@ -482,8 +521,8 @@ async function init() {
   });
   graph.nodes.forEach(n => n._edgeCount = edgeCount[n.id] || 0);
 
-  const width = window.innerWidth;
-  const height = window.innerHeight;
+  const width  = Math.min(window.innerWidth, 900);
+  const height = Math.round(width * 0.75);
 
   svg = d3.select("#graph")
     .attr("width", width)
@@ -509,15 +548,61 @@ async function init() {
   node = g.append("g").attr("class", "nodes").selectAll("g");
   label = g.append("g").attr("class", "labels").selectAll("text");
 
+  const AREA_X = {
+    'Political Science':             0.16,
+    'Formal Theory':                 0.22,
+    'Philosophy':                    0.45,
+    'Economics':                     0.38,
+    'Sociology':                     0.52,
+    'Statistics / Causal Inference': 0.52,
+    'Public Health':                 0.65,
+    'Anthropology':                  0.62,
+    'Natural Language Processing':   0.70,
+    'Machine Learning':              0.65,
+    'Biology':                       0.74,
+    'Psychology':                    0.74,
+    'Digital Humanities':            0.68,
+  };
+  const AREA_Y = {
+    'Political Science':             0.60,
+    'Formal Theory':                 0.38,
+    'Philosophy':                    0.35,
+    'Economics':                     0.25,
+    'Sociology':                     0.22,
+    'Statistics / Causal Inference': 0.48,
+    'Public Health':                 0.28,
+    'Anthropology':                  0.38,
+    'Natural Language Processing':   0.40,
+    'Machine Learning':              0.55,
+    'Biology':                       0.22,
+    'Psychology':                    0.48,
+    'Digital Humanities':            0.52,
+  };
+
   simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(d => d.id).distance(d => {
-      return 120 / Math.sqrt(Math.max(d.weight / 20, 0.5));
+      return 180 / Math.sqrt(Math.max(d.weight / 20, 0.5));
     }))
-    .force("charge", d3.forceManyBody().strength(-300))
-    .force("center", d3.forceCenter(width / 2, height / 2))
-    .force("collision", d3.forceCollide().radius(d => nodeRadius(d) + 4))
-    .force("x", d3.forceX(width / 2).strength(d => d._edgeCount === 0 ? 0.15 : 0.03))
-    .force("y", d3.forceY(height / 2).strength(d => d._edgeCount === 0 ? 0.15 : 0.03));
+    .force("charge", d3.forceManyBody().strength(-420).distanceMax(400))
+    .force("center", d3.forceCenter(width / 2, height * 0.50).strength(0.005))
+    .force("collision", d3.forceCollide().radius(d => nodeRadius(d) + 9))
+    .force("x", d3.forceX(d => {
+      if (d._edgeCount <= 1) return width / 2;
+      return (AREA_X[d.primary_area] || 0.5) * width;
+    }).strength(d => d._edgeCount <= 1 ? 0.15 : 0.06))
+    .force("y", d3.forceY(d => {
+      if (d._edgeCount <= 1) return height / 2;
+      return (AREA_Y[d.primary_area] || 0.5) * height;
+    }).strength(d => d._edgeCount <= 1 ? 0.15 : 0.06))
+    .force("bounds", function(alpha) {
+      const padT = 75, padB = 35, padL = 55, padR = 80;
+      simulation.nodes().forEach(function(n) {
+        if (n.x < padL)              n.vx += (padL - n.x) * 0.04;
+        if (n.x > width - padR)      n.vx -= (n.x - (width - padR)) * 0.04;
+        if (n.y < padT)              n.vy += (padT - n.y) * 0.04;
+        if (n.y > height - padB)     n.vy -= (n.y - (height - padB)) * 0.04;
+      });
+    });
 
   buildLegend();
   setupControls();
@@ -533,7 +618,6 @@ async function init() {
 
 function getFilteredEdges() {
   return graph.edges.filter(e => {
-    if (e.shared_area) return false;
     if (edgeFilter === "coauthor") return e.coauthor_count > 0;
     if (edgeFilter === "refs") return e.shared_refs > 0;
     if (edgeFilter === "topics") return e.shared_topics > 0;
@@ -649,6 +733,14 @@ function update() {
   simulation.alpha(0.5).restart();
 
   simulation.on("tick", () => {
+    const W = +svg.attr("width"), H = +svg.attr("height");
+    const clampT = 70, clampB = 15, clampL = 40, clampR = 55;
+    simulation.nodes().forEach(n => {
+      if (n.x < clampL)     { n.x = clampL;     n.vx = Math.max(0, n.vx); }
+      if (n.x > W - clampR) { n.x = W - clampR; n.vx = Math.min(0, n.vx); }
+      if (n.y < clampT)     { n.y = clampT;     n.vy = Math.max(0, n.vy); }
+      if (n.y > H - clampB) { n.y = H - clampB; n.vy = Math.min(0, n.vy); }
+    });
     link
       .attr("x1", d => d.source.x)
       .attr("y1", d => d.source.y)
@@ -656,7 +748,8 @@ function update() {
       .attr("y2", d => d.target.y);
     node.attr("transform", d => `translate(${d.x},${d.y})`);
     label
-      .attr("x", d => d.x + nodeRadius(d) + 5)
+      .attr("x", d => d.x > W * 0.78 ? d.x - nodeRadius(d) - 5 : d.x + nodeRadius(d) + 5)
+      .attr("text-anchor", d => d.x > W * 0.78 ? "end" : "start")
       .attr("y", d => d.y + 4);
   });
 }
