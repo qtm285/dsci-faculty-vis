@@ -38410,7 +38410,7 @@
     ]
   },
   {
-    "name": "Alejandro Sanchez Becerra",
+    "name": "Alejandro S\u00e1nchez Becerra",
     "s2_author_id": "2051323257",
     "s2_name": "Alejandro S\u00e1nchez-Becerra",
     "s2_paper_count": 7,
@@ -48203,6 +48203,269 @@
           {
             "id": "153019067",
             "name": "M. Reed"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "name": "Joseph Sutherland",
+    "s2_author_id": "143931422",
+    "s2_name": "Joseph L. Sutherland",
+    "s2_paper_count": 9,
+    "s2_citation_count": 458,
+    "s2_hindex": 5,
+    "s2_affiliations": [],
+    "papers": [
+      {
+        "paperId": "e4ea3cef7140f717c68785c844e867bdb0898497",
+        "title": "The Rise of Self-Censorship in America",
+        "year": 2024,
+        "venue": "Social Science Research Network",
+        "citationCount": 1,
+        "doi": "10.2139/ssrn.4671208",
+        "authors": [
+          {
+            "id": "143931422",
+            "name": "Joseph L. Sutherland"
+          },
+          {
+            "id": "2279597636",
+            "name": "James L. Gibson"
+          }
+        ],
+        "references": []
+      },
+      {
+        "paperId": "40e964861accfd1e66ff359acff61d24c674ea38",
+        "title": "Encouraging Black and Latinx Radio Audiences to Register to Vote: A Field Experiment",
+        "year": 2023,
+        "venue": "American Politics Research",
+        "citationCount": 0,
+        "doi": "10.1177/1532673X231184437",
+        "authors": [
+          {
+            "id": "123752163",
+            "name": "Hayley Cohen"
+          },
+          {
+            "id": "1738384",
+            "name": "Ignacio Aguaded"
+          },
+          {
+            "id": "2113744729",
+            "name": "Donald P. Green"
+          },
+          {
+            "id": "143931422",
+            "name": "Joseph L. Sutherland"
+          },
+          {
+            "id": "2209645819",
+            "name": "Michelle A. Zee"
+          }
+        ],
+        "references": []
+      },
+      {
+        "paperId": "4c6d32919701d42a2faf2be44a20468b421caee7",
+        "title": "Have State Policy Agendas Become More Nationalized?",
+        "year": 2022,
+        "venue": "Journal of Politics",
+        "citationCount": 6,
+        "doi": "10.1086/720792",
+        "authors": [
+          {
+            "id": "49949135",
+            "name": "Daniel M. Butler"
+          },
+          {
+            "id": "143931422",
+            "name": "Joseph L. Sutherland"
+          }
+        ],
+        "references": []
+      },
+      {
+        "paperId": "a205409e323ff9f69c20b210f54159455deb11a3",
+        "title": "The Effect of Gender on Interruptions at Congressional Hearings",
+        "year": 2022,
+        "venue": "American Political Science Review",
+        "citationCount": 26,
+        "doi": "10.1017/S0003055422000260",
+        "authors": [
+          {
+            "id": "46906841",
+            "name": "Michael G. Miller"
+          },
+          {
+            "id": "143931422",
+            "name": "Joseph L. Sutherland"
+          }
+        ],
+        "references": [
+          "e027bd992e34f5e5da991808e6a0e5c52fa88751",
+          "6b434d540ad7f3ceae85f45da924d19e46ff981b",
+          "7ae810ac4890adc15eefbed09181636872dfa203",
+          "ff4d071700c646c6ed5d1388f4c9ac9c5d183628",
+          "26e12116ae676fa6d9f81f7284101c84c881a343",
+          "7e9f92f3c0fc41b0cf6608d16373582bbaf4c091",
+          "a5af88544907fc327e79aeaff634c933982edf5c",
+          "29eeb4d14b472c4ec44fd446b07ae5bef03ad14f",
+          "06060611003bc3f0bfdb6592f55fe72ece362eaa",
+          "bc8f7327bb1db0c27f5d11dd308e963c0ffa7680",
+          "f750fab49a479bb3037b4b287b08fc858e9d8ec4",
+          "8af9573538024dd9ed813e1fab509b5a880735e6",
+          "f9d437cf7d7a60600b1154c9c448708c0860deff",
+          "09f541d02ad8d9d5b30beddc89718a2fdc55e8e4",
+          "5f2ccc2b7d893eba3bfb1551fc2d4eb7c7b8b90e",
+          "a92fb4c3cb3798ccee77442b53a77d02a56741bd",
+          "b9921fb4d1448058642897797e77bdaf8f444404",
+          "61581d7629499dd9fe63900787107d3f38911cf9",
+          "44a951fb01d3b89e0ae7cdc51cd9582ea0a1e34f",
+          "81ed4af69b8ef00c9fcb9499a207d798e4b67134",
+          "6bc6e6f99a1b93477f0649a9d3e2e4dc7765c07f",
+          "bdf32b622948ccd4de67e08c5a83b45b703c1f8d",
+          "a997afd94dfb41ae8e2cddeffb09570dd5042b78",
+          "0f4f93612f0c367db10ed16b69a818d93435cf63",
+          "fb78a646619807a572d073760a70c8ad15c555f5",
+          "425a06c8def90c941bc1cda217f69f296c8463cb",
+          "2f9f577873854c3b6484f136496565b414549d35",
+          "c1674e97a7d1be5f5067a1f7c775fc76fc35e8fc",
+          "db23e0560fccb6b405edf4869322c070cf27cc0a",
+          "021af171454b8891486fde9f6f5704a91bf82eab",
+          "5d873e9c1c8050c27934a20d6c633802b1d656cf",
+          "2cd14ef16eb21cf652eb049f3894bf6217943255",
+          "e5b2e1985ce3b1b7f6f3e9cd9610bce128217fab",
+          "8f9a3dcdff87c2f5040f966e731764d8e1632ccb",
+          "91e8a3fb48cc9089fd5690932c92f359486ac8b2",
+          "c1cde91db74ab27bccd169c448a7bff8212c5291",
+          "8c99ca2073803416a6c3ecfcda134da0b28d1633",
+          "80d8ef3aeb13f748dd1ac811ecc2558119e197ea",
+          "20f977aa91b09a6b3a10bb0e3df19a4f72017854",
+          "ed6af4ece86fa179be269b5884de9c793fd0ee4f",
+          "efba0bb9e982cdb0c2aa6567fd8d6186762a5419",
+          "0f0ae2bee7051196960238ec5996056cf2395ded",
+          "fbb0f39ed0a93a7ded1ce6cb9d0829150e3bbe39",
+          "1b581e11dfa8d47d839f0d75027bcdf20f44fe19",
+          "730bb3da843f85c03db767087887f21a393686ac",
+          "f8cdd489f8d667cc4cb01cd255e7e10c257369ef",
+          "9f479d3f2ba019eb52c47dd69383888c0ad5c42a",
+          "85848237c50e176c8ad1929cc0fc26c0bf41df08",
+          "8d799fe69efe48611984b395468ad391dcf1164c",
+          "5a19f4ce1b0b892cb2b4a4f8b1510179d81ed403",
+          "437fedd80a4d36b813e0c237e493702144c84aea",
+          "a6a4a9f432f0c0b5059f52ace27a2713f4a4ff7d",
+          "9788d53b7ab63a8661eaf283ee77aeb5a238db0b",
+          "50c1bd1404fd1cd12a8da5c7844150add587d9c3",
+          "297298162b8bd87f035dde29d591b4681fad02ae",
+          "3eeb3821e88ce88e51bf0cce529392e24c8044ea",
+          "5aad2cf82e1717ab101786f14571bb318399da64",
+          "0e5c4a497865afd9ac723d787bba0ffe219be78a",
+          "bee7652e4f0c6f4e12077988cf18136edb5bde1d",
+          "ad1b1a08bf2e26a41ea84427be40c4fb9c2095ba",
+          "32cf4ed7c9c66c1c34df6891d92d1d5908cba620",
+          "bef2dc0106f1710a7b0a20fc472aae91d408dd13",
+          "b294d42acc17b01e9c0f3662a279f0cb91e674cb",
+          "21013a738336a176caa2e51d88ca7a7491df4aab"
+        ]
+      },
+      {
+        "paperId": "6553f53c528ed04ebeead6d5682800ecb4402a04",
+        "title": "Keeping Your Mouth Shut: Spiraling Self-Censorship in the United States",
+        "year": 2020,
+        "venue": "Social Science Research Network",
+        "citationCount": 34,
+        "doi": "10.2139/ssrn.3647099",
+        "authors": [
+          {
+            "id": "145622812",
+            "name": "J. Gibson"
+          },
+          {
+            "id": "143931422",
+            "name": "Joseph L. Sutherland"
+          }
+        ],
+        "references": []
+      },
+      {
+        "paperId": "9cdc1db6f2eeb34ddb2c5e34873f09f10d9c665a",
+        "title": "Three essays on the study of nationalization with automated content analysis",
+        "year": 2020,
+        "venue": "",
+        "citationCount": 0,
+        "doi": "10.7916/D8-WF0X-6K97",
+        "authors": [
+          {
+            "id": "143931422",
+            "name": "Joseph L. Sutherland"
+          }
+        ],
+        "references": []
+      },
+      {
+        "paperId": "947b4cffe1c1cb8e7dc9453132c7753c488c9754",
+        "title": "Multilevel customer segmentation for off-grid solar in developing countries: Evidence from solar home systems in Rwanda and Kenya",
+        "year": 2019,
+        "venue": "Energy",
+        "citationCount": 29,
+        "doi": "10.1016/J.ENERGY.2019.07.058",
+        "authors": [
+          {
+            "id": "2161920",
+            "name": "Ryan Kennedy"
+          },
+          {
+            "id": "122340683",
+            "name": "Sini Numminen"
+          },
+          {
+            "id": "143931422",
+            "name": "Joseph L. Sutherland"
+          },
+          {
+            "id": "11005652",
+            "name": "Johannes Urpelainen"
+          }
+        ],
+        "references": []
+      },
+      {
+        "paperId": "5adca7cb085cd04252d9ee5a1052e836265c96c2",
+        "title": "How Ideology Fuels Affective Polarization",
+        "year": 2016,
+        "venue": "",
+        "citationCount": 364,
+        "doi": "10.1007/S11109-015-9323-7",
+        "authors": [
+          {
+            "id": "103287080",
+            "name": "Jon C. Rogowski"
+          },
+          {
+            "id": "143931422",
+            "name": "Joseph L. Sutherland"
+          }
+        ],
+        "references": []
+      },
+      {
+        "paperId": "2b4de2f349c4f0378b9fc9c4c1ef36068f2e63fd",
+        "title": "How Ideology Fuels Affective Polarization",
+        "year": 2015,
+        "venue": "Political Behavior",
+        "citationCount": 0,
+        "doi": "10.1007/s11109-015-9323-7",
+        "authors": [
+          {
+            "id": "103287080",
+            "name": "Jon C. Rogowski"
+          },
+          {
+            "id": "143931422",
+            "name": "Joseph L. Sutherland"
           }
         ],
         "references": []

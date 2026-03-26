@@ -431,5 +431,12 @@
     },
     "verified_overlap": 6,
     "method": "paper"
+  },
+  {
+    "name": "Joseph Sutherland",
+    "s2_author_id": "143931422",
+    "s2_author_name": "Joseph L. Sutherland",
+    "seed_paper": null,
+    "method": "manual"
   }
 ]
