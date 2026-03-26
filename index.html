@@ -707,7 +707,12 @@ function update() {
   const labelEnter = label.enter().append("text")
     .text(d => {
       const parts = d.id.split(" ");
-      if (parts.length > 2) return parts[0][0] + ". " + parts.slice(-1)[0];
+      // Keep compound last names (Di Iorio, Sánchez Becerra, Jin Kim)
+      // but drop middle initials (J., W.)
+      if (parts.length > 2) {
+        const rest = parts.slice(1).filter(p => !(p.length <= 2 && p.endsWith(".")));
+        return parts[0][0] + ". " + rest.join(" ");
+      }
       return parts[0][0] + ". " + parts.slice(1).join(" ");
     })
     .attr("font-size", "11px")
