@@ -2287,41 +2287,41 @@
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2119290332",
         "https://openalex.org/W2014607560",
-        "https://openalex.org/W2797842723",
         "https://openalex.org/W2018400246",
-        "https://openalex.org/W2316473956",
+        "https://openalex.org/W2797842723",
         "https://openalex.org/W1977825494",
-        "https://openalex.org/W1985194351",
-        "https://openalex.org/W2041138693",
+        "https://openalex.org/W2316473956",
+        "https://openalex.org/W1522977723",
         "https://openalex.org/W2144846366",
-        "https://openalex.org/W2156774085",
-        "https://openalex.org/W609693342",
         "https://openalex.org/W4232462766",
+        "https://openalex.org/W2017099368",
+        "https://openalex.org/W2137522380",
+        "https://openalex.org/W1985194351",
         "https://openalex.org/W2041670126",
-        "https://openalex.org/W2017099368"
+        "https://openalex.org/W1515771701"
       ],
       "shared_topics": 7,
       "shared_topic_names": [
-        "Experimental Behavioral Economics Studies",
+        "Local Government Finance and Decentralization",
         "Ethics and Social Impacts of AI",
-        "Judicial and Constitutional Studies",
         "Electoral Systems and Political Participation",
         "Game Theory and Voting Systems",
-        "Local Government Finance and Decentralization",
-        "Political Philosophy and Ethics"
+        "Political Philosophy and Ethics",
+        "Judicial and Constitutional Studies",
+        "Experimental Behavioral Economics Studies"
       ],
       "shared_journals": 15,
       "shared_journal_names": [
-        "Philosophy Compass",
-        "American Political Science Review",
-        "American Journal of Political Science",
-        "PS Political Science & Politics",
-        "Journal of Theoretical Politics",
         "Journal of Political Institutions and Political Economy",
+        "Political Analysis",
+        "Public Choice",
+        "American Journal of Political Science",
+        "Philosophy Compass",
+        "Political Science Research and Methods",
         "Social Choice and Welfare",
-        "The Journal of Politics",
-        "Quarterly Journal of Political Science",
-        "Political Analysis"
+        "Journal of Theoretical Politics",
+        "American Political Science Review",
+        "Quarterly Journal of Political Science"
       ],
       "weight": 496.5
     },
@@ -2353,28 +2353,28 @@
         "https://openalex.org/W1978108654",
         "https://openalex.org/W1587375510",
         "https://openalex.org/W2139577967",
-        "https://openalex.org/W2003350916",
-        "https://openalex.org/W1977082364",
-        "https://openalex.org/W2094736317",
-        "https://openalex.org/W636383266",
-        "https://openalex.org/W2586957537",
-        "https://openalex.org/W2010505816",
-        "https://openalex.org/W2066443416",
+        "https://openalex.org/W2029941278",
         "https://openalex.org/W3125459412",
-        "https://openalex.org/W4299614237"
+        "https://openalex.org/W636383266",
+        "https://openalex.org/W1977082364",
+        "https://openalex.org/W2586957537",
+        "https://openalex.org/W2094736317",
+        "https://openalex.org/W2003350916",
+        "https://openalex.org/W4299614237",
+        "https://openalex.org/W2066443416"
       ],
       "shared_topics": 4,
       "shared_topic_names": [
         "Judicial and Constitutional Studies",
-        "Qualitative Comparative Analysis Research",
+        "Electoral Systems and Political Participation",
         "Economic and Environmental Valuation",
-        "Electoral Systems and Political Participation"
+        "Qualitative Comparative Analysis Research"
       ],
       "shared_journals": 3,
       "shared_journal_names": [
-        "The Journal of Politics",
         "American Journal of Political Science",
-        "Political Analysis"
+        "Political Analysis",
+        "The Journal of Politics"
       ],
       "weight": 109.5
     },
@@ -2393,33 +2393,33 @@
       "shared_ref_ids": [
         "https://openalex.org/W2119290332",
         "https://openalex.org/W2014607560",
-        "https://openalex.org/W1580899010",
-        "https://openalex.org/W2018400246",
-        "https://openalex.org/W1977825494",
         "https://openalex.org/W2797842723",
+        "https://openalex.org/W1977825494",
+        "https://openalex.org/W2018400246",
         "https://openalex.org/W2164540423",
-        "https://openalex.org/W1543247094",
+        "https://openalex.org/W1580899010",
         "https://openalex.org/W3123571579",
         "https://openalex.org/W1515771701",
-        "https://openalex.org/W2095421991",
-        "https://openalex.org/W1559198035",
-        "https://openalex.org/W1963665967",
+        "https://openalex.org/W1543247094",
         "https://openalex.org/W2149150235",
-        "https://openalex.org/W1600999817"
+        "https://openalex.org/W2144532310",
+        "https://openalex.org/W2158908829",
+        "https://openalex.org/W2021515572",
+        "https://openalex.org/W1534757324"
       ],
       "shared_topics": 3,
       "shared_topic_names": [
-        "Electoral Systems and Political Participation",
         "Political Conflict and Governance",
+        "Electoral Systems and Political Participation",
         "Political Influence and Corporate Strategies"
       ],
       "shared_journals": 5,
       "shared_journal_names": [
         "Journal of Public Economics",
-        "American Political Science Review",
         "Public Opinion Quarterly",
-        "The Journal of Politics",
-        "Political Science Research and Methods"
+        "Political Science Research and Methods",
+        "American Political Science Review",
+        "The Journal of Politics"
       ],
       "weight": 93.5
     },
@@ -2432,35 +2432,35 @@
         "https://openalex.org/W2119290332",
         "https://openalex.org/W2153140039",
         "https://openalex.org/W2014607560",
-        "https://openalex.org/W2316473956",
         "https://openalex.org/W2018400246",
         "https://openalex.org/W2164540423",
-        "https://openalex.org/W609693342",
-        "https://openalex.org/W109341979",
-        "https://openalex.org/W1974964983",
-        "https://openalex.org/W1992503224",
-        "https://openalex.org/W4232462766",
+        "https://openalex.org/W2316473956",
         "https://openalex.org/W39453265",
+        "https://openalex.org/W1974964983",
+        "https://openalex.org/W1522977723",
+        "https://openalex.org/W2104614985",
+        "https://openalex.org/W1992503224",
+        "https://openalex.org/W2014602527",
         "https://openalex.org/W2041670126",
-        "https://openalex.org/W2014602527"
+        "https://openalex.org/W609693342"
       ],
       "shared_topics": 5,
       "shared_topic_names": [
-        "Judicial and Constitutional Studies",
+        "Local Government Finance and Decentralization",
         "Electoral Systems and Political Participation",
         "Game Theory and Voting Systems",
-        "Local Government Finance and Decentralization",
+        "Judicial and Constitutional Studies",
         "Experimental Behavioral Economics Studies"
       ],
       "shared_journals": 7,
       "shared_journal_names": [
-        "American Political Science Review",
-        "American Journal of Political Science",
         "Journal of Law and Courts",
-        "Journal of Theoretical Politics",
         "Political Analysis",
-        "The Journal of Politics",
-        "Annual Review of Political Science"
+        "American Journal of Political Science",
+        "Journal of Theoretical Politics",
+        "American Political Science Review",
+        "Annual Review of Political Science",
+        "The Journal of Politics"
       ],
       "weight": 70.5
     },
@@ -2477,19 +2477,19 @@
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2132917208",
-        "https://openalex.org/W3144040573",
         "https://openalex.org/W4229737049",
-        "https://openalex.org/W2171443468",
         "https://openalex.org/W2143891888",
-        "https://openalex.org/W2150291618",
+        "https://openalex.org/W2171443468",
+        "https://openalex.org/W3144040573",
         "https://openalex.org/W2577227262",
-        "https://openalex.org/W1585814636",
-        "https://openalex.org/W2465587637",
-        "https://openalex.org/W2139577967",
-        "https://openalex.org/W2996483157",
-        "https://openalex.org/W2314734263",
+        "https://openalex.org/W2150291618",
+        "https://openalex.org/W2124758339",
+        "https://openalex.org/W2064790857",
+        "https://openalex.org/W3124658416",
+        "https://openalex.org/W3125601827",
         "https://openalex.org/W3122542817",
-        "https://openalex.org/W2124758339"
+        "https://openalex.org/W2139577967",
+        "https://openalex.org/W2465587637"
       ],
       "shared_topics": 3,
       "shared_topic_names": [
@@ -2499,8 +2499,8 @@
       ],
       "shared_journals": 2,
       "shared_journal_names": [
-        "Sociological Methodology",
-        "Sociological Methods & Research"
+        "Sociological Methods & Research",
+        "Sociological Methodology"
       ],
       "weight": 69.0
     },
@@ -2510,36 +2510,36 @@
       "shared_refs": 94,
       "shared_ref_ids": [
         "https://openalex.org/W2119290332",
-        "https://openalex.org/W2153140039",
         "https://openalex.org/W2014607560",
-        "https://openalex.org/W2797842723",
-        "https://openalex.org/W1580899010",
+        "https://openalex.org/W2153140039",
         "https://openalex.org/W2018400246",
+        "https://openalex.org/W1580899010",
+        "https://openalex.org/W2797842723",
         "https://openalex.org/W1977825494",
         "https://openalex.org/W2164540423",
-        "https://openalex.org/W609693342",
-        "https://openalex.org/W4232462766",
+        "https://openalex.org/W2040898367",
+        "https://openalex.org/W2065775761",
         "https://openalex.org/W2144846366",
+        "https://openalex.org/W1515771701",
         "https://openalex.org/W2068115726",
         "https://openalex.org/W3123571579",
-        "https://openalex.org/W1515771701",
-        "https://openalex.org/W2156774085"
+        "https://openalex.org/W609693342"
       ],
       "shared_topics": 6,
       "shared_topic_names": [
-        "Judicial and Constitutional Studies",
         "Electoral Systems and Political Participation",
-        "Political Influence and Corporate Strategies",
         "Game Theory and Voting Systems",
         "Auction Theory and Applications",
-        "Experimental Behavioral Economics Studies"
+        "Judicial and Constitutional Studies",
+        "Experimental Behavioral Economics Studies",
+        "Political Influence and Corporate Strategies"
       ],
       "shared_journals": 4,
       "shared_journal_names": [
-        "American Political Science Review",
-        "The Journal of Politics",
+        "Journal of Political Institutions and Political Economy",
         "Political Science Research and Methods",
-        "Journal of Political Institutions and Political Economy"
+        "The Journal of Politics",
+        "American Political Science Review"
       ],
       "weight": 68.0
     },
@@ -2551,34 +2551,34 @@
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2119290332",
         "https://openalex.org/W2014607560",
+        "https://openalex.org/W2797842723",
+        "https://openalex.org/W1977825494",
+        "https://openalex.org/W2018400246",
+        "https://openalex.org/W2164540423",
         "https://openalex.org/W1580899010",
         "https://openalex.org/W2316473956",
-        "https://openalex.org/W2018400246",
-        "https://openalex.org/W1977825494",
-        "https://openalex.org/W2797842723",
-        "https://openalex.org/W2164540423",
-        "https://openalex.org/W1992503224",
         "https://openalex.org/W2137522380",
-        "https://openalex.org/W1543247094",
-        "https://openalex.org/W2017099368",
+        "https://openalex.org/W1992503224",
+        "https://openalex.org/W3123571579",
         "https://openalex.org/W2014602527",
-        "https://openalex.org/W3123571579"
+        "https://openalex.org/W1515771701",
+        "https://openalex.org/W2017099368"
       ],
       "shared_topics": 4,
       "shared_topic_names": [
         "Local Government Finance and Decentralization",
+        "Ethics and Social Impacts of AI",
         "Electoral Systems and Political Participation",
-        "Political Influence and Corporate Strategies",
-        "Ethics and Social Impacts of AI"
+        "Political Influence and Corporate Strategies"
       ],
       "shared_journals": 6,
       "shared_journal_names": [
-        "American Political Science Review",
-        "American Journal of Political Science",
-        "Journal of Theoretical Politics",
         "Journal of Public Administration Research and Theory",
-        "The Journal of Politics",
-        "Political Science Research and Methods"
+        "American Journal of Political Science",
+        "Political Science Research and Methods",
+        "Journal of Theoretical Politics",
+        "American Political Science Review",
+        "The Journal of Politics"
       ],
       "weight": 67.0
     },
@@ -2589,34 +2589,34 @@
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2133469585",
+        "https://openalex.org/W2144846366",
+        "https://openalex.org/W2041138693",
+        "https://openalex.org/W2068115726",
         "https://openalex.org/W1985194351",
         "https://openalex.org/W2004900762",
-        "https://openalex.org/W2041138693",
-        "https://openalex.org/W2144846366",
-        "https://openalex.org/W2068115726",
-        "https://openalex.org/W2129678216",
-        "https://openalex.org/W627827853",
-        "https://openalex.org/W2324390406",
-        "https://openalex.org/W2027038350",
-        "https://openalex.org/W2240337415",
-        "https://openalex.org/W2081414680",
-        "https://openalex.org/W2073804152",
-        "https://openalex.org/W2100550434"
+        "https://openalex.org/W2136096971",
+        "https://openalex.org/W1993313925",
+        "https://openalex.org/W1975833254",
+        "https://openalex.org/W1965405204",
+        "https://openalex.org/W2254665303",
+        "https://openalex.org/W4230906437",
+        "https://openalex.org/W1986078414",
+        "https://openalex.org/W3011865677"
       ],
       "shared_topics": 5,
       "shared_topic_names": [
-        "Game Theory and Applications",
-        "Decision-Making and Behavioral Economics",
         "Game Theory and Voting Systems",
         "Political Philosophy and Ethics",
-        "Experimental Behavioral Economics Studies"
+        "Experimental Behavioral Economics Studies",
+        "Game Theory and Applications",
+        "Decision-Making and Behavioral Economics"
       ],
       "shared_journals": 4,
       "shared_journal_names": [
-        "American Political Science Review",
-        "Journal of Theoretical Politics",
         "American Journal of Political Science",
-        "The Journal of Politics"
+        "Journal of Theoretical Politics",
+        "The Journal of Politics",
+        "American Political Science Review"
       ],
       "weight": 66.0
     },
@@ -2626,34 +2626,34 @@
       "shared_refs": 58,
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
+        "https://openalex.org/W2144846366",
+        "https://openalex.org/W2041138693",
+        "https://openalex.org/W2068115726",
         "https://openalex.org/W1985194351",
         "https://openalex.org/W2004900762",
-        "https://openalex.org/W2041138693",
-        "https://openalex.org/W2144846366",
-        "https://openalex.org/W2068115726",
-        "https://openalex.org/W2129678216",
-        "https://openalex.org/W627827853",
-        "https://openalex.org/W2324390406",
-        "https://openalex.org/W2027038350",
-        "https://openalex.org/W2240337415",
-        "https://openalex.org/W2081414680",
-        "https://openalex.org/W2073804152",
-        "https://openalex.org/W2100550434",
-        "https://openalex.org/W2327081444"
+        "https://openalex.org/W2136096971",
+        "https://openalex.org/W1993313925",
+        "https://openalex.org/W1975833254",
+        "https://openalex.org/W1965405204",
+        "https://openalex.org/W2254665303",
+        "https://openalex.org/W4230906437",
+        "https://openalex.org/W1986078414",
+        "https://openalex.org/W2026043261",
+        "https://openalex.org/W2043715088"
       ],
       "shared_topics": 4,
       "shared_topic_names": [
-        "Political Philosophy and Ethics",
+        "Experimental Behavioral Economics Studies",
         "Religion and Society Interactions",
         "Game Theory and Voting Systems",
-        "Experimental Behavioral Economics Studies"
+        "Political Philosophy and Ethics"
       ],
       "shared_journals": 4,
       "shared_journal_names": [
-        "American Political Science Review",
-        "Journal of Theoretical Politics",
         "American Journal of Political Science",
-        "The Journal of Politics"
+        "Journal of Theoretical Politics",
+        "The Journal of Politics",
+        "American Political Science Review"
       ],
       "weight": 64.0
     },
@@ -2664,18 +2664,18 @@
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2119290332",
-        "https://openalex.org/W2153140039",
         "https://openalex.org/W2014607560",
-        "https://openalex.org/W1580899010",
-        "https://openalex.org/W1977825494",
+        "https://openalex.org/W2153140039",
         "https://openalex.org/W2797842723",
+        "https://openalex.org/W1977825494",
         "https://openalex.org/W2164540423",
-        "https://openalex.org/W109341979",
-        "https://openalex.org/W2157465753",
-        "https://openalex.org/W1985194351",
-        "https://openalex.org/W1974964983",
-        "https://openalex.org/W2004900762",
+        "https://openalex.org/W1580899010",
         "https://openalex.org/W39453265",
+        "https://openalex.org/W1974964983",
+        "https://openalex.org/W1522977723",
+        "https://openalex.org/W2104614985",
+        "https://openalex.org/W3123571579",
+        "https://openalex.org/W2041670126",
         "https://openalex.org/W2040898367"
       ],
       "shared_topics": 2,
@@ -2685,12 +2685,12 @@
       ],
       "shared_journals": 6,
       "shared_journal_names": [
-        "American Journal of Political Science",
         "Journal of Law and Courts",
-        "Public Choice",
         "Political Analysis",
-        "The Journal of Politics",
-        "Quarterly Journal of Political Science"
+        "Public Choice",
+        "American Journal of Political Science",
+        "Quarterly Journal of Political Science",
+        "The Journal of Politics"
       ],
       "weight": 63.0
     },
@@ -2700,27 +2700,27 @@
       "shared_refs": 52,
       "shared_ref_ids": [
         "https://openalex.org/W2132917208",
-        "https://openalex.org/W3144040573",
         "https://openalex.org/W4229737049",
-        "https://openalex.org/W2153140039",
         "https://openalex.org/W2143891888",
-        "https://openalex.org/W2331253396",
+        "https://openalex.org/W2153140039",
+        "https://openalex.org/W3144040573",
         "https://openalex.org/W1978108654",
-        "https://openalex.org/W1585814636",
-        "https://openalex.org/W2996483157",
+        "https://openalex.org/W2331253396",
         "https://openalex.org/W2064790857",
-        "https://openalex.org/W3121385028",
-        "https://openalex.org/W2139577967",
-        "https://openalex.org/W3125057276",
+        "https://openalex.org/W2996483157",
         "https://openalex.org/W2151780178",
-        "https://openalex.org/W1533369859"
+        "https://openalex.org/W3125057276",
+        "https://openalex.org/W2139577967",
+        "https://openalex.org/W1585814636",
+        "https://openalex.org/W3121385028",
+        "https://openalex.org/W2024358613"
       ],
       "shared_topics": 4,
       "shared_topic_names": [
-        "Crime Patterns and Interventions",
-        "Qualitative Comparative Analysis Research",
         "Political Conflict and Governance",
-        "Electoral Systems and Political Participation"
+        "Electoral Systems and Political Participation",
+        "Crime Patterns and Interventions",
+        "Qualitative Comparative Analysis Research"
       ],
       "shared_journals": 2,
       "shared_journal_names": [
@@ -2736,31 +2736,31 @@
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2119290332",
-        "https://openalex.org/W2153140039",
         "https://openalex.org/W2014607560",
+        "https://openalex.org/W2153140039",
         "https://openalex.org/W2164540423",
-        "https://openalex.org/W109341979",
-        "https://openalex.org/W1587375510",
-        "https://openalex.org/W1974964983",
         "https://openalex.org/W39453265",
-        "https://openalex.org/W2041670126",
+        "https://openalex.org/W1587375510",
         "https://openalex.org/W1522977723",
         "https://openalex.org/W2104614985",
-        "https://openalex.org/W2000990967",
+        "https://openalex.org/W2041670126",
+        "https://openalex.org/W109341979",
+        "https://openalex.org/W1974964983",
+        "https://openalex.org/W2077464831",
         "https://openalex.org/W2059507723",
         "https://openalex.org/W2094736317"
       ],
       "shared_topics": 3,
       "shared_topic_names": [
         "Judicial and Constitutional Studies",
-        "Electoral Systems and Political Participation",
-        "Legal and Constitutional Studies"
+        "Legal and Constitutional Studies",
+        "Electoral Systems and Political Participation"
       ],
       "shared_journals": 5,
       "shared_journal_names": [
-        "American Journal of Political Science",
         "Journal of Law and Courts",
         "Political Analysis",
+        "American Journal of Political Science",
         "The Journal of Law Economics and Organization",
         "The Journal of Politics"
       ],
@@ -2773,25 +2773,25 @@
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2132917208",
-        "https://openalex.org/W3144040573",
         "https://openalex.org/W4229737049",
         "https://openalex.org/W2171443468",
-        "https://openalex.org/W2150291618",
-        "https://openalex.org/W3150893739",
+        "https://openalex.org/W3144040573",
         "https://openalex.org/W3122193054",
         "https://openalex.org/W2331253396",
+        "https://openalex.org/W2150291618",
         "https://openalex.org/W3123436326",
-        "https://openalex.org/W3122781290",
-        "https://openalex.org/W3125601827",
-        "https://openalex.org/W3125057276",
+        "https://openalex.org/W3150893739",
         "https://openalex.org/W2039811614",
-        "https://openalex.org/W2911964244"
+        "https://openalex.org/W2155163959",
+        "https://openalex.org/W3125601827",
+        "https://openalex.org/W3122781290",
+        "https://openalex.org/W3125057276"
       ],
       "shared_topics": 3,
       "shared_topic_names": [
+        "Statistical Methods and Bayesian Inference",
         "Advanced Causal Inference Techniques",
-        "Statistical Methods and Inference",
-        "Statistical Methods and Bayesian Inference"
+        "Statistical Methods and Inference"
       ],
       "weight": 56.0
     },
@@ -2803,37 +2803,37 @@
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2119290332",
         "https://openalex.org/W2014607560",
-        "https://openalex.org/W2316473956",
         "https://openalex.org/W2018400246",
+        "https://openalex.org/W2316473956",
+        "https://openalex.org/W39453265",
+        "https://openalex.org/W1522977723",
+        "https://openalex.org/W2104614985",
+        "https://openalex.org/W1992503224",
+        "https://openalex.org/W2014602527",
+        "https://openalex.org/W2041670126",
         "https://openalex.org/W609693342",
         "https://openalex.org/W109341979",
-        "https://openalex.org/W1974964983",
-        "https://openalex.org/W1992503224",
         "https://openalex.org/W4232462766",
-        "https://openalex.org/W39453265",
-        "https://openalex.org/W2041670126",
-        "https://openalex.org/W2014602527",
-        "https://openalex.org/W2104614985",
-        "https://openalex.org/W1522977723"
+        "https://openalex.org/W1974964983"
       ],
       "shared_topics": 6,
       "shared_topic_names": [
-        "Judicial and Constitutional Studies",
+        "Political Conflict and Governance",
+        "Local Government Finance and Decentralization",
         "Electoral Systems and Political Participation",
         "Game Theory and Voting Systems",
-        "Local Government Finance and Decentralization",
-        "Political Conflict and Governance",
+        "Judicial and Constitutional Studies",
         "Experimental Behavioral Economics Studies"
       ],
       "shared_journals": 7,
       "shared_journal_names": [
-        "American Political Science Review",
+        "Political Analysis",
         "American Journal of Political Science",
         "Journal of Theoretical Politics",
+        "American Political Science Review",
+        "Annual Review of Political Science",
         "Journal of Conflict Resolution",
-        "Political Analysis",
-        "The Journal of Politics",
-        "Annual Review of Political Science"
+        "The Journal of Politics"
       ],
       "weight": 54.5
     },
@@ -2844,19 +2844,19 @@
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2132917208",
-        "https://openalex.org/W3144040573",
         "https://openalex.org/W4229737049",
         "https://openalex.org/W2171443468",
         "https://openalex.org/W2143891888",
+        "https://openalex.org/W3144040573",
+        "https://openalex.org/W3122193054",
         "https://openalex.org/W2150291618",
         "https://openalex.org/W3150893739",
-        "https://openalex.org/W3122193054",
         "https://openalex.org/W2064790857",
-        "https://openalex.org/W2314734263",
-        "https://openalex.org/W3121385028",
-        "https://openalex.org/W3125601827",
+        "https://openalex.org/W2155163959",
         "https://openalex.org/W2012797835",
-        "https://openalex.org/W2137370054"
+        "https://openalex.org/W3124658416",
+        "https://openalex.org/W3125601827",
+        "https://openalex.org/W2314734263"
       ],
       "weight": 50.0
     },
@@ -2865,30 +2865,30 @@
       "target": "Luis Martinez",
       "shared_refs": 37,
       "shared_ref_ids": [
-        "https://openalex.org/W3144040573",
         "https://openalex.org/W4229737049",
+        "https://openalex.org/W3144040573",
         "https://openalex.org/W2331253396",
         "https://openalex.org/W2151780178",
-        "https://openalex.org/W2130799276",
-        "https://openalex.org/W1533369859",
-        "https://openalex.org/W4253884756",
+        "https://openalex.org/W2024358613",
         "https://openalex.org/W3122074090",
         "https://openalex.org/W1989535774",
-        "https://openalex.org/W2069550422",
+        "https://openalex.org/W2189821821",
         "https://openalex.org/W2131830082",
+        "https://openalex.org/W1533369859",
         "https://openalex.org/W3124166904",
+        "https://openalex.org/W3122708045",
         "https://openalex.org/W2955861062",
-        "https://openalex.org/W2171656257",
-        "https://openalex.org/W2189821821"
+        "https://openalex.org/W2125353502",
+        "https://openalex.org/W2147039585"
       ],
       "shared_topics": 6,
       "shared_topic_names": [
+        "Political Conflict and Governance",
+        "Agricultural risk and resilience",
+        "Electoral Systems and Political Participation",
         "Fiscal Policies and Political Economy",
         "Politics and Society in Latin America",
-        "Electoral Systems and Political Participation",
-        "Fiscal Policy and Economic Growth",
-        "Agricultural risk and resilience",
-        "Political Conflict and Governance"
+        "Fiscal Policy and Economic Growth"
       ],
       "weight": 49.0
     },
@@ -2899,34 +2899,34 @@
       "shared_ref_ids": [
         "https://openalex.org/W2119290332",
         "https://openalex.org/W2014607560",
-        "https://openalex.org/W2018400246",
-        "https://openalex.org/W1977825494",
         "https://openalex.org/W2797842723",
+        "https://openalex.org/W1977825494",
+        "https://openalex.org/W2018400246",
         "https://openalex.org/W2156774085",
         "https://openalex.org/W609693342",
-        "https://openalex.org/W2157465753",
-        "https://openalex.org/W4232462766",
         "https://openalex.org/W2040898367",
         "https://openalex.org/W2144846366",
-        "https://openalex.org/W2068115726",
         "https://openalex.org/W1515771701",
-        "https://openalex.org/W1505483790",
-        "https://openalex.org/W1594936623"
+        "https://openalex.org/W2068115726",
+        "https://openalex.org/W2157465753",
+        "https://openalex.org/W4232462766",
+        "https://openalex.org/W1965945872",
+        "https://openalex.org/W1505483790"
       ],
       "shared_topics": 5,
       "shared_topic_names": [
-        "Judicial and Constitutional Studies",
+        "Political Conflict and Governance",
         "Electoral Systems and Political Participation",
         "Game Theory and Voting Systems",
-        "Political Conflict and Governance",
+        "Judicial and Constitutional Studies",
         "Experimental Behavioral Economics Studies"
       ],
       "shared_journals": 4,
       "shared_journal_names": [
-        "American Political Science Review",
-        "The Journal of Politics",
+        "Journal of Political Institutions and Political Economy",
         "Political Science Research and Methods",
-        "Journal of Political Institutions and Political Economy"
+        "The Journal of Politics",
+        "American Political Science Review"
       ],
       "weight": 49.0
     },
@@ -2937,25 +2937,25 @@
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2132917208",
-        "https://openalex.org/W3144040573",
         "https://openalex.org/W4229737049",
         "https://openalex.org/W2171443468",
         "https://openalex.org/W2143891888",
-        "https://openalex.org/W2150291618",
-        "https://openalex.org/W2331253396",
-        "https://openalex.org/W3123436326",
+        "https://openalex.org/W3144040573",
         "https://openalex.org/W1978108654",
-        "https://openalex.org/W3122781290",
+        "https://openalex.org/W2331253396",
+        "https://openalex.org/W2150291618",
+        "https://openalex.org/W3123436326",
         "https://openalex.org/W2064790857",
-        "https://openalex.org/W2314734263",
-        "https://openalex.org/W3121385028",
-        "https://openalex.org/W3125601827"
+        "https://openalex.org/W2039811614",
+        "https://openalex.org/W3124658416",
+        "https://openalex.org/W3125601827",
+        "https://openalex.org/W3122781290"
       ],
       "shared_topics": 3,
       "shared_topic_names": [
+        "Statistical Methods and Bayesian Inference",
         "Advanced Causal Inference Techniques",
-        "Statistical Methods and Inference",
-        "Statistical Methods and Bayesian Inference"
+        "Statistical Methods and Inference"
       ],
       "weight": 45.0
     },
@@ -2968,25 +2968,25 @@
         "https://openalex.org/W1580899010",
         "https://openalex.org/W2316473956",
         "https://openalex.org/W2151780178",
+        "https://openalex.org/W2745098867",
+        "https://openalex.org/W3125244926",
         "https://openalex.org/W3038074639",
+        "https://openalex.org/W1975264861",
+        "https://openalex.org/W2056552158",
+        "https://openalex.org/W2147039585",
         "https://openalex.org/W4253884756",
         "https://openalex.org/W1976631032",
-        "https://openalex.org/W2131830082",
-        "https://openalex.org/W2056552158",
         "https://openalex.org/W1537287213",
-        "https://openalex.org/W1975264861",
-        "https://openalex.org/W3125244926",
-        "https://openalex.org/W2745098867",
         "https://openalex.org/W2511012155",
-        "https://openalex.org/W2147039585"
+        "https://openalex.org/W2131830082"
       ],
       "shared_topics": 5,
       "shared_topic_names": [
-        "Fiscal Policies and Political Economy",
-        "Electoral Systems and Political Participation",
         "Local Government Finance and Decentralization",
+        "Political Conflict and Governance",
         "Agricultural risk and resilience",
-        "Political Conflict and Governance"
+        "Electoral Systems and Political Participation",
+        "Fiscal Policies and Political Economy"
       ],
       "shared_journals": 2,
       "shared_journal_names": [
@@ -3003,18 +3003,18 @@
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2119290332",
         "https://openalex.org/W2014607560",
-        "https://openalex.org/W1977825494",
         "https://openalex.org/W2797842723",
-        "https://openalex.org/W109341979",
-        "https://openalex.org/W2157465753",
-        "https://openalex.org/W1985194351",
-        "https://openalex.org/W1974964983",
-        "https://openalex.org/W2004900762",
+        "https://openalex.org/W1977825494",
         "https://openalex.org/W39453265",
-        "https://openalex.org/W2040898367",
+        "https://openalex.org/W1522977723",
+        "https://openalex.org/W2104614985",
         "https://openalex.org/W2041670126",
+        "https://openalex.org/W2040898367",
         "https://openalex.org/W2041138693",
-        "https://openalex.org/W2017099368"
+        "https://openalex.org/W2017099368",
+        "https://openalex.org/W1985194351",
+        "https://openalex.org/W109341979",
+        "https://openalex.org/W2004900762"
       ],
       "shared_topics": 2,
       "shared_topic_names": [
@@ -3023,13 +3023,52 @@
       ],
       "shared_journals": 5,
       "shared_journal_names": [
-        "American Journal of Political Science",
-        "Public Choice",
         "Political Analysis",
-        "The Journal of Politics",
-        "Quarterly Journal of Political Science"
+        "Public Choice",
+        "American Journal of Political Science",
+        "Quarterly Journal of Political Science",
+        "The Journal of Politics"
       ],
       "weight": 42.5
+    },
+    {
+      "source": "Maggie Penn",
+      "target": "Zachary Peskowitz",
+      "shared_refs": 25,
+      "shared_ref_ids": [
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W2119290332",
+        "https://openalex.org/W2014607560",
+        "https://openalex.org/W2797842723",
+        "https://openalex.org/W1977825494",
+        "https://openalex.org/W2018400246",
+        "https://openalex.org/W2316473956",
+        "https://openalex.org/W2137522380",
+        "https://openalex.org/W1992503224",
+        "https://openalex.org/W2014602527",
+        "https://openalex.org/W1515771701",
+        "https://openalex.org/W2017099368",
+        "https://openalex.org/W2017184608",
+        "https://openalex.org/W2333058786",
+        "https://openalex.org/W186928446"
+      ],
+      "shared_topics": 4,
+      "shared_topic_names": [
+        "Local Government Finance and Decentralization",
+        "Political Conflict and Governance",
+        "Electoral Systems and Political Participation",
+        "Ethics and Social Impacts of AI"
+      ],
+      "shared_journals": 6,
+      "shared_journal_names": [
+        "American Journal of Political Science",
+        "Political Science Research and Methods",
+        "Journal of Theoretical Politics",
+        "American Political Science Review",
+        "Journal of Conflict Resolution",
+        "The Journal of Politics"
+      ],
+      "weight": 42.0
     },
     {
       "source": "Lauren Klein",
@@ -3044,71 +3083,133 @@
       "weight": 42.0
     },
     {
-      "source": "Maggie Penn",
-      "target": "Zachary Peskowitz",
-      "shared_refs": 25,
-      "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W2119290332",
-        "https://openalex.org/W2014607560",
-        "https://openalex.org/W2316473956",
-        "https://openalex.org/W2018400246",
-        "https://openalex.org/W1977825494",
-        "https://openalex.org/W2797842723",
-        "https://openalex.org/W1992503224",
-        "https://openalex.org/W2137522380",
-        "https://openalex.org/W2017099368",
-        "https://openalex.org/W2014602527",
-        "https://openalex.org/W1515771701",
-        "https://openalex.org/W2150478173",
-        "https://openalex.org/W2035823093",
-        "https://openalex.org/W2056220956"
-      ],
-      "shared_topics": 4,
-      "shared_topic_names": [
-        "Local Government Finance and Decentralization",
-        "Electoral Systems and Political Participation",
-        "Political Conflict and Governance",
-        "Ethics and Social Impacts of AI"
-      ],
-      "shared_journals": 6,
-      "shared_journal_names": [
-        "American Political Science Review",
-        "American Journal of Political Science",
-        "Journal of Theoretical Politics",
-        "Journal of Conflict Resolution",
-        "The Journal of Politics",
-        "Political Science Research and Methods"
-      ],
-      "weight": 42.0
-    },
-    {
       "source": "Adam Glynn",
       "target": "Luis Martinez",
       "shared_refs": 33,
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W3144040573",
         "https://openalex.org/W4229737049",
-        "https://openalex.org/W2577227262",
+        "https://openalex.org/W3144040573",
         "https://openalex.org/W2331253396",
+        "https://openalex.org/W2577227262",
         "https://openalex.org/W2151780178",
-        "https://openalex.org/W2465587637",
         "https://openalex.org/W3124658416",
-        "https://openalex.org/W2117350974",
-        "https://openalex.org/W1533369859",
+        "https://openalex.org/W2465587637",
+        "https://openalex.org/W2024358613",
         "https://openalex.org/W3122074090",
-        "https://openalex.org/W4232505725",
+        "https://openalex.org/W1533369859",
         "https://openalex.org/W3124166904",
-        "https://openalex.org/W2083277050",
-        "https://openalex.org/W2125353502"
+        "https://openalex.org/W2125353502",
+        "https://openalex.org/W2117350974",
+        "https://openalex.org/W2073493950"
       ],
       "shared_topics": 2,
       "shared_topic_names": [
-        "Electoral Systems and Political Participation",
-        "Political Conflict and Governance"
+        "Political Conflict and Governance",
+        "Electoral Systems and Political Participation"
       ],
       "weight": 37.0
+    },
+    {
+      "source": "Adam Glynn",
+      "target": "David Hirshberg",
+      "shared_refs": 29,
+      "shared_ref_ids": [
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W2132917208",
+        "https://openalex.org/W4229737049",
+        "https://openalex.org/W2171443468",
+        "https://openalex.org/W3144040573",
+        "https://openalex.org/W2331253396",
+        "https://openalex.org/W2150291618",
+        "https://openalex.org/W3123436326",
+        "https://openalex.org/W2124758339",
+        "https://openalex.org/W2039811614",
+        "https://openalex.org/W3125601827",
+        "https://openalex.org/W3122781290",
+        "https://openalex.org/W3125057276",
+        "https://openalex.org/W3122542817",
+        "https://openalex.org/W2058499415"
+      ],
+      "shared_topics": 3,
+      "shared_topic_names": [
+        "Statistical Methods and Bayesian Inference",
+        "Advanced Causal Inference Techniques",
+        "Statistical Methods and Inference"
+      ],
+      "weight": 35.0
+    },
+    {
+      "source": "Adam Glynn",
+      "target": "Zachary Peskowitz",
+      "shared_refs": 23,
+      "shared_ref_ids": [
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W2151780178",
+        "https://openalex.org/W1534757324",
+        "https://openalex.org/W1975264861",
+        "https://openalex.org/W2136753600",
+        "https://openalex.org/W2134246329",
+        "https://openalex.org/W2753533763",
+        "https://openalex.org/W2794592087",
+        "https://openalex.org/W2987501176",
+        "https://openalex.org/W2314352110",
+        "https://openalex.org/W2144357229",
+        "https://openalex.org/W2911522314",
+        "https://openalex.org/W4243823258",
+        "https://openalex.org/W3121988683",
+        "https://openalex.org/W2612015492"
+      ],
+      "shared_topics": 3,
+      "shared_topic_names": [
+        "Political Conflict and Governance",
+        "Economic and Environmental Valuation",
+        "Electoral Systems and Political Participation"
+      ],
+      "shared_journals": 4,
+      "shared_journal_names": [
+        "American Journal of Political Science",
+        "Public Opinion Quarterly",
+        "The Journal of Politics",
+        "American Political Science Review"
+      ],
+      "weight": 35.0
+    },
+    {
+      "source": "Clifford Carrubba",
+      "target": "Pablo Montagnes",
+      "shared_refs": 22,
+      "shared_ref_ids": [
+        "https://openalex.org/W2119290332",
+        "https://openalex.org/W2014607560",
+        "https://openalex.org/W2153140039",
+        "https://openalex.org/W2018400246",
+        "https://openalex.org/W2164540423",
+        "https://openalex.org/W2047156377",
+        "https://openalex.org/W1587375510",
+        "https://openalex.org/W4232462766",
+        "https://openalex.org/W609693342",
+        "https://openalex.org/W2065775761",
+        "https://openalex.org/W3022037017",
+        "https://openalex.org/W2139011416",
+        "https://openalex.org/W2149150235",
+        "https://openalex.org/W3124631225",
+        "https://openalex.org/W1483039486"
+      ],
+      "shared_topics": 5,
+      "shared_topic_names": [
+        "Political Conflict and Governance",
+        "Electoral Systems and Political Participation",
+        "Game Theory and Voting Systems",
+        "Judicial and Constitutional Studies",
+        "Experimental Behavioral Economics Studies"
+      ],
+      "shared_journals": 2,
+      "shared_journal_names": [
+        "The Journal of Politics",
+        "American Political Science Review"
+      ],
+      "weight": 35.0
     },
     {
       "source": "Adam Glynn",
@@ -3120,130 +3221,29 @@
         "https://openalex.org/W2153140039",
         "https://openalex.org/W2577227262",
         "https://openalex.org/W1587375510",
+        "https://openalex.org/W3022037017",
+        "https://openalex.org/W2255102440",
         "https://openalex.org/W2094736317",
         "https://openalex.org/W2110537446",
-        "https://openalex.org/W2255102440",
-        "https://openalex.org/W3022037017",
         "https://openalex.org/W4299614237",
-        "https://openalex.org/W2099921486",
-        "https://openalex.org/W2798572278",
-        "https://openalex.org/W2138605668",
-        "https://openalex.org/W2485471357",
-        "https://openalex.org/W1995964689"
+        "https://openalex.org/W2110959380",
+        "https://openalex.org/W4213458873",
+        "https://openalex.org/W4300457368",
+        "https://openalex.org/W2146913620",
+        "https://openalex.org/W4248197710"
       ],
       "shared_topics": 3,
       "shared_topic_names": [
+        "Political Conflict and Governance",
         "Judicial and Constitutional Studies",
-        "Electoral Systems and Political Participation",
-        "Political Conflict and Governance"
+        "Electoral Systems and Political Participation"
       ],
       "shared_journals": 4,
       "shared_journal_names": [
-        "American Political Science Review",
         "American Journal of Political Science",
         "Political Analysis",
-        "The Journal of Politics"
-      ],
-      "weight": 35.0
-    },
-    {
-      "source": "Adam Glynn",
-      "target": "David Hirshberg",
-      "shared_refs": 29,
-      "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W2132917208",
-        "https://openalex.org/W3144040573",
-        "https://openalex.org/W4229737049",
-        "https://openalex.org/W2171443468",
-        "https://openalex.org/W2150291618",
-        "https://openalex.org/W2331253396",
-        "https://openalex.org/W3123436326",
-        "https://openalex.org/W3122781290",
-        "https://openalex.org/W3122542817",
-        "https://openalex.org/W2124758339",
-        "https://openalex.org/W3125601827",
-        "https://openalex.org/W3125057276",
-        "https://openalex.org/W2039811614",
-        "https://openalex.org/W3122948292"
-      ],
-      "shared_topics": 3,
-      "shared_topic_names": [
-        "Advanced Causal Inference Techniques",
-        "Statistical Methods and Inference",
-        "Statistical Methods and Bayesian Inference"
-      ],
-      "weight": 35.0
-    },
-    {
-      "source": "Clifford Carrubba",
-      "target": "Pablo Montagnes",
-      "shared_refs": 22,
-      "shared_ref_ids": [
-        "https://openalex.org/W2119290332",
-        "https://openalex.org/W2153140039",
-        "https://openalex.org/W2014607560",
-        "https://openalex.org/W2018400246",
-        "https://openalex.org/W2164540423",
-        "https://openalex.org/W2047156377",
-        "https://openalex.org/W609693342",
-        "https://openalex.org/W1587375510",
-        "https://openalex.org/W4232462766",
-        "https://openalex.org/W2065775761",
-        "https://openalex.org/W2149150235",
-        "https://openalex.org/W3124631225",
-        "https://openalex.org/W1483039486",
-        "https://openalex.org/W2127212138",
-        "https://openalex.org/W2139011416"
-      ],
-      "shared_topics": 5,
-      "shared_topic_names": [
-        "Judicial and Constitutional Studies",
-        "Electoral Systems and Political Participation",
-        "Game Theory and Voting Systems",
-        "Political Conflict and Governance",
-        "Experimental Behavioral Economics Studies"
-      ],
-      "shared_journals": 2,
-      "shared_journal_names": [
-        "American Political Science Review",
-        "The Journal of Politics"
-      ],
-      "weight": 35.0
-    },
-    {
-      "source": "Adam Glynn",
-      "target": "Zachary Peskowitz",
-      "shared_refs": 23,
-      "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W2151780178",
-        "https://openalex.org/W2134246329",
-        "https://openalex.org/W2794592087",
-        "https://openalex.org/W1975264861",
-        "https://openalex.org/W2136753600",
-        "https://openalex.org/W1534757324",
-        "https://openalex.org/W2753533763",
-        "https://openalex.org/W2612015492",
-        "https://openalex.org/W3121403162",
-        "https://openalex.org/W2987501176",
-        "https://openalex.org/W2911522314",
-        "https://openalex.org/W3123310118",
-        "https://openalex.org/W2956171622",
-        "https://openalex.org/W2068895077"
-      ],
-      "shared_topics": 3,
-      "shared_topic_names": [
-        "Electoral Systems and Political Participation",
-        "Political Conflict and Governance",
-        "Economic and Environmental Valuation"
-      ],
-      "shared_journals": 4,
-      "shared_journal_names": [
-        "American Political Science Review",
-        "American Journal of Political Science",
         "The Journal of Politics",
-        "Public Opinion Quarterly"
+        "American Political Science Review"
       ],
       "weight": 35.0
     },
@@ -3255,35 +3255,35 @@
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2119290332",
         "https://openalex.org/W2014607560",
-        "https://openalex.org/W2164540423",
-        "https://openalex.org/W2316473956",
         "https://openalex.org/W2018400246",
-        "https://openalex.org/W2014602527",
+        "https://openalex.org/W2316473956",
+        "https://openalex.org/W2164540423",
         "https://openalex.org/W1992503224",
+        "https://openalex.org/W2014602527",
         "https://openalex.org/W2149150235",
-        "https://openalex.org/W2089733169",
-        "https://openalex.org/W2109719716",
         "https://openalex.org/W2171799648",
-        "https://openalex.org/W2105105789",
+        "https://openalex.org/W2089733169",
         "https://openalex.org/W2144023397",
-        "https://openalex.org/W1981651168"
+        "https://openalex.org/W2105105789",
+        "https://openalex.org/W1981651168",
+        "https://openalex.org/W2109719716"
       ],
       "shared_topics": 3,
       "shared_topic_names": [
-        "Local Government Finance and Decentralization",
+        "Political Conflict and Governance",
         "Electoral Systems and Political Participation",
-        "Political Conflict and Governance"
+        "Local Government Finance and Decentralization"
       ],
       "shared_journals": 8,
       "shared_journal_names": [
-        "British Journal of Political Science",
-        "American Political Science Review",
+        "Legislative Studies Quarterly",
         "American Journal of Political Science",
         "Journal of Theoretical Politics",
-        "Journal of Conflict Resolution",
+        "American Political Science Review",
+        "British Journal of Political Science",
         "The Journal of Law Economics and Organization",
-        "The Journal of Politics",
-        "Legislative Studies Quarterly"
+        "Journal of Conflict Resolution",
+        "The Journal of Politics"
       ],
       "weight": 33.0
     },
@@ -3295,30 +3295,30 @@
         "https://openalex.org/W4285719527",
         "https://openalex.org/W3123534837",
         "https://openalex.org/W2130354913",
-        "https://openalex.org/W2130378535",
-        "https://openalex.org/W2034232242",
-        "https://openalex.org/W4300998844",
-        "https://openalex.org/W2106144261",
-        "https://openalex.org/W4245198606",
-        "https://openalex.org/W2075225743",
         "https://openalex.org/W2770587522",
-        "https://openalex.org/W2032613096",
-        "https://openalex.org/W1533200881",
-        "https://openalex.org/W2119537576",
         "https://openalex.org/W1965127077",
-        "https://openalex.org/W2098841755"
+        "https://openalex.org/W2035282140",
+        "https://openalex.org/W2075225743",
+        "https://openalex.org/W1533200881",
+        "https://openalex.org/W2098289713",
+        "https://openalex.org/W2098841755",
+        "https://openalex.org/W4245198606",
+        "https://openalex.org/W4300998844",
+        "https://openalex.org/W1974543466",
+        "https://openalex.org/W2034232242",
+        "https://openalex.org/W2106144261"
       ],
       "shared_topics": 2,
       "shared_topic_names": [
-        "Migration, Health and Trauma",
-        "Health disparities and outcomes"
+        "Health disparities and outcomes",
+        "Migration, Health and Trauma"
       ],
       "shared_journals": 4,
       "shared_journal_names": [
-        "Social Science & Medicine",
         "SSM - Population Health",
         "PLoS ONE",
-        "Journal of Epidemiology & Community Health"
+        "Journal of Epidemiology & Community Health",
+        "Social Science & Medicine"
       ],
       "weight": 30.0
     },
@@ -3330,29 +3330,29 @@
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2119290332",
         "https://openalex.org/W2014607560",
-        "https://openalex.org/W1580899010",
-        "https://openalex.org/W1977825494",
         "https://openalex.org/W2797842723",
+        "https://openalex.org/W1977825494",
         "https://openalex.org/W2164540423",
-        "https://openalex.org/W2017099368",
+        "https://openalex.org/W1580899010",
         "https://openalex.org/W3123571579",
-        "https://openalex.org/W2095421991",
-        "https://openalex.org/W2763986626",
+        "https://openalex.org/W2017099368",
         "https://openalex.org/W199238147",
         "https://openalex.org/W2745098867",
-        "https://openalex.org/W1985949226",
-        "https://openalex.org/W3124336189"
+        "https://openalex.org/W2763986626",
+        "https://openalex.org/W2095421991",
+        "https://openalex.org/W2053720373",
+        "https://openalex.org/W2157958275"
       ],
       "shared_topics": 3,
       "shared_topic_names": [
-        "Electoral Systems and Political Participation",
         "Economic and Environmental Valuation",
+        "Electoral Systems and Political Participation",
         "Media Influence and Politics"
       ],
       "shared_journals": 3,
       "shared_journal_names": [
-        "The Journal of Law Economics and Organization",
         "American Journal of Political Science",
+        "The Journal of Law Economics and Organization",
         "The Journal of Politics"
       ],
       "weight": 29.5
@@ -3363,20 +3363,20 @@
       "shared_refs": 23,
       "shared_ref_ids": [
         "https://openalex.org/W2119290332",
-        "https://openalex.org/W2153140039",
         "https://openalex.org/W2014607560",
-        "https://openalex.org/W1580899010",
-        "https://openalex.org/W1977825494",
+        "https://openalex.org/W2153140039",
         "https://openalex.org/W2797842723",
+        "https://openalex.org/W1977825494",
         "https://openalex.org/W2164540423",
-        "https://openalex.org/W2157465753",
+        "https://openalex.org/W1580899010",
         "https://openalex.org/W1587375510",
-        "https://openalex.org/W2040898367",
         "https://openalex.org/W3123571579",
-        "https://openalex.org/W2095421991",
+        "https://openalex.org/W2040898367",
+        "https://openalex.org/W2157465753",
         "https://openalex.org/W3123223998",
+        "https://openalex.org/W2763986626",
         "https://openalex.org/W636383266",
-        "https://openalex.org/W2763986626"
+        "https://openalex.org/W1483039486"
       ],
       "shared_topics": 3,
       "shared_topic_names": [
@@ -3393,19 +3393,19 @@
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2153140039",
-        "https://openalex.org/W764290220",
-        "https://openalex.org/W2030120132",
-        "https://openalex.org/W2321372108",
-        "https://openalex.org/W1522588346",
+        "https://openalex.org/W2082422522",
         "https://openalex.org/W2003350916",
+        "https://openalex.org/W3143175199",
+        "https://openalex.org/W1522588346",
+        "https://openalex.org/W2030120132",
+        "https://openalex.org/W764290220",
         "https://openalex.org/W1977082364",
         "https://openalex.org/W1552466412",
-        "https://openalex.org/W3143175199",
+        "https://openalex.org/W2321372108",
         "https://openalex.org/W2317395974",
-        "https://openalex.org/W2082422522",
         "https://openalex.org/W2586957537",
         "https://openalex.org/W2168695899",
-        "https://openalex.org/W4234814990"
+        "https://openalex.org/W2101060184"
       ],
       "shared_topics": 2,
       "shared_topic_names": [
@@ -3414,10 +3414,10 @@
       ],
       "shared_journals": 4,
       "shared_journal_names": [
-        "American Political Science Review",
         "American Journal of Political Science",
         "Political Analysis",
-        "The Journal of Politics"
+        "The Journal of Politics",
+        "American Political Science Review"
       ],
       "weight": 28.0
     },
@@ -3427,33 +3427,33 @@
       "shared_refs": 16,
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W764290220",
-        "https://openalex.org/W2030120132",
-        "https://openalex.org/W2321372108",
-        "https://openalex.org/W1522588346",
-        "https://openalex.org/W1552466412",
-        "https://openalex.org/W3143175199",
-        "https://openalex.org/W2317395974",
-        "https://openalex.org/W2753533763",
         "https://openalex.org/W2082422522",
-        "https://openalex.org/W3083906988",
-        "https://openalex.org/W2126321299",
-        "https://openalex.org/W2169278049",
+        "https://openalex.org/W3143175199",
+        "https://openalex.org/W1522588346",
+        "https://openalex.org/W2030120132",
+        "https://openalex.org/W764290220",
+        "https://openalex.org/W2753533763",
+        "https://openalex.org/W2321372108",
+        "https://openalex.org/W2317395974",
+        "https://openalex.org/W1552466412",
         "https://openalex.org/W4253269211",
-        "https://openalex.org/W2096900271"
+        "https://openalex.org/W2169278049",
+        "https://openalex.org/W2126321299",
+        "https://openalex.org/W2096900271",
+        "https://openalex.org/W2171224577"
       ],
       "shared_topics": 3,
       "shared_topic_names": [
+        "Political Conflict and Governance",
         "Judicial and Constitutional Studies",
-        "Electoral Systems and Political Participation",
-        "Political Conflict and Governance"
+        "Electoral Systems and Political Participation"
       ],
       "shared_journals": 4,
       "shared_journal_names": [
-        "American Political Science Review",
         "American Journal of Political Science",
         "Political Analysis",
-        "The Journal of Politics"
+        "The Journal of Politics",
+        "American Political Science Review"
       ],
       "weight": 28.0
     },
@@ -3466,24 +3466,24 @@
         "https://openalex.org/W1543247094",
         "https://openalex.org/W2137522380",
         "https://openalex.org/W2151780178",
-        "https://openalex.org/W2158908829",
         "https://openalex.org/W2147039585",
-        "https://openalex.org/W2131830082",
-        "https://openalex.org/W4253884756",
         "https://openalex.org/W1537287213",
-        "https://openalex.org/W1970448118",
+        "https://openalex.org/W4253884756",
+        "https://openalex.org/W2131830082",
+        "https://openalex.org/W2158908829",
         "https://openalex.org/W1952552476",
         "https://openalex.org/W2273470132",
-        "https://openalex.org/W3124765710",
-        "https://openalex.org/W2148046232",
-        "https://openalex.org/W3122958054"
+        "https://openalex.org/W3122178585",
+        "https://openalex.org/W2081122090",
+        "https://openalex.org/W1970448118",
+        "https://openalex.org/W3093679099"
       ],
       "shared_topics": 4,
       "shared_topic_names": [
-        "Agricultural risk and resilience",
-        "Electoral Systems and Political Participation",
         "Political Conflict and Governance",
-        "Fiscal Policies and Political Economy"
+        "Fiscal Policies and Political Economy",
+        "Agricultural risk and resilience",
+        "Electoral Systems and Political Participation"
       ],
       "weight": 26.0
     },
@@ -3493,30 +3493,53 @@
       "shared_refs": 15,
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W561535798",
-        "https://openalex.org/W2133453021",
-        "https://openalex.org/W2922740689",
-        "https://openalex.org/W1483924885",
         "https://openalex.org/W2048496095",
-        "https://openalex.org/W2113972683",
+        "https://openalex.org/W4230857708",
+        "https://openalex.org/W2766195965",
+        "https://openalex.org/W3103365499",
         "https://openalex.org/W2174706414",
         "https://openalex.org/W4245628022",
+        "https://openalex.org/W2113972683",
+        "https://openalex.org/W2133453021",
         "https://openalex.org/W2898970033",
-        "https://openalex.org/W2095655043",
-        "https://openalex.org/W4230857708",
-        "https://openalex.org/W3103365499",
+        "https://openalex.org/W561535798",
+        "https://openalex.org/W1483924885",
         "https://openalex.org/W2147152072",
-        "https://openalex.org/W2766195965"
+        "https://openalex.org/W2922740689",
+        "https://openalex.org/W2095655043"
       ],
       "shared_topics": 5,
       "shared_topic_names": [
-        "Computational and Text Analysis Methods",
         "Philosophy, History, and Historiography",
         "Digital Humanities and Scholarship",
         "Digital and Traditional Archives Management",
-        "Natural Language Processing Techniques"
+        "Natural Language Processing Techniques",
+        "Computational and Text Analysis Methods"
       ],
       "weight": 25.0
+    },
+    {
+      "source": "Danilo Freire",
+      "target": "Weihua An",
+      "shared_refs": 24,
+      "shared_ref_ids": [
+        "https://openalex.org/W2132917208",
+        "https://openalex.org/W4229737049",
+        "https://openalex.org/W2143891888",
+        "https://openalex.org/W3144040573",
+        "https://openalex.org/W2582743722",
+        "https://openalex.org/W3150893739",
+        "https://openalex.org/W2064790857",
+        "https://openalex.org/W2996483157",
+        "https://openalex.org/W2155163959",
+        "https://openalex.org/W2139577967",
+        "https://openalex.org/W1585814636",
+        "https://openalex.org/W3121385028",
+        "https://openalex.org/W4236213345",
+        "https://openalex.org/W1985093013",
+        "https://openalex.org/W2130799276"
+      ],
+      "weight": 24.0
     },
     {
       "source": "David Hirshberg",
@@ -3525,42 +3548,19 @@
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2132917208",
-        "https://openalex.org/W3144040573",
         "https://openalex.org/W4229737049",
         "https://openalex.org/W2171443468",
+        "https://openalex.org/W3144040573",
+        "https://openalex.org/W3122193054",
         "https://openalex.org/W2150291618",
         "https://openalex.org/W3150893739",
-        "https://openalex.org/W3122193054",
-        "https://openalex.org/W3122542817",
         "https://openalex.org/W2124758339",
+        "https://openalex.org/W2155163959",
         "https://openalex.org/W3125601827",
+        "https://openalex.org/W3122542817",
         "https://openalex.org/W2137370054",
-        "https://openalex.org/W2155163959",
-        "https://openalex.org/W3122948292",
-        "https://openalex.org/W2079597004"
-      ],
-      "weight": 24.0
-    },
-    {
-      "source": "Danilo Freire",
-      "target": "Weihua An",
-      "shared_refs": 24,
-      "shared_ref_ids": [
-        "https://openalex.org/W2132917208",
-        "https://openalex.org/W3144040573",
-        "https://openalex.org/W2582743722",
-        "https://openalex.org/W4229737049",
-        "https://openalex.org/W2143891888",
-        "https://openalex.org/W3150893739",
-        "https://openalex.org/W1585814636",
-        "https://openalex.org/W2996483157",
-        "https://openalex.org/W2064790857",
-        "https://openalex.org/W3121385028",
-        "https://openalex.org/W2139577967",
-        "https://openalex.org/W2155163959",
-        "https://openalex.org/W1985093013",
-        "https://openalex.org/W2130799276",
-        "https://openalex.org/W4236213345"
+        "https://openalex.org/W2079597004",
+        "https://openalex.org/W2099274660"
       ],
       "weight": 24.0
     },
@@ -3572,28 +3572,28 @@
         "https://openalex.org/W2153140039",
         "https://openalex.org/W2124758339",
         "https://openalex.org/W1587375510",
-        "https://openalex.org/W2148534890",
+        "https://openalex.org/W1534757324",
         "https://openalex.org/W3022037017",
         "https://openalex.org/W2136753600",
         "https://openalex.org/W2794592087",
-        "https://openalex.org/W1534757324",
+        "https://openalex.org/W2148534890",
         "https://openalex.org/W636383266",
+        "https://openalex.org/W2059334100",
         "https://openalex.org/W4205537595",
         "https://openalex.org/W1984849516",
-        "https://openalex.org/W2059334100",
         "https://openalex.org/W4231677041"
       ],
       "shared_topics": 3,
       "shared_topic_names": [
+        "Political Conflict and Governance",
         "Judicial and Constitutional Studies",
-        "Electoral Systems and Political Participation",
-        "Political Conflict and Governance"
+        "Electoral Systems and Political Participation"
       ],
       "shared_journals": 3,
       "shared_journal_names": [
-        "American Political Science Review",
+        "Public Opinion Quarterly",
         "The Journal of Politics",
-        "Public Opinion Quarterly"
+        "American Political Science Review"
       ],
       "weight": 23.5
     },
@@ -3608,26 +3608,26 @@
       "target": "Danilo Freire",
       "shared_refs": 14,
       "shared_ref_ids": [
-        "https://openalex.org/W2132917208",
         "https://openalex.org/W2119290332",
+        "https://openalex.org/W2132917208",
         "https://openalex.org/W2153140039",
         "https://openalex.org/W2316473956",
         "https://openalex.org/W2047156377",
         "https://openalex.org/W2065775761",
         "https://openalex.org/W2110537446",
         "https://openalex.org/W2255102440",
-        "https://openalex.org/W2116559484",
-        "https://openalex.org/W3125569413",
-        "https://openalex.org/W2188945537",
         "https://openalex.org/W4210970861",
+        "https://openalex.org/W2165365036",
         "https://openalex.org/W2076316673",
-        "https://openalex.org/W2165365036"
+        "https://openalex.org/W2188945537",
+        "https://openalex.org/W2116559484",
+        "https://openalex.org/W3125569413"
       ],
       "shared_topics": 3,
       "shared_topic_names": [
-        "Local Government Finance and Decentralization",
+        "Political Conflict and Governance",
         "Electoral Systems and Political Participation",
-        "Political Conflict and Governance"
+        "Local Government Finance and Decentralization"
       ],
       "shared_journals": 2,
       "shared_journal_names": [
@@ -3643,19 +3643,19 @@
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
         "https://openalex.org/W1543247094",
-        "https://openalex.org/W2133469585",
-        "https://openalex.org/W2156774085",
         "https://openalex.org/W1608361905",
         "https://openalex.org/W2137522380",
-        "https://openalex.org/W3011865677",
+        "https://openalex.org/W2156774085",
+        "https://openalex.org/W2133469585",
         "https://openalex.org/W4297974475",
+        "https://openalex.org/W3011865677",
+        "https://openalex.org/W2105416454",
         "https://openalex.org/W4255572092",
-        "https://openalex.org/W2065190337",
-        "https://openalex.org/W4391965190",
-        "https://openalex.org/W2057970462",
-        "https://openalex.org/W284513564",
         "https://openalex.org/W2328418989",
-        "https://openalex.org/W4301958211"
+        "https://openalex.org/W284513564",
+        "https://openalex.org/W4301958211",
+        "https://openalex.org/W2025183095",
+        "https://openalex.org/W2057970462"
       ],
       "shared_topics": 2,
       "shared_topic_names": [
@@ -3672,18 +3672,18 @@
         "https://openalex.org/W4285719527",
         "https://openalex.org/W3123534837",
         "https://openalex.org/W2130354913",
-        "https://openalex.org/W2322954441",
         "https://openalex.org/W2318746079",
         "https://openalex.org/W1530604260",
+        "https://openalex.org/W2322954441",
         "https://openalex.org/W2118745042",
-        "https://openalex.org/W2111896942",
-        "https://openalex.org/W1998772789",
-        "https://openalex.org/W2131401975",
+        "https://openalex.org/W2071624487",
         "https://openalex.org/W2155453521",
         "https://openalex.org/W2147264455",
-        "https://openalex.org/W2141288445",
         "https://openalex.org/W1601337787",
-        "https://openalex.org/W2071624487"
+        "https://openalex.org/W2141288445",
+        "https://openalex.org/W2111896942",
+        "https://openalex.org/W2131401975",
+        "https://openalex.org/W1998772789"
       ],
       "shared_topics": 2,
       "shared_topic_names": [
@@ -3692,10 +3692,33 @@
       ],
       "shared_journals": 2,
       "shared_journal_names": [
-        "Cancer Epidemiology Biomarkers & Prevention",
-        "Social Forces"
+        "Social Forces",
+        "Cancer Epidemiology Biomarkers & Prevention"
       ],
       "weight": 22.0
+    },
+    {
+      "source": "Luis Martinez",
+      "target": "Weihua An",
+      "shared_refs": 21,
+      "shared_ref_ids": [
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W4229737049",
+        "https://openalex.org/W3144040573",
+        "https://openalex.org/W3122193054",
+        "https://openalex.org/W2577227262",
+        "https://openalex.org/W3124658416",
+        "https://openalex.org/W2465587637",
+        "https://openalex.org/W2138290169",
+        "https://openalex.org/W3122708045",
+        "https://openalex.org/W2134291350",
+        "https://openalex.org/W2104780889",
+        "https://openalex.org/W4232505725",
+        "https://openalex.org/W2130799276",
+        "https://openalex.org/W2083277050",
+        "https://openalex.org/W1484634968"
+      ],
+      "weight": 21.0
     },
     {
       "source": "Craig Hadley",
@@ -3707,69 +3730,18 @@
         "https://openalex.org/W3123534837",
         "https://openalex.org/W2130354913",
         "https://openalex.org/W1990513740",
-        "https://openalex.org/W2115059495",
-        "https://openalex.org/W2167097117",
-        "https://openalex.org/W2085491458",
-        "https://openalex.org/W2051105555",
         "https://openalex.org/W2045540672",
+        "https://openalex.org/W2050240613",
         "https://openalex.org/W2056944867",
-        "https://openalex.org/W2016515228",
+        "https://openalex.org/W2167097117",
         "https://openalex.org/W2061901927",
+        "https://openalex.org/W2020088825",
+        "https://openalex.org/W2016515228",
         "https://openalex.org/W1873057782",
-        "https://openalex.org/W2020088825"
+        "https://openalex.org/W2158460690",
+        "https://openalex.org/W2085491458"
       ],
       "weight": 21.0
-    },
-    {
-      "source": "Luis Martinez",
-      "target": "Weihua An",
-      "shared_refs": 21,
-      "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W3144040573",
-        "https://openalex.org/W4229737049",
-        "https://openalex.org/W2577227262",
-        "https://openalex.org/W3122193054",
-        "https://openalex.org/W2465587637",
-        "https://openalex.org/W3124658416",
-        "https://openalex.org/W2130799276",
-        "https://openalex.org/W4232505725",
-        "https://openalex.org/W2083277050",
-        "https://openalex.org/W2134291350",
-        "https://openalex.org/W2138290169",
-        "https://openalex.org/W3122708045",
-        "https://openalex.org/W2104780889",
-        "https://openalex.org/W3124859767"
-      ],
-      "weight": 21.0
-    },
-    {
-      "source": "Danilo Freire",
-      "target": "John W. Patty",
-      "shared_refs": 16,
-      "shared_ref_ids": [
-        "https://openalex.org/W2119290332",
-        "https://openalex.org/W2153140039",
-        "https://openalex.org/W2316473956",
-        "https://openalex.org/W1580899010",
-        "https://openalex.org/W2065775761",
-        "https://openalex.org/W2056552158",
-        "https://openalex.org/W1976631032",
-        "https://openalex.org/W1993132818",
-        "https://openalex.org/W2120946983",
-        "https://openalex.org/W1975503357",
-        "https://openalex.org/W1993091619",
-        "https://openalex.org/W4243476179",
-        "https://openalex.org/W2135035101",
-        "https://openalex.org/W2043285762",
-        "https://openalex.org/W2105736111"
-      ],
-      "shared_topics": 2,
-      "shared_topic_names": [
-        "Local Government Finance and Decentralization",
-        "Electoral Systems and Political Participation"
-      ],
-      "weight": 20.0
     },
     {
       "source": "Adam Glynn",
@@ -3780,17 +3752,45 @@
         "https://openalex.org/W2171443468",
         "https://openalex.org/W2150291618",
         "https://openalex.org/W3123436326",
-        "https://openalex.org/W3122781290",
-        "https://openalex.org/W1585814636",
         "https://openalex.org/W2996483157",
+        "https://openalex.org/W2039811614",
+        "https://openalex.org/W3122781290",
         "https://openalex.org/W2314734263",
         "https://openalex.org/W3122542817",
-        "https://openalex.org/W2039811614",
+        "https://openalex.org/W1585814636",
         "https://openalex.org/W430011393",
-        "https://openalex.org/W2124535096",
-        "https://openalex.org/W2066443416",
         "https://openalex.org/W2029941278",
-        "https://openalex.org/W2062337042"
+        "https://openalex.org/W2124535096",
+        "https://openalex.org/W2062337042",
+        "https://openalex.org/W2066443416"
+      ],
+      "weight": 20.0
+    },
+    {
+      "source": "Danilo Freire",
+      "target": "John W. Patty",
+      "shared_refs": 16,
+      "shared_ref_ids": [
+        "https://openalex.org/W2119290332",
+        "https://openalex.org/W2153140039",
+        "https://openalex.org/W1580899010",
+        "https://openalex.org/W2316473956",
+        "https://openalex.org/W2065775761",
+        "https://openalex.org/W1976631032",
+        "https://openalex.org/W1993091619",
+        "https://openalex.org/W2120946983",
+        "https://openalex.org/W2056552158",
+        "https://openalex.org/W1975503357",
+        "https://openalex.org/W1993132818",
+        "https://openalex.org/W2135035101",
+        "https://openalex.org/W2105736111",
+        "https://openalex.org/W2143578961",
+        "https://openalex.org/W4243476179"
+      ],
+      "shared_topics": 2,
+      "shared_topic_names": [
+        "Local Government Finance and Decentralization",
+        "Electoral Systems and Political Participation"
       ],
       "weight": 20.0
     },
@@ -3801,24 +3801,24 @@
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
         "https://openalex.org/W1530604260",
-        "https://openalex.org/W2013595098",
-        "https://openalex.org/W1922756629",
-        "https://openalex.org/W2121836956",
         "https://openalex.org/W2763614691",
-        "https://openalex.org/W2096904126"
+        "https://openalex.org/W1922756629",
+        "https://openalex.org/W2096904126",
+        "https://openalex.org/W2013595098",
+        "https://openalex.org/W2121836956"
       ],
       "shared_topics": 4,
       "shared_topic_names": [
-        "Intergenerational Family Dynamics and Caregiving",
+        "Migration and Labor Dynamics",
         "Health disparities and outcomes",
-        "Demographic Trends and Gender Preferences",
-        "Migration and Labor Dynamics"
+        "Intergenerational Family Dynamics and Caregiving",
+        "Demographic Trends and Gender Preferences"
       ],
       "shared_journals": 3,
       "shared_journal_names": [
-        "Socius Sociological Research for a Dynamic World",
+        "Demography",
         "Journal of Marriage and the Family",
-        "Demography"
+        "Socius Sociological Research for a Dynamic World"
       ],
       "weight": 19.5
     },
@@ -3828,45 +3828,51 @@
       "shared_refs": 13,
       "shared_ref_ids": [
         "https://openalex.org/W1543247094",
-        "https://openalex.org/W2156774085",
         "https://openalex.org/W1608361905",
+        "https://openalex.org/W2156774085",
         "https://openalex.org/W2158908829",
-        "https://openalex.org/W3121239793",
-        "https://openalex.org/W2117546413",
+        "https://openalex.org/W2143584325",
         "https://openalex.org/W2353666954",
+        "https://openalex.org/W3121239793",
         "https://openalex.org/W3208345306",
         "https://openalex.org/W4254361322",
-        "https://openalex.org/W2074050717",
+        "https://openalex.org/W2030132760",
         "https://openalex.org/W2016552760",
-        "https://openalex.org/W2143584325",
-        "https://openalex.org/W2030132760"
+        "https://openalex.org/W2117546413",
+        "https://openalex.org/W2074050717"
       ],
       "shared_topics": 3,
       "shared_topic_names": [
+        "Political Conflict and Governance",
         "Electoral Systems and Political Participation",
-        "Fiscal Policy and Economic Growth",
-        "Political Conflict and Governance"
+        "Fiscal Policy and Economic Growth"
       ],
       "weight": 19.0
     },
     {
-      "source": "Jinho Choi",
-      "target": "Ruoxuan Xiong",
-      "shared_refs": 18,
+      "source": "Nathan Hoffmann",
+      "target": "Weihua An",
+      "shared_refs": 14,
       "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W2143612262",
-        "https://openalex.org/W1522301498",
-        "https://openalex.org/W4919037",
-        "https://openalex.org/W2095705004",
-        "https://openalex.org/W2964015378",
-        "https://openalex.org/W2171468534",
-        "https://openalex.org/W2022204871",
-        "https://openalex.org/W2146502635",
-        "https://openalex.org/W2165698076",
-        "https://openalex.org/W6739901393",
-        "https://openalex.org/W2999905431",
-        "https://openalex.org/W2064675550"
+        "https://openalex.org/W2132917208",
+        "https://openalex.org/W2171443468",
+        "https://openalex.org/W2150291618",
+        "https://openalex.org/W3123534837",
+        "https://openalex.org/W3122542817",
+        "https://openalex.org/W2137370054",
+        "https://openalex.org/W2996483157",
+        "https://openalex.org/W2314734263",
+        "https://openalex.org/W1585814636",
+        "https://openalex.org/W2124535096",
+        "https://openalex.org/W2062337042",
+        "https://openalex.org/W2129673993",
+        "https://openalex.org/W941378780",
+        "https://openalex.org/W2140431312"
+      ],
+      "shared_topics": 2,
+      "shared_topic_names": [
+        "Advanced Causal Inference Techniques",
+        "Migration, Refugees, and Integration"
       ],
       "weight": 18.0
     },
@@ -3882,44 +3888,38 @@
         "https://openalex.org/W2065775761",
         "https://openalex.org/W3125244926",
         "https://openalex.org/W2126841490",
-        "https://openalex.org/W2081553388",
-        "https://openalex.org/W2269471698",
-        "https://openalex.org/W2097142480",
         "https://openalex.org/W3123002740",
-        "https://openalex.org/W400701228"
+        "https://openalex.org/W400701228",
+        "https://openalex.org/W2097142480",
+        "https://openalex.org/W2081553388",
+        "https://openalex.org/W2269471698"
       ],
       "shared_topics": 3,
       "shared_topic_names": [
+        "Political Conflict and Governance",
         "Electoral Systems and Political Participation",
-        "Fiscal Policy and Economic Growth",
-        "Political Conflict and Governance"
+        "Fiscal Policy and Economic Growth"
       ],
       "weight": 18.0
     },
     {
-      "source": "Nathan Hoffmann",
-      "target": "Weihua An",
-      "shared_refs": 14,
+      "source": "Jinho Choi",
+      "target": "Ruoxuan Xiong",
+      "shared_refs": 18,
       "shared_ref_ids": [
-        "https://openalex.org/W2132917208",
-        "https://openalex.org/W2171443468",
-        "https://openalex.org/W2150291618",
-        "https://openalex.org/W3122542817",
-        "https://openalex.org/W3123534837",
-        "https://openalex.org/W2137370054",
-        "https://openalex.org/W1585814636",
-        "https://openalex.org/W2996483157",
-        "https://openalex.org/W2314734263",
-        "https://openalex.org/W2062337042",
-        "https://openalex.org/W2124535096",
-        "https://openalex.org/W2129673993",
-        "https://openalex.org/W2140431312",
-        "https://openalex.org/W941378780"
-      ],
-      "shared_topics": 2,
-      "shared_topic_names": [
-        "Migration, Refugees, and Integration",
-        "Advanced Causal Inference Techniques"
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W1522301498",
+        "https://openalex.org/W2143612262",
+        "https://openalex.org/W4919037",
+        "https://openalex.org/W2022204871",
+        "https://openalex.org/W2999905431",
+        "https://openalex.org/W2165698076",
+        "https://openalex.org/W2064675550",
+        "https://openalex.org/W2964015378",
+        "https://openalex.org/W2146502635",
+        "https://openalex.org/W2171468534",
+        "https://openalex.org/W6739901393",
+        "https://openalex.org/W2095705004"
       ],
       "weight": 18.0
     },
@@ -3928,14 +3928,14 @@
       "target": "Michal Arbilly",
       "shared_refs": 8,
       "shared_ref_ids": [
-        "https://openalex.org/W2146672066",
-        "https://openalex.org/W4293743756",
-        "https://openalex.org/W2034956249",
-        "https://openalex.org/W2008226401",
-        "https://openalex.org/W2005556726",
-        "https://openalex.org/W2321742874",
         "https://openalex.org/W2106302542",
-        "https://openalex.org/W2145339207"
+        "https://openalex.org/W2321742874",
+        "https://openalex.org/W2008226401",
+        "https://openalex.org/W2146672066",
+        "https://openalex.org/W2145339207",
+        "https://openalex.org/W2005556726",
+        "https://openalex.org/W2034956249",
+        "https://openalex.org/W4293743756"
       ],
       "shared_topics": 2,
       "shared_topic_names": [
@@ -3944,11 +3944,34 @@
       ],
       "shared_journals": 3,
       "shared_journal_names": [
-        "Proceedings of the Royal Society B Biological Sciences",
         "Journal of The Royal Society Interface",
+        "Proceedings of the Royal Society B Biological Sciences",
         "Proceedings of the National Academy of Sciences"
       ],
       "weight": 16.5
+    },
+    {
+      "source": "Danilo Freire",
+      "target": "Ruoxuan Xiong",
+      "shared_refs": 16,
+      "shared_ref_ids": [
+        "https://openalex.org/W2132917208",
+        "https://openalex.org/W2143891888",
+        "https://openalex.org/W3144040573",
+        "https://openalex.org/W4229737049",
+        "https://openalex.org/W1978108654",
+        "https://openalex.org/W2331253396",
+        "https://openalex.org/W3150893739",
+        "https://openalex.org/W2064790857",
+        "https://openalex.org/W2155163959",
+        "https://openalex.org/W3125057276",
+        "https://openalex.org/W3121385028",
+        "https://openalex.org/W2152849583",
+        "https://openalex.org/W4247399381",
+        "https://openalex.org/W1989535774",
+        "https://openalex.org/W2096684396"
+      ],
+      "weight": 16.0
     },
     {
       "source": "David Hirshberg",
@@ -3957,91 +3980,21 @@
       "shared_ref_ids": [
         "https://openalex.org/W2132917208",
         "https://openalex.org/W2171443468",
-        "https://openalex.org/W3123436326",
         "https://openalex.org/W2150291618",
-        "https://openalex.org/W3122781290",
+        "https://openalex.org/W3123436326",
         "https://openalex.org/W3122542817",
         "https://openalex.org/W2137370054",
         "https://openalex.org/W2039811614",
+        "https://openalex.org/W3122781290",
         "https://openalex.org/W1990139173",
         "https://openalex.org/W2962727190",
-        "https://openalex.org/W1986050895",
         "https://openalex.org/W3124999902",
+        "https://openalex.org/W1488660595",
         "https://openalex.org/W2734806315",
-        "https://openalex.org/W2022450888",
-        "https://openalex.org/W2161041152"
+        "https://openalex.org/W2161041152",
+        "https://openalex.org/W2022450888"
       ],
       "weight": 16.0
-    },
-    {
-      "source": "Danilo Freire",
-      "target": "Ruoxuan Xiong",
-      "shared_refs": 16,
-      "shared_ref_ids": [
-        "https://openalex.org/W2132917208",
-        "https://openalex.org/W3144040573",
-        "https://openalex.org/W2143891888",
-        "https://openalex.org/W4229737049",
-        "https://openalex.org/W3150893739",
-        "https://openalex.org/W1978108654",
-        "https://openalex.org/W2331253396",
-        "https://openalex.org/W3125057276",
-        "https://openalex.org/W2064790857",
-        "https://openalex.org/W3121385028",
-        "https://openalex.org/W2155163959",
-        "https://openalex.org/W4247399381",
-        "https://openalex.org/W1989535774",
-        "https://openalex.org/W2096684396",
-        "https://openalex.org/W2152849583"
-      ],
-      "weight": 16.0
-    },
-    {
-      "source": "Danilo Freire",
-      "target": "Maggie Penn",
-      "shared_refs": 9,
-      "shared_ref_ids": [
-        "https://openalex.org/W2119290332",
-        "https://openalex.org/W2316473956",
-        "https://openalex.org/W1993132818",
-        "https://openalex.org/W1975503357",
-        "https://openalex.org/W1993091619",
-        "https://openalex.org/W2043278166",
-        "https://openalex.org/W2082408198",
-        "https://openalex.org/W2324440273",
-        "https://openalex.org/W4213183334"
-      ],
-      "shared_topics": 3,
-      "shared_topic_names": [
-        "Local Government Finance and Decentralization",
-        "Electoral Systems and Political Participation",
-        "Political Conflict and Governance"
-      ],
-      "weight": 15.0
-    },
-    {
-      "source": "Danilo Freire",
-      "target": "Kevin Quinn",
-      "shared_refs": 11,
-      "shared_ref_ids": [
-        "https://openalex.org/W2119290332",
-        "https://openalex.org/W2153140039",
-        "https://openalex.org/W3150893739",
-        "https://openalex.org/W1978108654",
-        "https://openalex.org/W1580899010",
-        "https://openalex.org/W2139577967",
-        "https://openalex.org/W2745098867",
-        "https://openalex.org/W1985093013",
-        "https://openalex.org/W2126841490",
-        "https://openalex.org/W2523307252",
-        "https://openalex.org/W2125917466"
-      ],
-      "shared_topics": 2,
-      "shared_topic_names": [
-        "Qualitative Comparative Analysis Research",
-        "Electoral Systems and Political Participation"
-      ],
-      "weight": 15.0
     },
     {
       "source": "Benjamin J. Miller",
@@ -4050,26 +4003,9 @@
       "weight": 15.0
     },
     {
-      "source": "Adam Glynn",
-      "target": "Allison Stashko",
-      "shared_refs": 9,
-      "shared_ref_ids": [
-        "https://openalex.org/W2577227262",
-        "https://openalex.org/W2465587637",
-        "https://openalex.org/W3123609487",
-        "https://openalex.org/W1964979215",
-        "https://openalex.org/W4230122470",
-        "https://openalex.org/W3023523944",
-        "https://openalex.org/W3123775444",
-        "https://openalex.org/W3122864926",
-        "https://openalex.org/W2090482080"
-      ],
-      "shared_topics": 3,
-      "shared_topic_names": [
-        "Crime Patterns and Interventions",
-        "Electoral Systems and Political Participation",
-        "Policing Practices and Perceptions"
-      ],
+      "source": "Benjamin J. Miller",
+      "target": "Jinho Choi",
+      "website_coauthor": true,
       "weight": 15.0
     },
     {
@@ -4079,11 +4015,11 @@
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
         "https://openalex.org/W1533368239",
-        "https://openalex.org/W2037967274",
         "https://openalex.org/W2127405101",
+        "https://openalex.org/W1978710835",
+        "https://openalex.org/W2037967274",
         "https://openalex.org/W2168246811",
         "https://openalex.org/W2159623852",
-        "https://openalex.org/W1978710835",
         "https://openalex.org/W1483679835",
         "https://openalex.org/W1531969211"
       ],
@@ -4096,26 +4032,72 @@
       "weight": 15.0
     },
     {
-      "source": "Craig Hadley",
-      "target": "Megan Reed",
+      "source": "Adam Glynn",
+      "target": "Allison Stashko",
+      "shared_refs": 9,
+      "shared_ref_ids": [
+        "https://openalex.org/W2577227262",
+        "https://openalex.org/W2465587637",
+        "https://openalex.org/W2090482080",
+        "https://openalex.org/W3123609487",
+        "https://openalex.org/W4230122470",
+        "https://openalex.org/W3023523944",
+        "https://openalex.org/W1964979215",
+        "https://openalex.org/W3123775444",
+        "https://openalex.org/W3122864926"
+      ],
+      "shared_topics": 3,
+      "shared_topic_names": [
+        "Policing Practices and Perceptions",
+        "Electoral Systems and Political Participation",
+        "Crime Patterns and Interventions"
+      ],
+      "weight": 15.0
+    },
+    {
+      "source": "Danilo Freire",
+      "target": "Kevin Quinn",
       "shared_refs": 11,
       "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W2132441151",
-        "https://openalex.org/W2122295814",
-        "https://openalex.org/W1956647372",
-        "https://openalex.org/W2330816849",
-        "https://openalex.org/W2152044025",
-        "https://openalex.org/W2100847575",
-        "https://openalex.org/W2028503631",
-        "https://openalex.org/W2008674752",
-        "https://openalex.org/W2123143461",
-        "https://openalex.org/W2126918960"
+        "https://openalex.org/W2119290332",
+        "https://openalex.org/W2153140039",
+        "https://openalex.org/W1978108654",
+        "https://openalex.org/W1580899010",
+        "https://openalex.org/W3150893739",
+        "https://openalex.org/W2139577967",
+        "https://openalex.org/W2745098867",
+        "https://openalex.org/W1985093013",
+        "https://openalex.org/W2126841490",
+        "https://openalex.org/W2523307252",
+        "https://openalex.org/W2125917466"
       ],
       "shared_topics": 2,
       "shared_topic_names": [
-        "Health disparities and outcomes",
-        "Poverty, Education, and Child Welfare"
+        "Electoral Systems and Political Participation",
+        "Qualitative Comparative Analysis Research"
+      ],
+      "weight": 15.0
+    },
+    {
+      "source": "Danilo Freire",
+      "target": "Maggie Penn",
+      "shared_refs": 9,
+      "shared_ref_ids": [
+        "https://openalex.org/W2119290332",
+        "https://openalex.org/W2316473956",
+        "https://openalex.org/W1993091619",
+        "https://openalex.org/W1975503357",
+        "https://openalex.org/W1993132818",
+        "https://openalex.org/W2082408198",
+        "https://openalex.org/W4213183334",
+        "https://openalex.org/W2324440273",
+        "https://openalex.org/W2043278166"
+      ],
+      "shared_topics": 3,
+      "shared_topic_names": [
+        "Political Conflict and Governance",
+        "Electoral Systems and Political Participation",
+        "Local Government Finance and Decentralization"
       ],
       "weight": 15.0
     },
@@ -4126,16 +4108,16 @@
       "shared_ref_ids": [
         "https://openalex.org/W2132917208",
         "https://openalex.org/W2171443468",
-        "https://openalex.org/W3123436326",
         "https://openalex.org/W2150291618",
-        "https://openalex.org/W3122781290",
+        "https://openalex.org/W3123436326",
         "https://openalex.org/W2137370054",
         "https://openalex.org/W2039811614",
+        "https://openalex.org/W3122781290",
         "https://openalex.org/W2314734263",
-        "https://openalex.org/W4247399381",
-        "https://openalex.org/W1990139173",
         "https://openalex.org/W2152849583",
+        "https://openalex.org/W4247399381",
         "https://openalex.org/W2110818436",
+        "https://openalex.org/W1990139173",
         "https://openalex.org/W2962727190",
         "https://openalex.org/W2144387798",
         "https://openalex.org/W2963867565"
@@ -4143,9 +4125,27 @@
       "weight": 15.0
     },
     {
-      "source": "Benjamin J. Miller",
-      "target": "Jinho Choi",
-      "website_coauthor": true,
+      "source": "Craig Hadley",
+      "target": "Megan Reed",
+      "shared_refs": 11,
+      "shared_ref_ids": [
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W2122295814",
+        "https://openalex.org/W2152044025",
+        "https://openalex.org/W2028503631",
+        "https://openalex.org/W1956647372",
+        "https://openalex.org/W2330816849",
+        "https://openalex.org/W2123143461",
+        "https://openalex.org/W2008674752",
+        "https://openalex.org/W2100847575",
+        "https://openalex.org/W2132441151",
+        "https://openalex.org/W2126918960"
+      ],
+      "shared_topics": 2,
+      "shared_topic_names": [
+        "Poverty, Education, and Child Welfare",
+        "Health disparities and outcomes"
+      ],
       "weight": 15.0
     },
     {
@@ -4154,54 +4154,39 @@
       "shared_refs": 6,
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W2156774085",
         "https://openalex.org/W2137522380",
+        "https://openalex.org/W2156774085",
         "https://openalex.org/W4297974475",
         "https://openalex.org/W2750735550",
         "https://openalex.org/W3121164501"
       ],
       "shared_topics": 3,
       "shared_topic_names": [
-        "Electoral Systems and Political Participation",
         "Political Conflict and Governance",
+        "Electoral Systems and Political Participation",
         "Culture, Economy, and Development Studies"
       ],
       "weight": 12.0
     },
     {
-      "source": "Adam Glynn",
-      "target": "Alexander Tolbert",
-      "shared_refs": 3,
+      "source": "Hun Chung",
+      "target": "Pablo Montagnes",
+      "shared_refs": 4,
       "shared_ref_ids": [
-        "https://openalex.org/W2143891888",
-        "https://openalex.org/W1978108654",
-        "https://openalex.org/W4302423442"
+        "https://openalex.org/W2047156377",
+        "https://openalex.org/W2068115726",
+        "https://openalex.org/W2144846366",
+        "https://openalex.org/W4238817359"
       ],
-      "shared_topics": 4,
+      "shared_topics": 2,
       "shared_topic_names": [
-        "Qualitative Comparative Analysis Research",
-        "Advanced Causal Inference Techniques",
-        "Electoral Systems and Political Participation",
-        "Philosophy and History of Science"
+        "Experimental Behavioral Economics Studies",
+        "Game Theory and Voting Systems"
       ],
-      "weight": 11.0
-    },
-    {
-      "source": "Allison Stashko",
-      "target": "Luis Martinez",
-      "shared_refs": 11,
-      "shared_ref_ids": [
-        "https://openalex.org/W2577227262",
-        "https://openalex.org/W2465587637",
-        "https://openalex.org/W1608361905",
-        "https://openalex.org/W2955861062",
-        "https://openalex.org/W2069550422",
-        "https://openalex.org/W2189821821",
-        "https://openalex.org/W3124568416",
-        "https://openalex.org/W2524941151",
-        "https://openalex.org/W1441440596",
-        "https://openalex.org/W3122336779",
-        "https://openalex.org/W2145529582"
+      "shared_journals": 2,
+      "shared_journal_names": [
+        "The Journal of Politics",
+        "American Political Science Review"
       ],
       "weight": 11.0
     },
@@ -4213,36 +4198,14 @@
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2130354913",
         "https://openalex.org/W2134246329",
-        "https://openalex.org/W2043096264",
-        "https://openalex.org/W2895553377"
+        "https://openalex.org/W2895553377",
+        "https://openalex.org/W2043096264"
       ],
       "shared_topics": 3,
       "shared_topic_names": [
+        "School Choice and Performance",
         "Electoral Systems and Political Participation",
-        "Social Media and Politics",
-        "School Choice and Performance"
-      ],
-      "weight": 11.0
-    },
-    {
-      "source": "Hun Chung",
-      "target": "Pablo Montagnes",
-      "shared_refs": 4,
-      "shared_ref_ids": [
-        "https://openalex.org/W2144846366",
-        "https://openalex.org/W2047156377",
-        "https://openalex.org/W2068115726",
-        "https://openalex.org/W4238817359"
-      ],
-      "shared_topics": 2,
-      "shared_topic_names": [
-        "Game Theory and Voting Systems",
-        "Experimental Behavioral Economics Studies"
-      ],
-      "shared_journals": 2,
-      "shared_journal_names": [
-        "American Political Science Review",
-        "The Journal of Politics"
+        "Social Media and Politics"
       ],
       "weight": 11.0
     },
@@ -4252,12 +4215,12 @@
       "shared_refs": 7,
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W2115792525",
-        "https://openalex.org/W2153579005",
         "https://openalex.org/W2158847908",
+        "https://openalex.org/W2115792525",
         "https://openalex.org/W4294170691",
         "https://openalex.org/W3133702157",
-        "https://openalex.org/W6682691769"
+        "https://openalex.org/W6682691769",
+        "https://openalex.org/W2153579005"
       ],
       "shared_topics": 2,
       "shared_topic_names": [
@@ -4276,119 +4239,51 @@
         "https://openalex.org/W3150893739",
         "https://openalex.org/W3122193054",
         "https://openalex.org/W2139577967",
-        "https://openalex.org/W1981457167",
-        "https://openalex.org/W1985093013",
         "https://openalex.org/W2143416241",
-        "https://openalex.org/W1497309193",
+        "https://openalex.org/W1985093013",
+        "https://openalex.org/W1981457167",
+        "https://openalex.org/W4247545505",
         "https://openalex.org/W4232383088",
-        "https://openalex.org/W4247545505"
+        "https://openalex.org/W1497309193"
       ],
       "weight": 11.0
     },
     {
-      "source": "Gordon Berman",
-      "target": "Jinho Choi",
-      "shared_refs": 10,
-      "shared_ref_ids": [
-        "https://openalex.org/W2143612262",
-        "https://openalex.org/W1522301498",
-        "https://openalex.org/W2559655401",
-        "https://openalex.org/W2889326414",
-        "https://openalex.org/W2130942839",
-        "https://openalex.org/W2990138404",
-        "https://openalex.org/W6679436768",
-        "https://openalex.org/W2082981966",
-        "https://openalex.org/W2963238274",
-        "https://openalex.org/W2612690371"
-      ],
-      "weight": 10.0
-    },
-    {
-      "source": "Alejandro S\u00e1nchez Becerra",
-      "target": "David Hirshberg",
-      "shared_refs": 10,
-      "weight": 10.0
-    },
-    {
       "source": "Allison Stashko",
-      "target": "John W. Patty",
-      "shared_refs": 6,
+      "target": "Luis Martinez",
+      "shared_refs": 11,
       "shared_ref_ids": [
+        "https://openalex.org/W2577227262",
+        "https://openalex.org/W2465587637",
         "https://openalex.org/W1608361905",
-        "https://openalex.org/W3124844843",
-        "https://openalex.org/W2147285426",
-        "https://openalex.org/W2061235306",
-        "https://openalex.org/W2117696002",
-        "https://openalex.org/W4206272738"
+        "https://openalex.org/W2189821821",
+        "https://openalex.org/W2955861062",
+        "https://openalex.org/W2069550422",
+        "https://openalex.org/W3124568416",
+        "https://openalex.org/W2145529582",
+        "https://openalex.org/W3122336779",
+        "https://openalex.org/W2524941151",
+        "https://openalex.org/W1441440596"
       ],
-      "shared_topics": 2,
+      "weight": 11.0
+    },
+    {
+      "source": "Adam Glynn",
+      "target": "Alexander Tolbert",
+      "shared_refs": 3,
+      "shared_ref_ids": [
+        "https://openalex.org/W2143891888",
+        "https://openalex.org/W1978108654",
+        "https://openalex.org/W4302423442"
+      ],
+      "shared_topics": 4,
       "shared_topic_names": [
         "Electoral Systems and Political Participation",
-        "Game Theory and Voting Systems"
+        "Advanced Causal Inference Techniques",
+        "Philosophy and History of Science",
+        "Qualitative Comparative Analysis Research"
       ],
-      "weight": 10.0
-    },
-    {
-      "source": "Allison Cuttner",
-      "target": "Pablo Montagnes",
-      "coauthor_count": 1,
-      "coauthor_papers": [
-        "The Public Meeting Paradox: How NIMBY-Dominated Public Meetings Can Enable New Housing"
-      ],
-      "weight": 10.0
-    },
-    {
-      "source": "Allison Stashko",
-      "target": "Zachary Peskowitz",
-      "shared_refs": 10,
-      "shared_ref_ids": [
-        "https://openalex.org/W2511012155",
-        "https://openalex.org/W3038074639",
-        "https://openalex.org/W2146018788",
-        "https://openalex.org/W2587019129",
-        "https://openalex.org/W2899595923",
-        "https://openalex.org/W2048236208",
-        "https://openalex.org/W2135146089",
-        "https://openalex.org/W2095618201",
-        "https://openalex.org/W2117935976",
-        "https://openalex.org/W2111039889"
-      ],
-      "weight": 10.0
-    },
-    {
-      "source": "Clifford Carrubba",
-      "target": "Hun Chung",
-      "shared_topics": 2,
-      "shared_topic_names": [
-        "Game Theory and Voting Systems",
-        "Experimental Behavioral Economics Studies"
-      ],
-      "shared_journals": 4,
-      "shared_journal_names": [
-        "American Political Science Review",
-        "Journal of Theoretical Politics",
-        "American Journal of Political Science",
-        "The Journal of Politics"
-      ],
-      "weight": 10.0
-    },
-    {
-      "source": "David Hirshberg",
-      "target": "Luis Martinez",
-      "shared_refs": 10,
-      "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W3144040573",
-        "https://openalex.org/W4229737049",
-        "https://openalex.org/W3122193054",
-        "https://openalex.org/W2331253396",
-        "https://openalex.org/W2171656257",
-        "https://openalex.org/W2117350974",
-        "https://openalex.org/W3121948532",
-        "https://openalex.org/W3113269512",
-        "https://openalex.org/W2979586175"
-      ],
-      "weight": 10.0
+      "weight": 11.0
     },
     {
       "source": "Danilo Freire",
@@ -4398,13 +4293,13 @@
         "https://openalex.org/W2132917208",
         "https://openalex.org/W3144040573",
         "https://openalex.org/W4229737049",
-        "https://openalex.org/W3150893739",
         "https://openalex.org/W2331253396",
-        "https://openalex.org/W3125057276",
+        "https://openalex.org/W3150893739",
         "https://openalex.org/W2155163959",
+        "https://openalex.org/W3125057276",
+        "https://openalex.org/W1998653759",
         "https://openalex.org/W2171656257",
-        "https://openalex.org/W2096684396",
-        "https://openalex.org/W1998653759"
+        "https://openalex.org/W2096684396"
       ],
       "weight": 10.0
     },
@@ -4427,6 +4322,34 @@
       "weight": 10.0
     },
     {
+      "source": "Allison Cuttner",
+      "target": "Pablo Montagnes",
+      "coauthor_count": 1,
+      "coauthor_papers": [
+        "The Public Meeting Paradox: How NIMBY-Dominated Public Meetings Can Enable New Housing"
+      ],
+      "weight": 10.0
+    },
+    {
+      "source": "Allison Stashko",
+      "target": "John W. Patty",
+      "shared_refs": 6,
+      "shared_ref_ids": [
+        "https://openalex.org/W1608361905",
+        "https://openalex.org/W2147285426",
+        "https://openalex.org/W3124844843",
+        "https://openalex.org/W2061235306",
+        "https://openalex.org/W2117696002",
+        "https://openalex.org/W4206272738"
+      ],
+      "shared_topics": 2,
+      "shared_topic_names": [
+        "Electoral Systems and Political Participation",
+        "Game Theory and Voting Systems"
+      ],
+      "weight": 10.0
+    },
+    {
       "source": "Luis Martinez",
       "target": "Ruoxuan Xiong",
       "shared_refs": 10,
@@ -4434,13 +4357,90 @@
         "https://openalex.org/W4285719527",
         "https://openalex.org/W3144040573",
         "https://openalex.org/W4229737049",
-        "https://openalex.org/W3122193054",
         "https://openalex.org/W2331253396",
+        "https://openalex.org/W3122193054",
         "https://openalex.org/W3124658416",
-        "https://openalex.org/W1989535774",
         "https://openalex.org/W2104780889",
-        "https://openalex.org/W2119711634",
-        "https://openalex.org/W2105171386"
+        "https://openalex.org/W1989535774",
+        "https://openalex.org/W2105171386",
+        "https://openalex.org/W2119711634"
+      ],
+      "weight": 10.0
+    },
+    {
+      "source": "Clifford Carrubba",
+      "target": "Hun Chung",
+      "shared_topics": 2,
+      "shared_topic_names": [
+        "Experimental Behavioral Economics Studies",
+        "Game Theory and Voting Systems"
+      ],
+      "shared_journals": 4,
+      "shared_journal_names": [
+        "American Journal of Political Science",
+        "Journal of Theoretical Politics",
+        "The Journal of Politics",
+        "American Political Science Review"
+      ],
+      "weight": 10.0
+    },
+    {
+      "source": "David Hirshberg",
+      "target": "Luis Martinez",
+      "shared_refs": 10,
+      "shared_ref_ids": [
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W3144040573",
+        "https://openalex.org/W4229737049",
+        "https://openalex.org/W2331253396",
+        "https://openalex.org/W3122193054",
+        "https://openalex.org/W2117350974",
+        "https://openalex.org/W2171656257",
+        "https://openalex.org/W2979586175",
+        "https://openalex.org/W3121948532",
+        "https://openalex.org/W3113269512"
+      ],
+      "weight": 10.0
+    },
+    {
+      "source": "Alejandro S\u00e1nchez Becerra",
+      "target": "David Hirshberg",
+      "shared_refs": 10,
+      "weight": 10.0
+    },
+    {
+      "source": "Allison Stashko",
+      "target": "Zachary Peskowitz",
+      "shared_refs": 10,
+      "shared_ref_ids": [
+        "https://openalex.org/W3038074639",
+        "https://openalex.org/W2511012155",
+        "https://openalex.org/W2146018788",
+        "https://openalex.org/W2048236208",
+        "https://openalex.org/W2095618201",
+        "https://openalex.org/W2117935976",
+        "https://openalex.org/W2899595923",
+        "https://openalex.org/W2111039889",
+        "https://openalex.org/W2587019129",
+        "https://openalex.org/W2135146089"
+      ],
+      "weight": 10.0
+    },
+    {
+      "source": "Gordon Berman",
+      "target": "Jinho Choi",
+      "shared_refs": 10,
+      "shared_ref_ids": [
+        "https://openalex.org/W1522301498",
+        "https://openalex.org/W2143612262",
+        "https://openalex.org/W2963238274",
+        "https://openalex.org/W2559655401",
+        "https://openalex.org/W2990138404",
+        "https://openalex.org/W2130942839",
+        "https://openalex.org/W2612690371",
+        "https://openalex.org/W2889326414",
+        "https://openalex.org/W2082981966",
+        "https://openalex.org/W6679436768"
       ],
       "weight": 10.0
     },
@@ -4450,33 +4450,34 @@
       "shared_refs": 5,
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
+        "https://openalex.org/W193272011",
         "https://openalex.org/W1689629105",
         "https://openalex.org/W2140409505",
-        "https://openalex.org/W1990815933",
-        "https://openalex.org/W193272011"
+        "https://openalex.org/W1990815933"
       ],
       "shared_journals": 3,
       "shared_journal_names": [
-        "American Political Science Review",
         "American Journal of Political Science",
-        "The Journal of Politics"
+        "The Journal of Politics",
+        "American Political Science Review"
       ],
       "weight": 9.5
     },
     {
-      "source": "Kevin Quinn",
-      "target": "Ruoxuan Xiong",
-      "shared_refs": 9,
+      "source": "Allison Stashko",
+      "target": "Danilo Freire",
+      "shared_refs": 5,
       "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W2171443468",
-        "https://openalex.org/W3150893739",
-        "https://openalex.org/W3122193054",
-        "https://openalex.org/W1978108654",
-        "https://openalex.org/W2120817734",
-        "https://openalex.org/W3122812581",
-        "https://openalex.org/W2143416241",
-        "https://openalex.org/W2110818436"
+        "https://openalex.org/W3038074639",
+        "https://openalex.org/W2189821821",
+        "https://openalex.org/W2955861062",
+        "https://openalex.org/W2069550422",
+        "https://openalex.org/W2511012155"
+      ],
+      "shared_topics": 2,
+      "shared_topic_names": [
+        "Electoral Systems and Political Participation",
+        "Crime Patterns and Interventions"
       ],
       "weight": 9.0
     },
@@ -4499,20 +4500,19 @@
       "weight": 9.0
     },
     {
-      "source": "Allison Stashko",
-      "target": "Danilo Freire",
-      "shared_refs": 5,
+      "source": "Kevin Quinn",
+      "target": "Ruoxuan Xiong",
+      "shared_refs": 9,
       "shared_ref_ids": [
-        "https://openalex.org/W2955861062",
-        "https://openalex.org/W2069550422",
-        "https://openalex.org/W2511012155",
-        "https://openalex.org/W2189821821",
-        "https://openalex.org/W3038074639"
-      ],
-      "shared_topics": 2,
-      "shared_topic_names": [
-        "Crime Patterns and Interventions",
-        "Electoral Systems and Political Participation"
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W2171443468",
+        "https://openalex.org/W1978108654",
+        "https://openalex.org/W3150893739",
+        "https://openalex.org/W3122193054",
+        "https://openalex.org/W2120817734",
+        "https://openalex.org/W3122812581",
+        "https://openalex.org/W2143416241",
+        "https://openalex.org/W2110818436"
       ],
       "weight": 9.0
     },
@@ -4522,15 +4522,21 @@
       "shared_refs": 4,
       "shared_ref_ids": [
         "https://openalex.org/W3123534837",
+        "https://openalex.org/W2593707363",
         "https://openalex.org/W3111788401",
-        "https://openalex.org/W2003504923",
-        "https://openalex.org/W2593707363"
+        "https://openalex.org/W2003504923"
       ],
       "shared_topics": 2,
       "shared_topic_names": [
-        "Migration, Health and Trauma",
-        "Migration and Labor Dynamics"
+        "Migration and Labor Dynamics",
+        "Migration, Health and Trauma"
       ],
+      "weight": 8.0
+    },
+    {
+      "source": "Alejandro S\u00e1nchez Becerra",
+      "target": "Ruoxuan Xiong",
+      "shared_refs": 8,
       "weight": 8.0
     },
     {
@@ -4539,15 +4545,15 @@
       "shared_refs": 5,
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
+        "https://openalex.org/W2909609490",
         "https://openalex.org/W1511186454",
         "https://openalex.org/W1967005654",
-        "https://openalex.org/W4237109050",
-        "https://openalex.org/W2909609490"
+        "https://openalex.org/W4237109050"
       ],
       "shared_journals": 2,
       "shared_journal_names": [
-        "American Literary History",
-        "Journal of Cultural Analytics"
+        "Journal of Cultural Analytics",
+        "American Literary History"
       ],
       "weight": 8.0
     },
@@ -4563,29 +4569,72 @@
       ],
       "shared_topics": 2,
       "shared_topic_names": [
-        "Qualitative Comparative Analysis Research",
-        "Electoral Systems and Political Participation"
+        "Electoral Systems and Political Participation",
+        "Qualitative Comparative Analysis Research"
       ],
       "weight": 8.0
     },
     {
-      "source": "Alejandro S\u00e1nchez Becerra",
-      "target": "Ruoxuan Xiong",
-      "shared_refs": 8,
-      "weight": 8.0
-    },
-    {
-      "source": "Heeju Sohn",
-      "target": "Zachary Peskowitz",
-      "shared_refs": 7,
+      "source": "Hun Chung",
+      "target": "Kevin Quinn",
+      "shared_refs": 4,
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W2130354913",
-        "https://openalex.org/W3097831184",
-        "https://openalex.org/W3093945536",
-        "https://openalex.org/W1923553318",
-        "https://openalex.org/W1973975117",
-        "https://openalex.org/W3021900848"
+        "https://openalex.org/W2041138693",
+        "https://openalex.org/W2004900762",
+        "https://openalex.org/W1985194351"
+      ],
+      "shared_journals": 2,
+      "shared_journal_names": [
+        "American Journal of Political Science",
+        "The Journal of Politics"
+      ],
+      "weight": 7.0
+    },
+    {
+      "source": "Clifford Carrubba",
+      "target": "Luis Martinez",
+      "shared_refs": 3,
+      "shared_ref_ids": [
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W2577227262",
+        "https://openalex.org/W2134291350"
+      ],
+      "shared_topics": 2,
+      "shared_topic_names": [
+        "Political Conflict and Governance",
+        "Electoral Systems and Political Participation"
+      ],
+      "weight": 7.0
+    },
+    {
+      "source": "Dan Sinykin",
+      "target": "Jo Guldi",
+      "shared_refs": 3,
+      "shared_ref_ids": [
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W4242004895",
+        "https://openalex.org/W1976345684"
+      ],
+      "shared_topics": 2,
+      "shared_topic_names": [
+        "Climate Change Communication and Perception",
+        "Political and Economic history of UK and US"
+      ],
+      "weight": 7.0
+    },
+    {
+      "source": "Danilo Freire",
+      "target": "Nathan Hoffmann",
+      "shared_refs": 7,
+      "shared_ref_ids": [
+        "https://openalex.org/W2132917208",
+        "https://openalex.org/W2996483157",
+        "https://openalex.org/W1585814636",
+        "https://openalex.org/W430011393",
+        "https://openalex.org/W2152849583",
+        "https://openalex.org/W4247399381",
+        "https://openalex.org/W3168499785"
       ],
       "weight": 7.0
     },
@@ -4605,34 +4654,17 @@
       "weight": 7.0
     },
     {
-      "source": "Danilo Freire",
-      "target": "Nathan Hoffmann",
+      "source": "Heeju Sohn",
+      "target": "Zachary Peskowitz",
       "shared_refs": 7,
       "shared_ref_ids": [
-        "https://openalex.org/W2132917208",
-        "https://openalex.org/W1585814636",
-        "https://openalex.org/W2996483157",
-        "https://openalex.org/W4247399381",
-        "https://openalex.org/W2152849583",
-        "https://openalex.org/W430011393",
-        "https://openalex.org/W3168499785"
-      ],
-      "weight": 7.0
-    },
-    {
-      "source": "Hun Chung",
-      "target": "Kevin Quinn",
-      "shared_refs": 4,
-      "shared_ref_ids": [
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W2041138693",
-        "https://openalex.org/W1985194351",
-        "https://openalex.org/W2004900762"
-      ],
-      "shared_journals": 2,
-      "shared_journal_names": [
-        "The Journal of Politics",
-        "American Journal of Political Science"
+        "https://openalex.org/W2130354913",
+        "https://openalex.org/W1973975117",
+        "https://openalex.org/W3021900848",
+        "https://openalex.org/W1923553318",
+        "https://openalex.org/W3093945536",
+        "https://openalex.org/W3097831184"
       ],
       "weight": 7.0
     },
@@ -4643,55 +4675,41 @@
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
         "https://openalex.org/W1533368239",
-        "https://openalex.org/W2037967274",
         "https://openalex.org/W2127405101",
-        "https://openalex.org/W2168246811",
+        "https://openalex.org/W1978710835",
+        "https://openalex.org/W2037967274",
         "https://openalex.org/W2159623852",
-        "https://openalex.org/W1978710835"
+        "https://openalex.org/W2168246811"
       ],
       "weight": 7.0
     },
     {
-      "source": "Dan Sinykin",
-      "target": "Jo Guldi",
-      "shared_refs": 3,
-      "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W1976345684",
-        "https://openalex.org/W4242004895"
-      ],
+      "source": "Gregory Palermo",
+      "target": "Lauren Klein",
       "shared_topics": 2,
       "shared_topic_names": [
-        "Climate Change Communication and Perception",
-        "Political and Economic history of UK and US"
+        "Digital Humanities and Scholarship",
+        "Computational and Text Analysis Methods"
       ],
-      "weight": 7.0
+      "weight": 6,
+      "boosted": true
     },
     {
-      "source": "Clifford Carrubba",
-      "target": "Luis Martinez",
-      "shared_refs": 3,
-      "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W2577227262",
-        "https://openalex.org/W2134291350"
-      ],
-      "shared_topics": 2,
-      "shared_topic_names": [
-        "Electoral Systems and Political Participation",
-        "Political Conflict and Governance"
-      ],
-      "weight": 7.0
+      "source": "Jacopo Di Iorio",
+      "target": "Ruoxuan Xiong",
+      "shared_refs": 2,
+      "weight": 6,
+      "boosted": true
     },
     {
       "source": "Hun Chung",
       "target": "Zachary Peskowitz",
       "shared_journals": 4,
       "shared_journal_names": [
-        "American Political Science Review",
-        "Journal of Theoretical Politics",
         "American Journal of Political Science",
-        "The Journal of Politics"
+        "Journal of Theoretical Politics",
+        "The Journal of Politics",
+        "American Political Science Review"
       ],
       "weight": 6.0
     },
@@ -4701,11 +4719,36 @@
       "shared_refs": 6,
       "shared_ref_ids": [
         "https://openalex.org/W2911964244",
+        "https://openalex.org/W2097360283",
         "https://openalex.org/W4249142012",
         "https://openalex.org/W4244777963",
         "https://openalex.org/W4241307704",
-        "https://openalex.org/W2097360283",
         "https://openalex.org/W2117897510"
+      ],
+      "weight": 6.0
+    },
+    {
+      "source": "Alexander Tolbert",
+      "target": "John W. Patty",
+      "shared_topics": 3,
+      "shared_topic_names": [
+        "Ethics and Social Impacts of AI",
+        "Electoral Systems and Political Participation",
+        "Decision-Making and Behavioral Economics"
+      ],
+      "weight": 6.0
+    },
+    {
+      "source": "Craig Hadley",
+      "target": "Michal Arbilly",
+      "shared_refs": 6,
+      "shared_ref_ids": [
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W1990513740",
+        "https://openalex.org/W2091416687",
+        "https://openalex.org/W2096334794",
+        "https://openalex.org/W1811781384",
+        "https://openalex.org/W2118125849"
       ],
       "weight": 6.0
     },
@@ -4716,8 +4759,8 @@
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
         "https://openalex.org/W4242428206",
-        "https://openalex.org/W1971440513",
         "https://openalex.org/W2091580968",
+        "https://openalex.org/W1971440513",
         "https://openalex.org/W2097780989",
         "https://openalex.org/W4292811746"
       ],
@@ -4730,21 +4773,10 @@
       "shared_ref_ids": [
         "https://openalex.org/W2143891888",
         "https://openalex.org/W2911964244",
-        "https://openalex.org/W2143612262",
         "https://openalex.org/W1522301498",
+        "https://openalex.org/W2143612262",
         "https://openalex.org/W4295097398",
         "https://openalex.org/W6631190155"
-      ],
-      "weight": 6.0
-    },
-    {
-      "source": "Alexander Tolbert",
-      "target": "John W. Patty",
-      "shared_topics": 3,
-      "shared_topic_names": [
-        "Electoral Systems and Political Participation",
-        "Decision-Making and Behavioral Economics",
-        "Ethics and Social Impacts of AI"
       ],
       "weight": 6.0
     },
@@ -4754,27 +4786,41 @@
       "shared_refs": 6,
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W2124495323",
-        "https://openalex.org/W1966624664",
-        "https://openalex.org/W1595698486",
         "https://openalex.org/W4250442524",
-        "https://openalex.org/W2111630075"
+        "https://openalex.org/W2111630075",
+        "https://openalex.org/W1595698486",
+        "https://openalex.org/W1966624664",
+        "https://openalex.org/W2124495323"
       ],
       "weight": 6.0
     },
     {
-      "source": "Craig Hadley",
-      "target": "Michal Arbilly",
-      "shared_refs": 6,
-      "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W1990513740",
-        "https://openalex.org/W2096334794",
-        "https://openalex.org/W1811781384",
-        "https://openalex.org/W2118125849",
-        "https://openalex.org/W2091416687"
-      ],
-      "weight": 6.0
+      "source": "Abhishek Ananth",
+      "target": "Adam Glynn",
+      "shared_area": true,
+      "weight": 6,
+      "boosted": true
+    },
+    {
+      "source": "Alexander Tolbert",
+      "target": "Joseph Sutherland",
+      "shared_area": true,
+      "weight": 6,
+      "boosted": true
+    },
+    {
+      "source": "Allison Cuttner",
+      "target": "Kevin McAlister",
+      "shared_area": true,
+      "weight": 6,
+      "boosted": true
+    },
+    {
+      "source": "Abhishek Ananth",
+      "target": "Zhiyun Gong",
+      "shared_area": true,
+      "weight": 6,
+      "boosted": true
     },
     {
       "source": "Allison Stashko",
@@ -4783,18 +4829,11 @@
       "shared_ref_ids": [
         "https://openalex.org/W2577227262",
         "https://openalex.org/W2465587637",
+        "https://openalex.org/W6679150444",
         "https://openalex.org/W2131148121",
-        "https://openalex.org/W2891580543",
-        "https://openalex.org/W6679150444"
+        "https://openalex.org/W2891580543"
       ],
       "weight": 5.0
-    },
-    {
-      "source": "Jacopo Di Iorio",
-      "target": "Megan Reed",
-      "shared_refs": 2,
-      "weight": 5,
-      "boosted": true
     },
     {
       "source": "Heeju Sohn",
@@ -4802,23 +4841,12 @@
       "shared_refs": 5,
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W2142340313",
-        "https://openalex.org/W2128536211",
+        "https://openalex.org/W2136285353",
         "https://openalex.org/W3122206114",
-        "https://openalex.org/W2136285353"
+        "https://openalex.org/W2142340313",
+        "https://openalex.org/W2128536211"
       ],
       "weight": 5.0
-    },
-    {
-      "source": "Gregory Palermo",
-      "target": "Jo Guldi",
-      "shared_topics": 2,
-      "shared_topic_names": [
-        "Computational and Text Analysis Methods",
-        "Digital Humanities and Scholarship"
-      ],
-      "weight": 5,
-      "boosted": true
     },
     {
       "source": "Alexander Tolbert",
@@ -4828,130 +4856,14 @@
         "https://openalex.org/W2143891888",
         "https://openalex.org/W1978108654",
         "https://openalex.org/W2012797835",
-        "https://openalex.org/W2114389382",
-        "https://openalex.org/W4302423442"
+        "https://openalex.org/W4302423442",
+        "https://openalex.org/W2114389382"
       ],
       "weight": 5.0
     },
     {
-      "source": "Abhishek Ananth",
-      "target": "Adam Glynn",
-      "shared_area": true,
-      "weight": 5,
-      "boosted": true
-    },
-    {
-      "source": "Alexander Tolbert",
-      "target": "Joseph Sutherland",
-      "shared_area": true,
-      "weight": 5,
-      "boosted": true
-    },
-    {
-      "source": "Allison Cuttner",
-      "target": "Kevin McAlister",
-      "shared_area": true,
-      "weight": 5,
-      "boosted": true
-    },
-    {
-      "source": "Abhishek Ananth",
-      "target": "Zhiyun Gong",
-      "shared_area": true,
-      "weight": 5,
-      "boosted": true
-    },
-    {
-      "source": "Kevin Quinn",
-      "target": "Nathan Hoffmann",
-      "shared_refs": 4,
-      "shared_ref_ids": [
-        "https://openalex.org/W2171443468",
-        "https://openalex.org/W2029941278",
-        "https://openalex.org/W2066443416",
-        "https://openalex.org/W2110818436"
-      ],
-      "weight": 4.0
-    },
-    {
-      "source": "Alexander Tolbert",
-      "target": "Maggie Penn",
-      "shared_topics": 2,
-      "shared_topic_names": [
-        "Electoral Systems and Political Participation",
-        "Ethics and Social Impacts of AI"
-      ],
-      "weight": 4.0
-    },
-    {
-      "source": "Jinho Choi",
-      "target": "Weihua An",
-      "shared_refs": 4,
-      "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W2582743722",
-        "https://openalex.org/W2124637492",
-        "https://openalex.org/W2112090702"
-      ],
-      "weight": 4.0
-    },
-    {
       "source": "Allison Stashko",
       "target": "Pablo Montagnes",
-      "shared_topics": 2,
-      "shared_topic_names": [
-        "Electoral Systems and Political Participation",
-        "Game Theory and Voting Systems"
-      ],
-      "weight": 4.0
-    },
-    {
-      "source": "Allison Stashko",
-      "target": "Hun Chung",
-      "shared_topics": 2,
-      "shared_topic_names": [
-        "Economic Theory and Institutions",
-        "Game Theory and Voting Systems"
-      ],
-      "weight": 4.0
-    },
-    {
-      "source": "Alexander Tolbert",
-      "target": "Luis Martinez",
-      "shared_topics": 2,
-      "shared_topic_names": [
-        "Electoral Systems and Political Participation",
-        "Decision-Making and Behavioral Economics"
-      ],
-      "weight": 4.0
-    },
-    {
-      "source": "John W. Patty",
-      "target": "Lauren Klein",
-      "shared_refs": 4,
-      "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W1533368239",
-        "https://openalex.org/W2167482691",
-        "https://openalex.org/W6809680140"
-      ],
-      "weight": 4.0
-    },
-    {
-      "source": "Kevin Quinn",
-      "target": "Lauren Klein",
-      "shared_refs": 4,
-      "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W2319794630",
-        "https://openalex.org/W2036852794",
-        "https://openalex.org/W2587628976"
-      ],
-      "weight": 4.0
-    },
-    {
-      "source": "Allison Stashko",
-      "target": "Maggie Penn",
       "shared_topics": 2,
       "shared_topic_names": [
         "Electoral Systems and Political Participation",
@@ -4966,8 +4878,40 @@
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
         "https://openalex.org/W1530604260",
-        "https://openalex.org/W2121135108",
-        "https://openalex.org/W2164608177"
+        "https://openalex.org/W2164608177",
+        "https://openalex.org/W2121135108"
+      ],
+      "weight": 4.0
+    },
+    {
+      "source": "Jinho Choi",
+      "target": "Weihua An",
+      "shared_refs": 4,
+      "shared_ref_ids": [
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W2582743722",
+        "https://openalex.org/W2112090702",
+        "https://openalex.org/W2124637492"
+      ],
+      "weight": 4.0
+    },
+    {
+      "source": "Allison Stashko",
+      "target": "Maggie Penn",
+      "shared_topics": 2,
+      "shared_topic_names": [
+        "Electoral Systems and Political Participation",
+        "Game Theory and Voting Systems"
+      ],
+      "weight": 4.0
+    },
+    {
+      "source": "Gregory Palermo",
+      "target": "Jo Guldi",
+      "shared_topics": 2,
+      "shared_topic_names": [
+        "Digital Humanities and Scholarship",
+        "Computational and Text Analysis Methods"
       ],
       "weight": 4.0
     },
@@ -4982,12 +4926,22 @@
       "weight": 4.0
     },
     {
+      "source": "Allison Stashko",
+      "target": "Clifford Carrubba",
+      "shared_topics": 2,
+      "shared_topic_names": [
+        "Electoral Systems and Political Participation",
+        "Game Theory and Voting Systems"
+      ],
+      "weight": 4.0
+    },
+    {
       "source": "Alexander Tolbert",
       "target": "Zachary Peskowitz",
       "shared_topics": 2,
       "shared_topic_names": [
-        "Electoral Systems and Political Participation",
-        "Ethics and Social Impacts of AI"
+        "Ethics and Social Impacts of AI",
+        "Electoral Systems and Political Participation"
       ],
       "weight": 4.0
     },
@@ -4997,41 +4951,19 @@
       "shared_refs": 4,
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W1880262756",
         "https://openalex.org/W2423024114",
-        "https://openalex.org/W1972820248"
+        "https://openalex.org/W1972820248",
+        "https://openalex.org/W1880262756"
       ],
       "weight": 4.0
     },
     {
-      "source": "Gregory Palermo",
-      "target": "Lauren Klein",
-      "shared_topics": 2,
-      "shared_topic_names": [
-        "Computational and Text Analysis Methods",
-        "Digital Humanities and Scholarship"
-      ],
-      "weight": 4.0
-    },
-    {
-      "source": "Adam Glynn",
-      "target": "Heeju Sohn",
-      "shared_refs": 4,
-      "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W2322954441",
-        "https://openalex.org/W2318746079",
-        "https://openalex.org/W81443339"
-      ],
-      "weight": 4.0
-    },
-    {
-      "source": "Allison Stashko",
-      "target": "Clifford Carrubba",
+      "source": "Alexander Tolbert",
+      "target": "Luis Martinez",
       "shared_topics": 2,
       "shared_topic_names": [
         "Electoral Systems and Political Participation",
-        "Game Theory and Voting Systems"
+        "Decision-Making and Behavioral Economics"
       ],
       "weight": 4.0
     },
@@ -5048,12 +4980,80 @@
       "weight": 4.0
     },
     {
+      "source": "Kevin Quinn",
+      "target": "Nathan Hoffmann",
+      "shared_refs": 4,
+      "shared_ref_ids": [
+        "https://openalex.org/W2171443468",
+        "https://openalex.org/W2029941278",
+        "https://openalex.org/W2066443416",
+        "https://openalex.org/W2110818436"
+      ],
+      "weight": 4.0
+    },
+    {
+      "source": "Kevin Quinn",
+      "target": "Lauren Klein",
+      "shared_refs": 4,
+      "shared_ref_ids": [
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W2319794630",
+        "https://openalex.org/W2587628976",
+        "https://openalex.org/W2036852794"
+      ],
+      "weight": 4.0
+    },
+    {
+      "source": "Allison Stashko",
+      "target": "Hun Chung",
+      "shared_topics": 2,
+      "shared_topic_names": [
+        "Game Theory and Voting Systems",
+        "Economic Theory and Institutions"
+      ],
+      "weight": 4.0
+    },
+    {
       "source": "Alexander Tolbert",
       "target": "Danilo Freire",
       "shared_topics": 2,
       "shared_topic_names": [
-        "Qualitative Comparative Analysis Research",
+        "Electoral Systems and Political Participation",
+        "Qualitative Comparative Analysis Research"
+      ],
+      "weight": 4.0
+    },
+    {
+      "source": "Alexander Tolbert",
+      "target": "Maggie Penn",
+      "shared_topics": 2,
+      "shared_topic_names": [
+        "Ethics and Social Impacts of AI",
         "Electoral Systems and Political Participation"
+      ],
+      "weight": 4.0
+    },
+    {
+      "source": "Adam Glynn",
+      "target": "Heeju Sohn",
+      "shared_refs": 4,
+      "shared_ref_ids": [
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W2318746079",
+        "https://openalex.org/W2322954441",
+        "https://openalex.org/W81443339"
+      ],
+      "weight": 4.0
+    },
+    {
+      "source": "John W. Patty",
+      "target": "Lauren Klein",
+      "shared_refs": 4,
+      "shared_ref_ids": [
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W1533368239",
+        "https://openalex.org/W6809680140",
+        "https://openalex.org/W2167482691"
       ],
       "weight": 4.0
     },
@@ -5062,47 +5062,8 @@
       "target": "Pablo Montagnes",
       "shared_journals": 2,
       "shared_journal_names": [
-        "American Economic Review",
-        "Proceedings of the National Academy of Sciences"
-      ],
-      "weight": 3.0
-    },
-    {
-      "source": "Alejandro S\u00e1nchez Becerra",
-      "target": "Weihua An",
-      "shared_refs": 3,
-      "weight": 3.0
-    },
-    {
-      "source": "Jo Guldi",
-      "target": "Luis Martinez",
-      "shared_refs": 3,
-      "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W3154739585",
-        "https://openalex.org/W2169516098"
-      ],
-      "weight": 3.0
-    },
-    {
-      "source": "Hun Chung",
-      "target": "Luis Martinez",
-      "shared_refs": 3,
-      "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W2133469585",
-        "https://openalex.org/W3011865677"
-      ],
-      "weight": 3.0
-    },
-    {
-      "source": "Adam Glynn",
-      "target": "Jinho Choi",
-      "shared_refs": 3,
-      "shared_ref_ids": [
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W2209227144",
-        "https://openalex.org/W1527758775"
+        "Proceedings of the National Academy of Sciences",
+        "American Economic Review"
       ],
       "weight": 3.0
     },
@@ -5118,17 +5079,6 @@
       "weight": 3.0
     },
     {
-      "source": "Gordon Berman",
-      "target": "Zachary Peskowitz",
-      "shared_refs": 3,
-      "shared_ref_ids": [
-        "https://openalex.org/W2911964244",
-        "https://openalex.org/W1995945562",
-        "https://openalex.org/W3106889297"
-      ],
-      "weight": 3.0
-    },
-    {
       "source": "Ruoxuan Xiong",
       "target": "Zachary Peskowitz",
       "shared_refs": 3,
@@ -5136,6 +5086,45 @@
         "https://openalex.org/W4285719527",
         "https://openalex.org/W2911964244",
         "https://openalex.org/W2028995298"
+      ],
+      "weight": 3.0
+    },
+    {
+      "source": "Jo Guldi",
+      "target": "Luis Martinez",
+      "shared_refs": 3,
+      "shared_ref_ids": [
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W2169516098",
+        "https://openalex.org/W3154739585"
+      ],
+      "weight": 3.0
+    },
+    {
+      "source": "Ruoxuan Xiong",
+      "target": "Sandeep Soni",
+      "shared_refs": 3,
+      "weight": 3.0
+    },
+    {
+      "source": "Gordon Berman",
+      "target": "Zachary Peskowitz",
+      "shared_refs": 3,
+      "shared_ref_ids": [
+        "https://openalex.org/W2911964244",
+        "https://openalex.org/W3106889297",
+        "https://openalex.org/W1995945562"
+      ],
+      "weight": 3.0
+    },
+    {
+      "source": "Hun Chung",
+      "target": "Luis Martinez",
+      "shared_refs": 3,
+      "shared_ref_ids": [
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W2133469585",
+        "https://openalex.org/W3011865677"
       ],
       "weight": 3.0
     },
@@ -5156,8 +5145,25 @@
       "shared_refs": 3,
       "shared_ref_ids": [
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W2321285204",
-        "https://openalex.org/W3021907865"
+        "https://openalex.org/W3021907865",
+        "https://openalex.org/W2321285204"
+      ],
+      "weight": 3.0
+    },
+    {
+      "source": "Alejandro S\u00e1nchez Becerra",
+      "target": "Weihua An",
+      "shared_refs": 3,
+      "weight": 3.0
+    },
+    {
+      "source": "Adam Glynn",
+      "target": "Jinho Choi",
+      "shared_refs": 3,
+      "shared_ref_ids": [
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W1527758775",
+        "https://openalex.org/W2209227144"
       ],
       "weight": 3.0
     },
@@ -5166,21 +5172,15 @@
       "target": "Nathan Hoffmann",
       "shared_refs": 3,
       "shared_ref_ids": [
+        "https://openalex.org/W3000422909",
         "https://openalex.org/W2997375478",
-        "https://openalex.org/W2123074746",
-        "https://openalex.org/W3000422909"
+        "https://openalex.org/W2123074746"
       ],
       "weight": 3.0
     },
     {
-      "source": "Ruoxuan Xiong",
-      "target": "Sandeep Soni",
-      "shared_refs": 3,
-      "weight": 3.0
-    },
-    {
-      "source": "Gordon Berman",
-      "target": "Kevin Quinn",
+      "source": "Danilo Freire",
+      "target": "Gordon Berman",
       "shared_refs": 2,
       "weight": 2.0
     },
@@ -5192,13 +5192,13 @@
     },
     {
       "source": "Jacopo Di Iorio",
-      "target": "Ruoxuan Xiong",
+      "target": "Megan Reed",
       "shared_refs": 2,
       "weight": 2.0
     },
     {
-      "source": "Danilo Freire",
-      "target": "Gordon Berman",
+      "source": "Gordon Berman",
+      "target": "Kevin Quinn",
       "shared_refs": 2,
       "weight": 2.0
     }

@@ -22,9 +22,8 @@ AREA_KEYWORDS = {
     ],
     "Natural Language Processing": [
         "natural language", "nlp", "computational linguist",
-        "text mining", "sentiment", "machine learning",
-        "artificial intelligence", "deep learning",
-        "information retrieval", "language model", "narratolog",
+        "text mining", "sentiment", "language model",
+        "information retrieval", "narratolog",
         "conversational", "dialogue", "named entity",
     ],
     "Statistics / Causal Inference": [
@@ -40,10 +39,24 @@ AREA_KEYWORDS = {
         "data feminism", "rhetoric", "writing",
         "publishing", "visualization", "archive",
     ],
-    "Biology / Neuroscience": [
-        "biolog", "neuro", "animal", "behavio",
-        "ecolog", "brain", "genome", "evolution",
-        "cognitive", "species", "phenotyp",
+    "Biology": [
+        "biolog", "animal", "behavio",
+        "ecolog", "genome", "evolution",
+        "species", "phenotyp",
+    ],
+    "Psychology": [
+        "psycholog", "cognitive", "brain", "neuro",
+        "mental", "behavior", "perception", "learning",
+    ],
+    "Machine Learning": [
+        "machine learning", "deep learning", "neural network",
+        "computer vision", "reinforcement learning", "supervised",
+        "unsupervised", "generative", "representation learning",
+    ],
+    "Formal Theory": [
+        "game theory", "formal theory", "social choice",
+        "mechanism design", "rational choice", "voting theory",
+        "mathematical model", "equilibrium", "axiomatic",
     ],
     "Sociology": [
         "sociolog", "inequality", "immigra",
@@ -78,39 +91,40 @@ MANUAL_AREAS = {
     "Weihua An": {"Statistics / Causal Inference": 3, "Sociology": 2},
     "Adam Glynn": {"Statistics / Causal Inference": 3, "Political Science": 2},
     "Kevin Quinn": {"Statistics / Causal Inference": 3, "Political Science": 2},
-    "Clifford Carrubba": {"Political Science": 4, "Statistics / Causal Inference": 1},
-    "John W. Patty": {"Political Science": 3, "Statistics / Causal Inference": 1},
-    "Maggie Penn": {"Political Science": 3, "Statistics / Causal Inference": 1},
-    "Hun Chung": {"Political Science": 2, "Philosophy": 2, "Statistics / Causal Inference": 1},
+    "Clifford Carrubba": {"Formal Theory": 3, "Political Science": 2, "Statistics / Causal Inference": 1},
+    "John W. Patty": {"Formal Theory": 3, "Political Science": 2, "Statistics / Causal Inference": 1},
+    "Maggie Penn": {"Formal Theory": 3, "Political Science": 2, "Statistics / Causal Inference": 1},
+    "Hun Chung": {"Philosophy": 4, "Political Science": 3, "Economics": 3},
     "Lauren Klein": {"Digital Humanities": 3, "Natural Language Processing": 1},
     "Sandeep Soni": {"Natural Language Processing": 3, "Digital Humanities": 1},
-    "Alexander Tolbert": {"Philosophy": 2, "Statistics / Causal Inference": 2},
+    "Alexander Tolbert": {"Machine Learning": 2, "Philosophy": 2, "Statistics / Causal Inference": 1},
     "Benjamin J. Miller": {"Digital Humanities": 3, "Natural Language Processing": 1},
     "Jo Guldi": {"Digital Humanities": 3, "Political Science": 1},
     "Craig Hadley": {"Anthropology": 3, "Public Health": 2},
     "David Hirshberg": {"Statistics / Causal Inference": 3, "Economics": 1},
-    "Ruoxuan Xiong": {"Statistics / Causal Inference": 4},
-    "Allison Stashko": {"Political Science": 2, "Statistics / Causal Inference": 2},
+    "Ruoxuan Xiong": {"Statistics / Causal Inference": 1, "Machine Learning": 1},
+    "Allison Stashko": {"Economics": 2, "Political Science": 2, "Statistics / Causal Inference": 1},
     "Luis Martinez": {"Political Science": 2, "Economics": 2, "Statistics / Causal Inference": 1},
     "Pablo Montagnes": {"Political Science": 2, "Economics": 1, "Statistics / Causal Inference": 1},
     "Zachary Peskowitz": {"Political Science": 4, "Statistics / Causal Inference": 1},
     "Zachary Binney": {"Public Health": 3, "Statistics / Causal Inference": 1},
-    "Gordon Berman": {"Biology / Neuroscience": 4},
-    "Michal Arbilly": {"Biology / Neuroscience": 4},
+    "Gordon Berman": {"Biology": 4},
+    "Michal Arbilly": {"Biology": 4},
     "Jinho Choi": {"Natural Language Processing": 4},
     "Danilo Freire": {"Political Science": 3, "Statistics / Causal Inference": 1},
-    "Alejandro Sanchez Becerra": {"Statistics / Causal Inference": 2, "Economics": 2, "Political Science": 1},
+    "Alejandro Sánchez Becerra": {"Statistics / Causal Inference": 2, "Economics": 2, "Political Science": 1},
     "Gregory Palermo": {"Digital Humanities": 4},
     "Dan Sinykin": {"Digital Humanities": 3, "Natural Language Processing": 1},
     "Nathan Hoffmann": {"Sociology": 3, "Statistics / Causal Inference": 1},
     "Heeju Sohn": {"Sociology": 4},
     "Megan Reed": {"Sociology": 4},
-    "Ho Jin Kim": {"Biology / Neuroscience": 4},
+    "Ho Jin Kim": {"Psychology": 4},
     "Zhiyun Gong": {"Statistics / Causal Inference": 4},
     "Abhishek Ananth": {"Statistics / Causal Inference": 2, "Economics": 2},
     "Allison Cuttner": {"Political Science": 3, "Statistics / Causal Inference": 1},
     "Kevin McAlister": {"Political Science": 3, "Statistics / Causal Inference": 1},
     "Jacopo Di Iorio": {"Statistics / Causal Inference": 4},
+    "Joseph Sutherland": {"Machine Learning": 2, "Political Science": 2, "Statistics / Causal Inference": 1},
 }
 
 
@@ -136,7 +150,7 @@ FACULTY_WEBSITES = {
     "Michal Arbilly": "https://michalarbilly.com/",
     "Jinho Choi": "https://www.emorynlp.org/",
     "Danilo Freire": "https://danilofreire.github.io/",
-    "Alejandro Sanchez Becerra": "https://sites.google.com/site/sanchezbecerraalejandro/home",
+    "Alejandro Sánchez Becerra": "https://sites.google.com/site/sanchezbecerraalejandro/home",
     "Gregory Palermo": "http://gregorypalermo.org/",
     "Dan Sinykin": "http://www.dansinykin.com/",
     "Nathan Hoffmann": "https://nathanhoffmann.com/",
@@ -145,6 +159,7 @@ FACULTY_WEBSITES = {
     "Abhishek Ananth": "https://abhiananthecon.github.io/",
     "Kevin McAlister": "http://www.kevinmcalister.org/",
     "Allison Cuttner": "http://www.allisoncuttner.com/",
+    "Joseph Sutherland": "https://scholar.google.com/citations?user=vgfVoq4AAAAJ",
 }
 
 
@@ -627,8 +642,8 @@ def main():
         if edge["weight"] > 0:
             edges.append(edge)
 
-    # Ensure every node has at least one edge visible at default threshold (5)
-    MIN_VIS_WEIGHT = 5
+    # Ensure every node has at least one edge visible at default threshold (6)
+    MIN_VIS_WEIGHT = 6
     node_by_name = {n["id"]: n for n in nodes}
     has_visible = set()
     for e in edges:
